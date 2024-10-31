@@ -1,0 +1,5 @@
+SalesKey,Price,Cost,Shipping,Quantity,CustomerName,CustomerAge,CustomerGender,ProductName,LocationCity,LocationCountry,SaleDate
+1,700,500,15,1,"John Doe",30,Male,Smartphone,"New York",USA,2024-01-01
+3,20,10,5,2,"John Doe",30,Male,T-shirt,"New York",USA,2024-01-01
+2,1000,700,20,1,"Jane Smith",25,Female,Laptop,Berlin,Germany,2024-04-01
+4,500,300,30,1,"Alice Johnson",45,Female,Sofa,Tokyo,Japan,2024-07-01

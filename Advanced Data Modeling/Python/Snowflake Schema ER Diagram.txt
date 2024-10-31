@@ -1,0 +1,77 @@
+               +-------------------+
+               |  Location Dim     |
+               +-------------------+
+               | location_id (PK)  |
+               | region             |
+               | country            |
+               | city               |
+               +-------------------+
+                       |
+                       |
+                       |
+               +-------------------+
+               |  Time Dim         |
+               +-------------------+
+               | time_id (PK)      |
+               | year               |
+               | quarter            |
+               | month              |
+               | day                |
+               +-------------------+
+                       |
+                       |
+                       |
+               +-------------------+
+               |  Category Dim     |
+               +-------------------+
+               | category_id (PK)  |
+               | category_name      |
+               +-------------------+
+                       |
+                       |
+                       |
+               +-------------------+
+               |  Subcategory Dim   |
+               +-------------------+
+               | subcategory_id (PK)|
+               | subcategory_name    |
+               | category_id (FK)   |
+               +-------------------+
+                       |
+                       |
+                       |
+               +-------------------+
+               |  Product Dim      |
+               +-------------------+
+               | product_id (PK)   |
+               | product_name       |
+               | buy_price          |
+               | sale_price         |
+               | subcategory_id (FK)|
+               +-------------------+
+                       |
+                       |
+                       |
+               +-------------------+
+               |  Customer Dim     |
+               +-------------------+
+               | customer_id (PK)  |
+               | customer_name      |
+               | customer_email     |
+               | customer_phone     |
+               +-------------------+
+                       |
+                       |
+                       |
+               +-------------------+
+               |   Sales Fact      |
+               +-------------------+
+               | sales_id (PK)     |
+               | location_id (FK)  |
+               | time_id (FK)      |
+               | product_id (FK)   |
+               | customer_id (FK)  |
+               | quantity_sold      |
+               | shipping_cost      |
+               | total_sale         |
+               +-------------------+

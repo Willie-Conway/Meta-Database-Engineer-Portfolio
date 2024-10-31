@@ -1,0 +1,23 @@
++---------------------+         +------------------+
+|       Clients       |         |      Orders      |
+|---------------------|         |------------------|
+| ClientID (PK)      |<-----+  | OrderID (PK)     |
+| Name                |      |  | ClientID (FK)    |
+| Address             |      |  | OrderDate        |
+| Contact Number      |      |  | DeliveryStatus    |
+| Email               |      |  | DeliveryDate     |
++---------------------+      |  | TotalCost        |
+                             |  +------------------+
+                             |
+                             |
+                             |
+                             |
++---------------------+      |  +---------------------+
+|       Items         |<-----+  |     Order_Items     |
+|---------------------|         |---------------------|
+| ItemID (PK)        |         | OrderItemID (PK)    |
+| Name                |         | OrderID (FK)        |
+| Price               |         | ItemID (FK)         |
++---------------------+         | Quantity             |
+                                 | Subtotal             |
+                                 +---------------------+

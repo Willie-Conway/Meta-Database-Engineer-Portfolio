@@ -1,0 +1,63 @@
+Client
+----------
+Client_ID (PK)
+Client_Name
+Client_Address
+Contact_Number
+
+Product
+----------
+Product_ID (PK)
+Item_Name
+Item_Price
+
+Order
+----------
+Order_ID (PK)
+Order_Date
+Client_ID (FK)
+
+
+Order_Product
+----------
+Order_ID (FK)
+Product_ID (FK)
+Quantity
+Total_Cost
+
+
+Delivery
+----------
+Delivery_ID (PK)
+Order_ID (FK)
+Delivery_Status
+Delivery_Date
+
+
++-------------+      1    +-------------+      N    +----------------+
+|   Client    |-----------|   Order     |-----------| Order_Product  |
+|-------------|           |-------------|           |----------------|
+| Client_ID   |           | Order_ID    |           | Order_ID       |
+| Client_Name |           | Order_Date  |           | Product_ID     |
+| Client_Address|         | Client_ID   |           | Quantity       |
+| Contact_Number|         +-------------+           | Total_Cost     |
+| Email       |                                   +----------------+
++-------------+                                   |
+                                                    |
+                                                  1 |
+                                           +----------------+
+                                           |    Product     |
+                                           |----------------|
+                                           | Product_ID     |
+                                           | Item_Name      |
+                                           | Item_Price     |
+                                           +----------------+
+                                                
+                                           +----------------+
+                                           |   Delivery     |
+                                           |----------------|
+                                           | Delivery_ID    |
+                                           | Order_ID       |
+                                           | Delivery_Status|
+                                           | Delivery_Date  |
+                                           +----------------+

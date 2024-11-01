@@ -1,10 +1,13 @@
 # Meta Database Engineer Portfolio 🌐
 
+![Meta Database Engineer](https://tinypic.host/images/2024/11/01/Meta-Database-Engineer.png)
+
+
 ## Overview
 
 Welcome to my portfolio showcasing the skills and projects I have developed during the **Meta Database Engineer Professional Certificate** program. This portfolio includes various data modeling and database management projects that demonstrate my understanding of database concepts, SQL, data modeling, and visualization techniques. 📊
 
-## Table of Contents
+## 📖Table of Contents
 
 - [About Me](#about-me) 👤
 - [Course Overview](#course-overview) 📚
@@ -17,7 +20,7 @@ Welcome to my portfolio showcasing the skills and projects I have developed duri
 - [Usage](#usage) 🛠️
 - [License](#license) 📜
 
-## About Me
+## 🙋🏿‍♂️About Me
 
 I am a passionate data enthusiast with a keen interest in database engineering and data analytics. Through the Meta Database Engineer Professional Certificate, I have gained hands-on experience in designing and managing databases, performing data analysis, and creating insightful visualizations. 🌟
 
@@ -70,7 +73,7 @@ The Meta Database Engineer Professional Certificate program covers essential top
 - Plotly 📉
 - Dash 📊
 
-## Installation 💻
+## Installation 👨🏿‍💻
 
 To set up the projects locally, follow these steps:
 
@@ -81,21 +84,26 @@ To set up the projects locally, follow these steps:
    cd Meta-Database-Engineer
    ```
 2. **Set up a virtual environment** (optional but recommended):
+   
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
    
 3. **Install the required packages**:
+   
    ```bash
    pip install -r requirements.txt
    ```
 
 ## Usage 🛠️
+
 - To run the `Data Modeling Project`, navigate to the project directory and execute the following command:
+  
   ```bash
   python Data_Modeling_Project.py
   ```
+  
 - For `SQL Analysis` and `Data Visualization`, follow the respective project instructions in their directories.
 
 

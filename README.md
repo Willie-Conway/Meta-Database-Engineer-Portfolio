@@ -86,6 +86,8 @@ The Meta Database Engineer Professional Certificate program covers essential top
 - Plotly 📉
 - Dash 📊
 - Jupyter Notebook 📒
+- Tableau 📊
+- SQL🛢️
 
 ## Installation 👨🏿‍💻
 

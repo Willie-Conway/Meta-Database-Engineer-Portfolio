@@ -88,7 +88,8 @@ The Meta Database Engineer Professional Certificate program covers essential top
 - Jupyter Notebook 📒
 - Tableau 📊
 - SQL🛢️
-- Excel📅
+- Excel 📅
+- MySQL Workbench 🛢️
 
 ## Installation 👨🏿‍💻
 

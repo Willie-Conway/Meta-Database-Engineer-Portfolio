@@ -16,7 +16,7 @@ Welcome to my portfolio showcasing the skills and projects I have developed duri
   - [Project 2: SQL Analysis](#project-2-sql-analysis) 🔍
   - [Project 3: Data Visualization](#project-3-data-visualization) 📈
 - [Tech Stack](#tech-stack) ⚙️
-- [Installation](#installation) 💻
+- [Installation](#installation) 👨🏿‍💻
 - [Usage](#usage) 🛠️
 - [License](#license) 📜
 
@@ -77,7 +77,7 @@ The Meta Database Engineer Professional Certificate program covers essential top
   - Insights into sales performance by region and product 📊
   - User-friendly interface for data exploration 👥
 
-## ⚙️Tech Stack
+## Tech Stack⚙️
 
 - Python 🐍
 - SQL (SQLite) 📄

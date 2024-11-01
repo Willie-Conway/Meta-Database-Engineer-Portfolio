@@ -35,6 +35,19 @@ The Meta Database Engineer Professional Certificate program covers essential top
 - Data visualization techniques 🌈
 - Real-world data analysis projects 🔗
 
+<p float="left">
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-03%20203124.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-03%20203156.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-03%20203215.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-03%20203244.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-03%20203324.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20232023.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20235223.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20234627.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20234741.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20234741.png" width="300" />
+</p>
+
 ## 📁Projects
 
 ### Project 1: Data Modeling Project 📐

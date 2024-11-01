@@ -45,7 +45,7 @@ The Meta Database Engineer Professional Certificate program covers essential top
     <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20235223.png" width="300" />
     <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20234627.png" width="300" />
     <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20234741.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20234741.png" width="300" />
+    <img src="" width="300" />
 </p>
 
 ## 📁Projects

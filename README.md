@@ -24,7 +24,7 @@ Welcome to my portfolio showcasing the skills and projects I have developed duri
 
 I am a passionate data enthusiast with a keen interest in database engineering and data analytics. Through the Meta Database Engineer Professional Certificate, I have gained hands-on experience in designing and managing databases, performing data analysis, and creating insightful visualizations. 🌟
 
-## Course Overview
+## Course Overview📝
 
 The Meta Database Engineer Professional Certificate program covers essential topics, including:
 
@@ -35,7 +35,7 @@ The Meta Database Engineer Professional Certificate program covers essential top
 - Data visualization techniques 🌈
 - Real-world data analysis projects 🔗
 
-## Projects
+## 📁Projects
 
 ### Project 1: Data Modeling Project 📐
 

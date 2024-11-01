@@ -64,7 +64,7 @@ The Meta Database Engineer Professional Certificate program covers essential top
   - Insights into sales performance by region and product 📊
   - User-friendly interface for data exploration 👥
 
-## Tech Stack ⚙️
+## ⚙️Tech Stack
 
 - Python 🐍
 - SQL (SQLite) 📄

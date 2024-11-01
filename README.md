@@ -1,4 +1,4 @@
-# Meta Database Engineer Portfolio 🌐
+# Meta Database Engineer Portfolio 
 
 ![Meta Database Engineer](https://tinypic.host/images/2024/11/01/Meta-Database-Engineer.png)
 

@@ -1,6 +1,10 @@
 # Meta Database Engineer Portfolio 
 
-![Meta Database Engineer](https://tinypic.host/images/2024/11/01/Meta-Database-Engineer.png)
+<!-- ![Meta Database Engineer](https://tinypic.host/images/2024/11/01/Meta-Database-Engineer.png) -->
+<p float="left">
+    <img src="https://tinypic.host/images/2024/11/01/Meta-Database-Engineer.png" width="300" />
+    <img src="https://tinypic.host/images/2024/11/22/MySQL-Workbench.png" width="300" />
+</p>
 
 
 ## Overview

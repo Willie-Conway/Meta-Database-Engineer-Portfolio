@@ -101,8 +101,8 @@ To set up the projects locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Meta-Database-Engineer.git
-   cd Meta-Database-Engineer
+   git clone https://github.com/Willie-Conway/Meta-Database-Engineer-Portfolio.git
+   cd Meta-Database-Engineer-Portfolio
    ```
 2. **Set up a virtual environment** (optional but recommended):
    

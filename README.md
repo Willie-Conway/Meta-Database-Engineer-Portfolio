@@ -171,21 +171,54 @@ This repository showcases my comprehensive journey through the **Meta Database E
 
 ## 🛠️ Technical Skills Demonstrated
 
-### Database Engineering
-- **Database Design**: ER Modeling, Normalization, Schema Design
-- **SQL Development**: Advanced Queries, Stored Procedures, Optimization
-- **Data Warehousing**: Dimensional Modeling, ETL Processes, OLAP
-- **Performance Tuning**: Query Optimization, Indexing, Caching
+### **Database Engineering & Management**
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Database Design](https://img.shields.io/badge/Database_Design-336791?style=for-the-badge)
+![ER Modeling](https://img.shields.io/badge/ER_Modeling-8E44AD?style=for-the-badge)
+![Data Normalization](https://img.shields.io/badge/Data_Normalization-27AE60?style=for-the-badge)
 
-### Programming & Integration
-- **Python**: Database Connectivity, Automation, Application Development
-- **API Development**: RESTful Services, Integration Patterns
-- **Version Control**: Git, Collaborative Development, Change Management
+### **Data Warehousing & Modeling**
+![Star Schema](https://img.shields.io/badge/Star_Schema-FF9900?style=for-the-badge)
+![Snowflake Schema](https://img.shields.io/badge/Snowflake_Schema-3498DB?style=for-the-badge)
+![Data Warehousing](https://img.shields.io/badge/Data_Warehousing-9B59B6?style=for-the-badge)
+![ETL Processes](https://img.shields.io/badge/ETL_Processes-4A90E2?style=for-the-badge)
+![OLAP](https://img.shields.io/badge/OLAP-FF6B35?style=for-the-badge)
 
-### Visualization & Reporting
-- **Tableau**: Dashboard Design, Business Intelligence, Interactive Reporting
-- **Data Analysis**: Advanced Analytics, Trend Analysis, Predictive Modeling
-- **Business Intelligence**: KPI Tracking, Performance Metrics, Executive Reporting
+### **Programming & Integration**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![API Development](https://img.shields.io/badge/API_Development-FF6384?style=for-the-badge)
+![OOP](https://img.shields.io/badge/Object_Oriented_Programming-00B050?style=for-the-badge)
+![Database Connectivity](https://img.shields.io/badge/Database_Connectivity-FF9E0F?style=for-the-badge)
+
+### **Visualization & Business Intelligence**
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-FF9E0F?style=for-the-badge)
+![Dashboard Design](https://img.shields.io/badge/Dashboard_Design-8E44AD?style=for-the-badge)
+![Data Visualization](https://img.shields.io/badge/Data_Visualization-FF6384?style=for-the-badge)
+![Geographic Mapping](https://img.shields.io/badge/Geographic_Mapping-27AE60?style=for-the-badge)
+
+### **Performance & Security**
+![Query Optimization](https://img.shields.io/badge/Query_Optimization-FF6B6B?style=for-the-badge)
+![Database Security](https://img.shields.io/badge/Database_Security-2C3E50?style=for-the-badge)
+![Performance Tuning](https://img.shields.io/badge/Performance_Tuning-FF9900?style=for-the-badge)
+![Indexing](https://img.shields.io/badge/Indexing_Strategies-3498DB?style=for-the-badge)
+![Stored Procedures](https://img.shields.io/badge/Stored_Procedures-9B59B6?style=for-the-badge)
+
+### **Development & Operations**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Version Control](https://img.shields.io/badge/Version_Control-2C3E50?style=for-the-badge)
+![CI/CD](https://img.shields.io/badge/CI/CD_Pipelines-27AE60?style=for-the-badge)
+![Schema Migration](https://img.shields.io/badge/Schema_Migration-FF6B35?style=for-the-badge)
+
+### **Tools & Platforms**
+![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Bash Scripting](https://img.shields.io/badge/Bash_Scripting-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![ETL Tools](https://img.shields.io/badge/ETL_Tools-4A90E2?style=for-the-badge)
 
 ## 📁 Repository Structure
 
@@ -346,7 +379,7 @@ This portfolio demonstrates mastery in:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## 🫱🏿‍🫲🏿 Acknowledgments
 
 - Meta for the comprehensive database engineering curriculum
 - MySQL and Tableau for providing industry-standard tools

@@ -1,360 +1,368 @@
-# 🗄️ Meta Database Engineer Professional Certificate Portfolio
+📊 Meta Data Analyst Professional Certificate Portfolio
 
-![Meta Database Engineer](https://images.credly.com/size/680x680/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png)
+https://images.credly.com/size/680x680/images/4dd82f2c-e7eb-4b64-bb24-f4351f596220/image.png
 
-![Meta Database Engineer](https://img.shields.io/badge/Meta-Database_Engineer-0066E3?style=for-the-badge&logo=meta&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+https://img.shields.io/badge/Meta-Data_Analyst_Professional_Certificate-blue https://img.shields.io/badge/Specialization-Data_Analytics_&_Business_Intelligence-orange https://img.shields.io/badge/Status-Completed-brightgreen https://img.shields.io/badge/Projects-50+-success
 
-## 🎯 Overview
+🎯 Overview
 
-This repository showcases my comprehensive journey through the **Meta Database Engineer Professional Certificate** program. It contains detailed projects, advanced database designs, SQL implementations, and business intelligence dashboards developed across 9 courses, demonstrating expertise in database engineering, data modeling, optimization, and full-stack data solutions.
+Welcome to my comprehensive portfolio documenting the completion of the Meta Data Analyst Professional Certificate! This repository showcases hands-on projects, labs, and assignments across 8 comprehensive courses, demonstrating expertise in data analysis, statistical modeling, data visualization, and business intelligence using Python, SQL, Tableau, and Excel.
 
 <p float="left">
-    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-03%20203124.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-03%20203156.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-03%20203215.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-03%20203244.png" width="300" />
-</p>
+    <img src="https://github.com/Willie-Conway/Meta-Data-Analyst/blob/main/Statistics%20Foundations/Capstones/Modules/1%20-%20Getting%20to%20Know%20the%20Data/Screenshots/Screenshot%202024-10-11%20031407.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Data-Analyst/blob/main/Statistics%20Foundations/Capstones/Modules/2%20-%20Understanding%20Your%20Data%20Samples/Screenshots/Screenshot%202024-10-16%20141833.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Data-Analyst/blob/main/Statistics%20Foundations/Capstones/Modules/3%20-%20Testing%20Your%20Hypothesis/Screenshots/Screenshot%202024-10-20%20205341.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Data-Analyst/blob/main/Statistics%20Foundations/Capstones/Modules/4%20-%20Data%20Modeling/Screenshots/Screenshot%202024-10-24%20113126.png" width="300" />
+</p><p float="left">
+    <img src="https://github.com/Willie-Conway/Meta-Data-Analyst/blob/main/Statistics%20Foundations/Tableau/Screenshots/Screenshot%202024-10-21%20201216.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Data-Analyst/blob/main/Statistics%20Foundations/Capstones/Modules/4%20-%20Data%20Modeling/Screenshots/Screenshot%202024-10-24%20235410.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Data-Analyst-Portfolio/blob/3cff9219e2346e0eed2e7d5f791f774ea1c8ec7c/Statistics%20Foundations/Screenshots/Screenshot%202024-10-11%20231155.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Data-Analyst-Portfolio/blob/3cff9219e2346e0eed2e7d5f791f774ea1c8ec7c/Statistics%20Foundations/Jupyter%20Nootebook/Images/Facebook%20conversion.png" width="300" />
+</p>🏆 Certificate Details
 
-<p float="left">
-    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20232023.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20234627.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20235610.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer/blob/main/Charts/Screenshot%202024-10-31%20235223.png" width="300" />
-</p>
+· Certificate: Meta Data Analyst Professional Certificate
+· Provider: Meta via Coursera
+· Duration: 8 comprehensive courses + Capstone Project
+· Skills Acquired: Data Analysis, Statistical Modeling, Python Programming, SQL Queries, Tableau Visualization, Excel Analytics, Business Intelligence, Hypothesis Testing
 
-<p float="left">
-    <img src="https://github.com/Willie-Conway/Meta-Database-Capstone-Project/blob/main/Exercises/Setting%20Up%20the%20Database/Screenshot%202024-09-28%20224949.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Capstone-Project/blob/main/Exercises/Setting%20Up%20the%20Database/Screenshot%202024-09-28%20225035.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Capstone-Project/blob/main/Exercises/Setting%20Up%20the%20Database/Screenshots/Screenshot%202024-09-28%20224304.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Capstone-Project/blob/main/Exercises/Set%20up%20the%20client%20project/Screenshots/Screenshot%202024-09-29%20145101.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Capstone-Project/blob/main/Exercises/Set%20up%20the%20Tableau%20Workspace%20for%20data%20analysis/Screenshots/Screenshot%202024-09-28%20234738.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Capstone-Project/blob/main/Exercises/Create%20optimized%20queries%20to%20manage%20and%20analyze%20data/Screenshots/Screenshot%202024-09-28%20034234.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Capstone-Project/blob/main/Exercises/Create%20interactive%20dashboard%20for%20sales%20and%20profits/Screenshots/Screenshot%202024-09-29%20004030.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Capstone-Project/blob/main/Exercises/Create%20interactive%20dashboard%20for%20sales%20and%20profits/Screenshots/Screenshot%202024-09-29%20065157.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Capstone-Project/blob/main/Exercises/Add%20query%20functions/Screenshots/Screenshot%202024-09-29%20181817.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Capstone-Project/blob/main/Exercises/Create%20interactive%20dashboard%20for%20sales%20and%20profits/Screenshots/Screenshot%202024-09-29%20034006.png" width="300" />
-</p>
+📚 Course Structure & Portfolio Contents
 
-## 📚 Course Portfolio Structure
+1. 📊 Introduction to Data Analytics
 
-### 1. 🏗️ **Introduction to Databases**
-- **Skills**: Database Fundamentals, ER Modeling, Relational Design
-- **Tools**: MySQL Workbench, SQL, Entity Relationship Diagrams
-- **Key Projects**:
-  - 🔗 **Relational Database Design** - Complete schema development
-  - 📊 **Entity Relationship Diagrams** - Professional modeling techniques
-  - 📋 **Data Normalization** - 1NF, 2NF, 3NF implementation
-- **Core Concepts**:
-  - Database evolution and architecture
-  - Keys and constraints implementation
-  - SQL command proficiency
-- **Notable Files**:
-  - `Entity_Relationship_Diagrams.py` - ER modeling techniques
-  - `Data_Normalization.py` - Normalization workflows
-  - `Building_a_Schema.py` - Complete database design
+· Topics Covered: Data Analytics Foundations, OSEMN Framework, Business Intelligence Concepts
+· Key Projects:
+  · 🔍 OSEMN Framework Application - Complete data analysis workflow implementation
+  · 📈 Data Analytics vs Data Science - Career path comparative analysis
+  · 🤖 Generative AI in Analytics - AI applications and techniques
+· Key Files:
+  · OSEMN_Framework.py - Structured data analysis methodology
+  · Data_Analysis_vs_Data_Science.py - Career path analysis framework
+  · Generative_AI_Response.py - AI-powered analytics techniques
 
-### 2. 🗃️ **Database Structures and Management with MySQL**
-- **Skills**: Advanced SQL, Query Optimization, Database Management
-- **Tools**: MySQL, Stored Procedures, Views, Indexes
-- **Key Projects**:
-  - 🔍 **Complex Query Development** - Multi-table joins and subqueries
-  - 📊 **View Creation** - Virtual tables and security layers
-  - ⚡ **Performance Optimization** - Index strategies and query tuning
-- **Advanced Features**:
-  - Stored procedures and functions
-  - Database constraints and validation
-  - Transaction management
-- **SQL Scripts**:
-  - Complex JOIN operations
-  - Subquery implementations
-  - Performance tuning queries
+2. 📈 Data Analysis with Spreadsheets and SQL
 
-### 3. 🎨 **Advanced Data Modeling**
-- **Skills**: Dimensional Modeling, Data Warehousing, ETL Processes
-- **Tools**: Star/Snowflake Schemas, ETL Pipelines, OLAP Cubes
-- **Key Projects**:
-  - ⭐ **Star Schema Implementation** - Dimensional modeling for analytics
-  - ❄️ **Snowflake Schema Design** - Normalized dimensional models
-  - 🔄 **ETL Pipeline Development** - Extract, Transform, Load workflows
-- **Data Warehouse Concepts**:
-  - OLAP vs OLTP systems
-  - Data mart creation
-  - Business intelligence foundations
-- **Visualizations**:
-  - Interactive Tableau dashboards
-  - Advanced chart types
-  - Geographic mapping
+· Topics Covered: Advanced Spreadsheets, SQL Queries, Dashboard Creation, Business Intelligence
+· Key Projects:
+  · 🏪 Most Profitable Stores Analysis - Retail performance optimization
+  · 📊 Advanced Chart Types Implementation - Professional visualization techniques
+  · 🔍 Data Exploration Techniques - Pattern discovery and insight generation
+· Tableau Dashboards:
+  · Most_Profitable_Stores.twb - Business performance tracking dashboard
+  · Global_Orders.twb - International sales analysis with drill-down capabilities
+  · Interactive dashboards with real-time filtering
 
-### 4. 📊 **Data Visualization with Tableau**
-- **Skills**: Business Intelligence, Dashboard Design, Interactive Reporting
-- **Tools**: Tableau Desktop, Advanced Charting, Geographic Visualization
-- **Key Projects**:
-  - 🌍 **Global Sales Dashboard** - Multi-region business intelligence
-  - 📈 **Profit Trend Analysis** - Time-series visualization
-  - 🗺️ **Geographic Sales Mapping** - Spatial data representation
-- **Tableau Workbooks**:
-  - `Overall_Sales.twb` - Comprehensive sales analysis
-  - `Profit_Dashboard.twb` - Profitability metrics
-  - `Sales_&_Profits_in_Africa_Dashboard.twb` - Regional focus
-  - Interactive filters and calculated fields
+3. 🐍 Python Data Analytics
 
-### 5. 🐍 **Programming in Python for Database Engineering**
-- **Skills**: Python-Database Integration, API Development, Automation
-- **Tools**: Python, MySQL Connector, Object-Oriented Programming
-- **Key Projects**:
-  - 🔌 **Database Connectivity** - Python-MySQL integration
-  - 🤖 **Automated ETL Scripts** - Data pipeline automation
-  - 🏗️ **OOP Database Applications** - Object-relational mapping concepts
-- **Jupyter Notebooks**:
-  - Complete database connection workflows
-  - Data analysis and manipulation
-  - Automated reporting systems
-- **Advanced Topics**:
-  - Connection pooling
-  - Transaction handling
-  - Error management
+· Topics Covered: Python Programming, Data Wrangling, Statistical Analysis, Machine Learning Basics
+· Key Projects:
+  · 📊 Full OSEMN Implementation - End-to-end Python analysis pipeline
+  · 📈 Explanatory Visualizations - Professional chart creation and storytelling
+  · 🤖 Modeling with Python - Predictive analytics and machine learning
+· Jupyter Notebooks:
+  · Full_OSEMN.ipynb - Complete analysis workflow demonstration
+  · Creating_Explanatory_Visualizations.ipynb - Advanced plotting techniques
+  · Modeling_with_Python.ipynb - Machine learning basics and applications
+  · Exploration_-_Filtering_Data.ipynb - Data manipulation and transformation
 
-### 6. ⚡ **Advanced MySQL Topics**
-- **Skills**: Performance Tuning, Advanced Functions, Database Security
-- **Tools**: MySQL Advanced Features, Optimization Techniques
-- **Key Projects**:
-  - 🚀 **Query Optimization** - EXPLAIN plans and index strategies
-  - 🔒 **Security Implementation** - User management and permissions
-  - ⚙️ **Advanced Functions** - Custom stored procedures
-- **Performance Features**:
-  - Query execution plans
-  - Index optimization
-  - Caching strategies
-- **Security Implementations**:
-  - User role management
-  - Data encryption concepts
-  - Audit logging
+4. 📊 Statistics Foundations
 
-### 7. 🔗 **Database Clients and Applications**
-- **Skills**: Application Integration, API Development, Full-Stack Solutions
-- **Tools**: Python Applications, REST API Concepts, Client-Server Architecture
-- **Key Projects**:
-  - 🌐 **Web Application Integration** - Database-backed web apps
-  - 📱 **Client Application Development** - Desktop database clients
-  - 🔄 **API Development** - RESTful database interfaces
-- **Integration Patterns**:
-  - Three-tier architecture
-  - Microservices concepts
-  - API gateway patterns
+· Topics Covered: Statistical Analysis, Hypothesis Testing, Data Modeling, Experimental Design
+· Key Projects:
+  · 🎯 Getting to Know the Data - Descriptive statistics and EDA implementation
+  · 📈 Understanding Data Samples - Sampling techniques and distribution analysis
+  · 🔬 Testing Your Hypothesis - A/B testing and statistical significance
+  · 🏗️ Data Modeling - Regression analysis and predictive modeling
+· Capstone Modules:
+  · Complete statistical analysis workflow from data collection to insights
+  · Real-world dataset applications with practical business scenarios
+  · Professional reporting and visualization of statistical findings
 
-### 8. 🔄 **Version Control for Database Engineering**
-- **Skills**: Git for Databases, Change Management, Collaborative Development
-- **Tools**: Git, GitHub, Database Versioning Strategies
-- **Key Projects**:
-  - 📝 **Database Schema Versioning** - Change tracking and management
-  - 👥 **Collaborative Development** - Team-based database engineering
-  - 🚀 **Deployment Pipelines** - CI/CD for database changes
-- **Version Control Implementation**:
-  - Schema migration scripts
-  - Change tracking systems
-  - Rollback strategies
+5. 💾 Data Management
 
-### 9. 🏆 **Capstone Database Engineering Project**
-- **Skills**: End-to-End Database Solutions, Architecture Design, Implementation
-- **Tools**: Full Technology Stack Integration
-- **Project Components**:
-  1. 🏗️ **Requirements Analysis** - Business needs and technical specifications
-  2. 📐 **Database Design** - Complete schema and ER modeling
-  3. ⚙️ **Implementation** - SQL development and optimization
-  4. 🔄 **ETL Development** - Data pipeline creation
-  5. 📊 **Reporting Layer** - Business intelligence implementation
-  6. 🔒 **Security Implementation** - Access control and data protection
+· Topics Covered: Data Governance, Security Frameworks, Storage Solutions, Compliance
+· Key Projects:
+  · 🔒 Data Security Fundamentals - Protection strategies and regulatory compliance
+  · 📦 Data Storage Formats - Optimization techniques and format selection
+  · 🏗️ Big Data Management Systems - Scalable solutions and architecture
+  · 📊 Data Collection Tools - Best practices and implementation frameworks
+· Comprehensive Guides:
+  · Compliance_Best_Practices.py - Regulatory compliance documentation
+  · Data_Storage_Formats.py - File format comparisons and use cases
+  · Machine_Learning_Tools_Roundup.py - ML infrastructure and tooling
 
-## 🛠️ Technical Skills Demonstrated
+6. 🎨 Data Visualization with Tableau
 
-### Database Engineering
-- **Database Design**: ER Modeling, Normalization, Schema Design
-- **SQL Development**: Advanced Queries, Stored Procedures, Optimization
-- **Data Warehousing**: Dimensional Modeling, ETL Processes, OLAP
-- **Performance Tuning**: Query Optimization, Indexing, Caching
+· Topics Covered: Dashboard Design, Interactive Visualizations, Business Intelligence, Storytelling
+· Key Projects:
+  · 📈 Time Series Analysis - Trend identification and forecasting visualization
+  · 👥 Cluster Analysis - Customer segmentation and demographic analysis
+  · 📊 Advanced Dashboard Creation - Professional reporting and KPI tracking
+· Tableau Workbooks:
+  · Time_Series.twb - Temporal data analysis and trend visualization
+  · Age_and_Income_-_Cluster_Analysis.twb - Demographic segmentation dashboard
+  · Interactive filters, calculated fields, and parameter controls
 
-### Programming & Integration
-- **Python**: Database Connectivity, Automation, Application Development
-- **API Development**: RESTful Services, Integration Patterns
-- **Version Control**: Git, Collaborative Development, Change Management
+7. 📊 Excel for Data Analysis
 
-### Visualization & Reporting
-- **Tableau**: Dashboard Design, Business Intelligence, Interactive Reporting
-- **Data Analysis**: Advanced Analytics, Trend Analysis, Predictive Modeling
-- **Business Intelligence**: KPI Tracking, Performance Metrics, Executive Reporting
+· Topics Covered: Advanced Excel, PivotTables, Business Analytics, Data Modeling
+· Key Projects:
+  · 🔬 A/B Testing Analysis - Experimental design and statistical evaluation
+  · 📈 Data Modeling Capstone - Comprehensive analytics project implementation
+  · 📊 Business Performance Analysis - KPI tracking and optimization strategies
+· Advanced Features:
+  · Advanced formulas and function combinations
+  · PivotTables with dynamic ranges and calculated fields
+  · Data validation, conditional formatting, and what-if analysis
 
-## 📁 Repository Structure
+8. 📈 Data Analytics Capstone Project
+
+· Topics Covered: End-to-End Analysis, Business Insights, Presentation Skills, Stakeholder Communication
+· Project Components:
+  1. 📥 Data Acquisition - Multiple source integration and data collection
+  2. 🧹 Data Preparation - Cleaning, transformation, and quality assurance
+  3. 🔍 Exploratory Analysis - Pattern discovery and insight generation
+  4. 📊 Visualization Development - Dashboard and report creation
+  5. 🎤 Business Presentation - Stakeholder communication and recommendation delivery
+
+🛠️ Technical Skills Demonstrated
+
+Programming & Data Analysis
+
+https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white
+https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white
+https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
+
+Statistical Analysis & Modeling
+
+https://img.shields.io/badge/Statistics-FF6B6B?style=for-the-badge&logo=gnu&logoColor=white
+https://img.shields.io/badge/Hypothesis%20Testing-3498DB?style=for-the-badge
+https://img.shields.io/badge/Regression%20Analysis-27AE60?style=for-the-badge
+https://img.shields.io/badge/A/B%20Testing-9B59B6?style=for-the-badge
+
+Data Visualization & BI
+
+https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white
+https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white
+https://img.shields.io/badge/Data%20Visualization-FF6384?style=for-the-badge
+https://img.shields.io/badge/Business%20Intelligence-FF9E0F?style=for-the-badge
+
+Data Management & Tools
+
+https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white
+https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+https://img.shields.io/badge/Database%20Management-336791?style=for-the-badge
+https://img.shields.io/badge/Data%20Governance-2C3E50?style=for-the-badge
+
+Python Data Science Stack
+
+https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white
+https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white
+https://img.shields.io/badge/Seaborn-5A9BD5?style=for-the-badge&logo=python&logoColor=white
+https://img.shields.io/badge/Machine%20Learning-01D277?style=for-the-badge
+
+Database Technologies
+
+https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
+https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white
+https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white
+
+📁 Repository Structure
 
 ```
-📂 Meta-Database-Engineer-Portfolio/
+Meta-Data-Analyst-Portfolio/
 │
-├── 📂 Introduction_to_Databases/
-│   ├── 📊 ER_Diagrams/              # Entity Relationship modeling
-│   ├️ 📋 Database_Design/           # Schema creation and normalization
-│   ├️ 🗃️ SQL_Foundations/          # Basic to intermediate SQL
-│   └️ 📓 Jupyter_Notebooks/        # Interactive database tutorials
+├── 📂 1_Introduction_to_Data_Analytics/
+│   ├── 📂 OSEMN_Framework/
+│   │   └️ 🔍 Complete data analysis workflow
+│   ├── 📂 Data_Analysis_vs_Data_Science/
+│   │   └️ 📈 Career path comparative analysis
+│   └── 📂 Generative_AI_Applications/
+│       └️ 🤖 AI-powered analytics techniques
 │
-├── 📂 Database_Structures_and_Management/
-│   ├️ 🔍 Advanced_SQL/             # Complex queries and optimization
-│   ├️ 📊 Views_and_Procedures/     # Stored procedures and virtual tables
-│   ├️ ⚡ Performance_Tuning/       # Indexing and query optimization
-│   └️ 🔒 Security_Management/      # User permissions and access control
+├── 📂 2_Data_Analysis_with_Spreadsheets_and_SQL/
+│   ├── 📂 Tableau_Dashboards/
+│   │   ├️ 🏪 Most_Profitable_Stores.twb
+│   │   └️ 🌍 Global_Orders.twb
+│   ├── 📂 Sales_Analysis/
+│   │   └️ 📊 Profitability and performance analysis
+│   └── 📂 SQL_Queries/
+│       └️ 🗄️ Database analysis and query scripts
 │
-├── 📂 Advanced_Data_Modeling/
-│   ├️ ⭐ Dimensional_Models/       # Star and snowflake schemas
-│   ├️ 🔄 ETL_Processes/           # Data pipeline development
-│   ├️ 📊 Data_Warehousing/        # OLAP and business intelligence
-│   └️ 🎨 Visualization/           # Tableau dashboards and reports
+├── 📂 3_Python_Data_Analytics/
+│   ├── 📂 Jupyter_Notebooks/
+│   │   ├️ 📊 Exploratory_Data_Analysis/
+│   │   ├️ 📈 Data_Visualization/
+│   │   ├️ 🤖 Machine_Learning/
+│   │   └️ 🔍 Statistical_Analysis/
+│   └── 📂 Python_Scripts/
+│       └️ 🐍 Modular analysis and utility scripts
 │
-├── 📂 Tableau_Visualizations/
-│   ├️ 🌍 Global_Analysis/         # Worldwide business intelligence
-│   ├️ 📈 Trend_Analysis/          # Time-series and forecasting
-│   ├️ 🗺️ Geographic_Mapping/      # Spatial data visualization
-│   └️ 📊 Business_Dashboards/     # Executive reporting tools
+├── 📂 4_Statistics_Foundations/
+│   ├── 📂 Capstone_Modules/
+│   │   ├️ 🎯 1_Getting_to_Know_the_Data/
+│   │   ├️ 📈 2_Understanding_Data_Samples/
+│   │   ├️ 🔬 3_Testing_Your_Hypothesis/
+│   │   └️ 🏗️ 4_Data_Modeling/
+│   └── 📂 Statistical_Analysis/
+│       └️ 📊 Hypothesis testing and modeling projects
 │
-├── 📂 Python_Database_Engineering/
-│   ├️ 🔌 Database_Connectivity/   # Python-MySQL integration
-│   ├️ 🤖 Automation_Scripts/      # ETL and maintenance automation
-│   ├️ 🏗️ OOP_Applications/       # Object-oriented database apps
-│   └️ 📓 Jupyter_Notebooks/      # Interactive development
+├── 📂 5_Data_Management/
+│   ├── 📂 Security_Compliance/
+│   │   └️ 🔒 Data governance frameworks
+│   ├── 📂 Storage_Solutions/
+│   │   └️ 📦 Database and file management
+│   └── 📂 Infrastructure/
+│       └️ 🏗️ System architecture and design
 │
-├── 📂 Advanced_MySQL_Topics/
-│   ├️ 🚀 Performance_Optimization/# Query tuning and optimization
-│   ├️ ⚙️ Advanced_Functions/     # Custom procedures and functions
-│   ├️ 🔒 Security_Features/      # Advanced security implementations
-│   └️ 📋 Administration/         # Database management tasks
+├── 📂 6_Tableau_Visualizations/
+│   ├── 📂 Business_Dashboards/
+│   │   └️ 📈 Interactive business reports
+│   ├── 📂 Time_Series_Analysis/
+│   │   └️ 📊 Trend visualization and forecasting
+│   └── 📂 Cluster_Analysis/
+│       └️ 👥 Customer segmentation dashboards
 │
-├── 📂 Database_Clients/
-│   ├️ 🌐 Web_Applications/       # Database-backed web apps
-│   ├️ 📱 Desktop_Clients/        # GUI database applications
-│   ├️ 🔄 API_Development/        # RESTful database services
-│   └️ 🤖 Integration_Patterns/   # System integration techniques
+├── 📂 7_Excel_Analytics/
+│   ├── 📂 Advanced_Models/
+│   │   └️ 📊 Complex data analysis models
+│   ├── 📂 A_B_Testing/
+│   │   └️ 🔬 Experimental design and analysis
+│   └── 📂 Business_Intelligence/
+│       └️ 📈 KPI tracking and optimization
 │
-├── 📂 Version_Control/
-│   ├️ 📝 Schema_Migrations/      # Database change management
-│   ├️ 👥 Collaborative_Dev/      # Team development workflows
-│   ├️ 🚀 Deployment_Pipelines/   # CI/CD for databases
-│   └️ 🔄 Rollback_Strategies/    # Change reversal procedures
+├── 📂 8_Capstone_Project/
+│   ├── 📂 Data_Acquisition/
+│   ├── 📂 Data_Preparation/
+│   ├── 📂 Exploratory_Analysis/
+│   ├── 📂 Visualization_Development/
+│   └── 📂 Business_Presentation/
 │
-├── 📂 Capstone_Project/
-│   ├️ 🏗️ Architecture_Design/    # Complete system design
-│   ├️ ⚙️ Implementation/         # Full-stack development
-│   ├️ 🔄 Integration/            # System component integration
-│   └️ 📊 Documentation/          # Technical and user documentation
+├── 📂 Sample_Data/
+│   ├── 📂 Cleaned_Datasets/
+│   │   └️ 📊 Analysis-ready data files
+│   └── 📂 Raw_Data/
+│       └️ 📈 Original data sources
 │
-├── 📂 Diagrams_and_Documentation/
-│   ├️ 📐 ER_Diagrams/            # Visual database designs
-│   ├️ 📋 Schema_Documentation/   # Technical specifications
-│   ├️ 📊 Flow_Charts/            # Process visualization
-│   └️ 📝 Technical_Reports/      # Analysis and findings
-│
-├── 📜 LICENSE
-├️ 📜 requirements.txt
-├️ 📜 database_dump.sql
-└️ 📜 README.md
+└── 📜 README.md
+└── 📜 requirements.txt
+└── 📜 LICENSE
 ```
 
-## 🚀 How to Use This Portfolio
+🚀 Key Projects Highlight
 
-### For Database Engineering Roles:
-1. **Review Database Designs**: Examine ER diagrams and schema designs in the Diagrams folder
-2. **Assess SQL Proficiency**: Study advanced SQL queries and optimization techniques
-3. **Evaluate Architecture Skills**: Review data modeling and warehousing projects
-4. **Check Integration Capabilities**: Examine Python-database integration projects
+📊 Statistics Foundations Capstone Project
 
-### For Full-Stack Positions:
-1. **Review Python Integration**: Check Jupyter notebooks and Python scripts
-2. **Assess API Development**: Examine database client and API projects
-3. **Evaluate End-to-End Solutions**: Study the capstone project for complete workflow
+· Complete statistical analysis workflow implementation
+· Hypothesis testing with real-world business scenarios
+· Regression modeling and predictive analytics
+· Professional reporting and visualization
 
-### For Technical Implementation:
-```bash
-# Clone the repository
-git clone https://github.com/Willie-Conway/Meta-Database-Engineer.git
+🎨 Advanced Tableau Business Dashboards
 
-# Set up the database
-mysql -u root -p < database_dump.sql
+· Interactive sales performance tracking
+· Customer segmentation and demographic analysis
+· Time series forecasting and trend analysis
+· Real-time KPI monitoring dashboards
 
-# Explore specific projects
-cd "Meta-Database-Engineer/Advanced Data Modeling/Python"
+🐍 Python Data Analytics Pipeline
 
-# Run Python database scripts
-python Data_Modeling_Project.py
+· End-to-end data analysis with OSEMN framework
+· Automated data cleaning and transformation
+· Statistical modeling and machine learning applications
+· Professional visualization and reporting automation
 
-# Open Tableau workbooks
-# Requires Tableau Desktop to open .twb files
-```
+📈 Excel Business Intelligence Models
 
-## 📈 Key Achievements
+· Advanced financial modeling and analysis
+· A/B testing experimental design and evaluation
+· Dynamic dashboard creation with PivotTables
+· Business performance optimization strategies
 
-✅ **Complete 9-Course Certificate** from Meta  
-✅ **Advanced Database Designs** including star and snowflake schemas  
-✅ **Performance-Optimized SQL** with query tuning and indexing  
-✅ **Interactive Tableau Dashboards** for business intelligence  
-✅ **Python-Database Integration** with automated ETL processes  
-✅ **Version-Controlled Database Development** using Git workflows  
-✅ **End-to-End Database Solutions** from design to implementation  
+💾 Comprehensive Data Management System
 
-## 🛠️ Tools & Technologies Mastered
+· Data governance framework implementation
+· Security compliance and quality assurance
+· Database optimization and performance tuning
+· Data pipeline automation and monitoring
 
-### Database Technologies
-- **MySQL**: Advanced features, optimization, administration
-- **SQL**: Complex queries, stored procedures, transaction management
-- **Data Modeling**: ER Diagrams, dimensional modeling, normalization
+📈 Achievements & Certifications
 
-### Programming & Scripting
-- **Python**: Database connectivity, automation, application development
-- **Jupyter Notebooks**: Interactive development and documentation
-- **Bash Scripting**: Automation and deployment scripts
+✅ Meta Data Analyst Professional Certificate
+✅ 8 Comprehensive Course Completions
+✅ 50+ Hands-on Data Analysis Projects
+✅ Advanced Statistical Analysis & Modeling
+✅ Professional Tableau Dashboard Development
+✅ Python Data Analytics Mastery
+✅ SQL Query Optimization & Database Management
+✅ Business Intelligence & Data Visualization Expertise
 
-### Visualization & BI
-- **Tableau**: Advanced dashboard design, business intelligence
-- **Data Visualization**: Multiple chart types, geographic mapping
-- **Reporting Tools**: Executive dashboards, KPI tracking
+🎯 Professional Competencies
 
-### Development Tools
-- **MySQL Workbench**: Database design and administration
-- **Git/GitHub**: Version control and collaborative development
-- **ETL Tools**: Data pipeline development and management
+· Statistical Analysis: Hypothesis testing, regression, experimental design
+· Data Visualization: Tableau dashboards, Python plots, Excel charts
+· Programming Proficiency: Python, SQL, data manipulation libraries
+· Business Intelligence: KPI tracking, performance analysis, reporting
+· Data Management: Governance, security, quality assurance
+· Analytical Thinking: Problem-solving, pattern recognition, insight generation
+· Communication Skills: Stakeholder reporting, presentation, documentation
+· Tool Mastery: Tableau, Excel, Jupyter, Git, database systems
 
-## 🏆 Certifications
+🔧 Getting Started
 
-This portfolio demonstrates mastery in:
-- Meta Database Engineer Professional Certificate
-- Advanced MySQL Database Administration
-- Data Modeling and Warehousing
-- Business Intelligence with Tableau
-- Python for Database Engineering
-- Version Control for Database Development
+Prerequisites
 
-## 📞 Contact & Professional Links
+· Python 3.8+
+· Jupyter Notebook
+· Tableau Desktop or Tableau Reader
+· Microsoft Excel 2016+
+· MySQL/PostgreSQL (optional)
+· Git
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/willieconway/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Willie-Conway)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hire.willie.conway@gmail.com)
+Quick Start
 
-**Email**: [hire.willie.conway@gmail.com](mailto:hire.willie.conway@gmail.com)  
-**LinkedIn**: [Willie Conway](https://www.linkedin.com/in/willieconway/)  
-**GitHub**: [Willie-Conway](https://github.com/Willie-Conway)  
-**Portfolio**: [Portfolio-Website](https://willie-conway.github.io/Portfolio-Website/)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Willie-Conway/Meta-Data-Analyst.git
+   ```
+2. Install required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Explore specific course modules
+4. Open Jupyter notebooks for interactive analysis
+5. Review Tableau dashboards for visualization examples
 
-## 📄 License
+📖 Learning Resources
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+· Meta Data Analyst Professional Certificate
+· Tableau Learning Resources
+· Python Data Science Handbook
+· SQL Tutorial
+· Statistics Fundamentals
 
-## 🙏 Acknowledgments
+🫱🏿‍🫲🏿 Contributing
 
-- Meta for the comprehensive database engineering curriculum
-- MySQL and Tableau for providing industry-standard tools
-- Coursera for the learning platform and certification
-- All instructors and mentors throughout the program
+This portfolio represents my journey through the Meta Data Analyst Professional Certificate. While primarily a showcase of my learning, I welcome discussions about data analysis techniques, visualization best practices, and analytical methodologies.
+
+📄 License
+
+This portfolio is licensed under the MIT License - see the LICENSE file for details.
+
+📧 Contact
+
+Willie Conway
+
+· GitHub: @Willie-Conway
+· LinkedIn: Willie Conway
+· Email: hire.willie.conway@gmail.com
 
 ---
 
-⭐ **If you find this portfolio valuable, please consider giving it a star!** ⭐
+⭐ If you find this portfolio valuable for understanding comprehensive data analysis skills, please give it a star! ⭐
 
-*Last updated: December 2024 | Portfolio Version: 2.0 | Certificate Completion: November 2024*
+---
+
+Last Updated: January 2025
+Certificate Earned: November 2024
+Status: 🟢 Portfolio Complete

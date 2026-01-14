@@ -1,0 +1,991 @@
+OrderID,OrderDate,CustomerID,CustomerName,City,State,Country,ZipCode,TableNumber,ServerID,MenuItemID,MenuItemName,Category,SubCategory,Quantity,Sales,Discount,TotalCost,OrderStatus,PaymentStatus,DeliveryMethod,OrderPriority
+O001,2024-10-13,C6726,"Nathan George",Rockford,IL,"United States",61101,12,S039,M099,Lahmacun,Turkish,Pastry,2,56.24,0.94,55.30,Pending,Paid,Takeaway,Medium
+O002,2024-10-17,C4519,"Christina Parker",Naperville,IL,"United States",60540,14,S070,M113,"Fettuccine Alfredo",Italian,Pasta,2,213.70,3.29,210.41,Pending,Unpaid,Delivery,Medium
+O003,2024-10-21,C3937,"Jason Clark",Aurora,IL,"United States",60505,16,S042,M132,Fasolada,Other,Miscellaneous,2,266.02,19.80,246.22,Cancelled,Unpaid,Dine-in,Medium
+O004,2024-10-22,C428,"Kim Macias",Naperville,IL,"United States",60540,1,S086,M099,Lahmacun,Turkish,Pastry,5,140.60,3.62,136.98,Completed,Unpaid,Takeaway,Low
+O005,2024-10-05,C8710,"George Rose",Peoria,IL,"United States",61602,13,S084,M034,Tzatziki,Greek,Appetizer,4,678.20,36.54,641.66,Completed,Paid,Delivery,Medium
+O006,2024-10-05,C9375,"Joy Kelley",Peoria,IL,"United States",61602,14,S016,M083,Menemen,Other,Miscellaneous,3,245.19,5.50,239.69,Completed,Unpaid,Dine-in,High
+O007,2024-10-20,C8524,"Brandy Patton",Peoria,IL,"United States",61602,13,S086,M011,"Imam Bayildi",Other,Miscellaneous,1,56.82,3.63,53.19,Pending,Unpaid,Dine-in,High
+O008,2024-10-09,C4287,"Eric Myers",Naperville,IL,"United States",60540,9,S033,M008,Risotto,Other,Miscellaneous,3,502.92,48.17,454.75,Pending,Unpaid,Takeaway,Low
+O009,2024-09-27,C8771,"Matthew Ortiz",Peoria,IL,"United States",61602,15,S086,M068,Baklava,Greek,Dessert,4,282.84,22.63,260.21,Pending,Unpaid,Takeaway,Medium
+O010,2024-10-04,C9314,"Jason Hood",Peoria,IL,"United States",61602,17,S036,M114,"Shish Kebab",Turkish,Kebab,2,339.50,20.58,318.92,Cancelled,Paid,Dine-in,Medium
+O011,2024-10-24,C2345,"Travis Nunez",Aurora,IL,"United States",60505,16,S074,M076,"Greek Salad",Greek,Salad,2,101.58,5.23,96.35,Completed,Unpaid,Dine-in,Medium
+O012,2024-09-26,C1889,"Nancy Wright",Chicago,IL,"United States",60601,17,S001,M043,Moussaka,Greek,Casserole,2,81.18,0.01,81.17,Completed,Paid,Takeaway,Medium
+O013,2024-10-17,C7833,"Samantha Brown",Rockford,IL,"United States",61101,13,S049,M147,Kofte,Turkish,Pastry,4,87.08,5.50,81.58,Completed,Unpaid,Takeaway,Medium
+O014,2024-10-02,C1979,"Cynthia Riggs",Chicago,IL,"United States",60601,15,S032,M048,Ravioli,Italian,Pasta,3,475.77,12.67,463.10,Cancelled,Unpaid,Dine-in,Low
+O015,2024-10-16,C6084,"Andrew Craig",Rockford,IL,"United States",61101,16,S040,M137,Lasagna,Italian,Pasta,3,494.79,44.94,449.85,Completed,Paid,Takeaway,High
+O016,2024-10-23,C4196,"Alyssa Weiss",Naperville,IL,"United States",60540,8,S005,M006,"Caprese Salad",Other,Miscellaneous,2,148.86,0.36,148.50,Cancelled,Unpaid,Takeaway,Low
+O017,2024-09-29,C2116,"Steven Mitchell",Aurora,IL,"United States",60505,5,S019,M103,Calzone,Other,Miscellaneous,4,449.44,7.02,442.42,Cancelled,Paid,Dine-in,Medium
+O018,2024-10-25,C331,"Julie West",Aurora,IL,"United States",60505,8,S053,M124,Galaktoboureko,Other,Miscellaneous,5,444.85,26.64,418.21,Pending,Paid,Takeaway,Medium
+O019,2024-10-03,C8089,"Carly Jones",Peoria,IL,"United States",61602,7,S071,M090,Souvlaki,Greek,Appetizer,4,668.80,16.76,652.04,Pending,Unpaid,Takeaway,High
+O020,2024-10-22,C7490,"Catherine Alexander",Rockford,IL,"United States",61101,1,S015,M027,Lahmacun,Turkish,Pastry,3,91.71,4.21,87.50,Cancelled,Unpaid,Dine-in,High
+O021,2024-09-27,C1292,"John Cook",Chicago,IL,"United States",60601,10,S023,M003,Carbonara,Italian,Pasta,5,327.20,11.89,315.31,Cancelled,Unpaid,Takeaway,Medium
+O022,2024-10-09,C7224,"Emily Carroll",Rockford,IL,"United States",61101,18,S048,M011,"Imam Bayildi",Other,Miscellaneous,5,284.10,19.71,264.39,Completed,Paid,Delivery,High
+O023,2024-10-09,C2056,"Dennis Walker",Aurora,IL,"United States",60505,10,S059,M077,"Fettuccine Alfredo",Italian,Pasta,3,376.26,33.23,343.03,Pending,Paid,Delivery,Low
+O024,2024-10-03,C4329,"Christopher Young",Naperville,IL,"United States",60540,16,S046,M049,Menemen,Other,Miscellaneous,1,42.78,3.24,39.54,Completed,Unpaid,Dine-in,High
+O025,2024-10-15,C3694,"Christopher Douglas",Aurora,IL,"United States",60505,9,S091,M133,Lahmacun,Turkish,Pastry,1,144.48,7.14,137.34,Cancelled,Paid,Dine-in,Low
+O026,2024-10-16,C1938,"William Mays",Chicago,IL,"United States",60601,18,S047,M022,"Kuzu Tandir",Other,Miscellaneous,4,596.52,47.78,548.74,Pending,Paid,Delivery,Medium
+O027,2024-10-19,C8933,"Kenneth Freeman",Peoria,IL,"United States",61602,2,S050,M004,Pide,Turkish,Flatbread,1,110.97,7.25,103.72,Cancelled,Unpaid,Dine-in,High
+O028,2024-10-15,C9392,"Taylor Wallace",Peoria,IL,"United States",61602,5,S025,M119,"Doner Kebab",Turkish,Kebab,1,32.89,1.93,30.96,Completed,Paid,Takeaway,Medium
+O029,2024-10-14,C6513,"Beth Barnes",Rockford,IL,"United States",61101,6,S013,M093,Tzatziki,Greek,Appetizer,4,88.52,1.26,87.26,Pending,Paid,Takeaway,High
+O030,2024-10-12,C4273,"Charles Mitchell",Naperville,IL,"United States",60540,17,S020,M036,Loukoumades,Other,Miscellaneous,2,205.56,4.14,201.42,Cancelled,Paid,Dine-in,Medium
+O031,2024-10-01,C1059,"Kevin Clements",Chicago,IL,"United States",60601,12,S057,M047,Gnocchi,Italian,Pasta,2,219.92,21.92,198.00,Pending,Unpaid,Dine-in,Low
+O032,2024-10-05,C4136,"Tina Mitchell",Naperville,IL,"United States",60540,17,S051,M007,"Adana Kebab",Turkish,Kebab,1,93.19,1.39,91.80,Cancelled,Unpaid,Delivery,High
+O033,2024-10-17,C2074,"Cody Santiago",Aurora,IL,"United States",60505,2,S010,M042,Kofte,Turkish,Pastry,5,637.15,30.17,606.98,Completed,Unpaid,Delivery,Low
+O034,2024-10-03,C6871,"Christopher Williams",Rockford,IL,"United States",61101,14,S018,M099,Lahmacun,Turkish,Pastry,1,28.12,0.05,28.07,Pending,Unpaid,Dine-in,High
+O035,2024-10-02,C413,"Kimberly Tucker",Naperville,IL,"United States",60540,1,S023,M022,"Kuzu Tandir",Other,Miscellaneous,2,298.26,5.88,292.38,Completed,Unpaid,Takeaway,Low
+O036,2024-10-21,C6558,"Brent Long",Rockford,IL,"United States",61101,17,S053,M042,Kofte,Turkish,Pastry,2,254.86,12.95,241.91,Cancelled,Paid,Takeaway,High
+O037,2024-10-18,C9846,"Christian Moss",Peoria,IL,"United States",61602,15,S038,M075,"Kuzu Tandir",Other,Miscellaneous,3,419.22,26.13,393.09,Cancelled,Unpaid,Dine-in,High
+O038,2024-10-10,C2090,"Sarah Carpenter",Aurora,IL,"United States",60505,4,S013,M115,Moussaka,Greek,Casserole,1,95.52,5.24,90.28,Cancelled,Unpaid,Delivery,Low
+O039,2024-10-16,C752,"Kristina Clayton",Rockford,IL,"United States",61101,3,S061,M141,Minestrone,Other,Miscellaneous,3,534.30,18.81,515.49,Pending,Paid,Delivery,High
+O040,2024-10-07,C5802,"Charles Knight",Naperville,IL,"United States",60540,18,S027,M101,Spanakopita,Other,Miscellaneous,5,51.85,2.78,49.07,Pending,Unpaid,Takeaway,Medium
+O041,2024-10-16,C6233,"Jacqueline Nelson",Rockford,IL,"United States",61101,16,S097,M135,Calzone,Other,Miscellaneous,1,143.78,9.97,133.81,Cancelled,Unpaid,Dine-in,High
+O042,2024-10-25,C4767,"Jeffrey Garcia",Naperville,IL,"United States",60540,5,S058,M062,Moussaka,Greek,Casserole,4,160.84,5.83,155.01,Pending,Paid,Delivery,Medium
+O043,2024-10-08,C4180,"Tanya Kennedy",Naperville,IL,"United States",60540,13,S024,M124,Galaktoboureko,Other,Miscellaneous,3,266.91,12.52,254.39,Completed,Unpaid,Takeaway,High
+O044,2024-10-01,C811,"Sean Austin",Peoria,IL,"United States",61602,17,S083,M006,"Caprese Salad",Other,Miscellaneous,3,223.29,2.54,220.75,Completed,Unpaid,Takeaway,High
+O045,2024-10-21,C5274,"Karen Barker",Naperville,IL,"United States",60540,7,S082,M011,"Imam Bayildi",Other,Miscellaneous,4,227.28,1.33,225.95,Cancelled,Unpaid,Delivery,Low
+O046,2024-10-23,C8618,"Virginia Rodriguez",Peoria,IL,"United States",61602,3,S068,M026,Galaktoboureko,Other,Miscellaneous,5,505.60,7.00,498.60,Pending,Unpaid,Takeaway,Low
+O047,2024-10-02,C4273,"Charles Mitchell",Naperville,IL,"United States",60540,12,S033,M119,"Doner Kebab",Turkish,Kebab,3,98.67,8.12,90.55,Cancelled,Unpaid,Delivery,Low
+O048,2024-10-15,C2303,"Victor Bryant",Aurora,IL,"United States",60505,16,S007,M143,Tzatziki,Greek,Appetizer,5,757.45,8.88,748.57,Pending,Paid,Delivery,Medium
+O049,2024-10-11,C7076,"Joe Ward",Rockford,IL,"United States",61101,8,S077,M146,Dolmades,Greek,Appetizer,1,58.73,3.63,55.10,Cancelled,Unpaid,Dine-in,Low
+O050,2024-10-09,C9227,"Christine Gardner",Peoria,IL,"United States",61602,4,S053,M061,Moussaka,Greek,Casserole,5,742.70,5.97,736.73,Cancelled,Unpaid,Takeaway,Low
+O051,2024-10-07,C6683,"Paula Zimmerman",Rockford,IL,"United States",61101,3,S077,M062,Moussaka,Greek,Casserole,2,80.42,2.36,78.06,Cancelled,Unpaid,Takeaway,Low
+O052,2024-10-06,C2601,"Sydney Sanchez",Aurora,IL,"United States",60505,11,S053,M027,Lahmacun,Turkish,Pastry,5,152.85,6.80,146.05,Cancelled,Paid,Delivery,Low
+O053,2024-10-02,C7208,"Sabrina Baker",Rockford,IL,"United States",61101,1,S021,M065,Carbonara,Italian,Pasta,4,224.44,22.00,202.44,Pending,Paid,Dine-in,High
+O054,2024-10-08,C3515,"Donna Reynolds",Aurora,IL,"United States",60505,15,S055,M051,"Greek Salad",Greek,Salad,4,579.00,49.93,529.07,Completed,Paid,Dine-in,Medium
+O055,2024-10-23,C5196,"Kerri Dixon",Naperville,IL,"United States",60540,10,S004,M089,Spaghetti,Italian,Pasta,2,318.02,9.52,308.50,Completed,Unpaid,Delivery,High
+O056,2024-10-19,C7235,"Peter Levine",Rockford,IL,"United States",61101,11,S015,M103,Calzone,Other,Miscellaneous,3,337.08,27.85,309.23,Pending,Unpaid,Takeaway,Medium
+O057,2024-10-01,C4201,"Sharon Rhodes",Naperville,IL,"United States",60540,13,S034,M075,"Kuzu Tandir",Other,Miscellaneous,5,698.70,61.63,637.07,Pending,Unpaid,Delivery,High
+O058,2024-10-07,C5115,"Angela Jones",Naperville,IL,"United States",60540,10,S066,M076,"Greek Salad",Greek,Salad,4,203.16,13.38,189.78,Pending,Paid,Takeaway,Medium
+O059,2024-10-03,C303,"Timothy Tapia",Aurora,IL,"United States",60505,20,S072,M132,Fasolada,Other,Miscellaneous,4,532.04,33.58,498.46,Completed,Unpaid,Takeaway,High
+O060,2024-10-06,C7781,"Gerald Holt",Rockford,IL,"United States",61101,19,S003,M017,Ravioli,Italian,Pasta,2,106.92,8.15,98.77,Cancelled,Unpaid,Delivery,Low
+O061,2024-10-22,C6503,"Robert Hernandez",Rockford,IL,"United States",61101,14,S049,M037,Tzatziki,Greek,Appetizer,5,960.10,18.87,941.23,Cancelled,Unpaid,Delivery,Low
+O062,2024-09-30,C2344,"Tammy Walker",Aurora,IL,"United States",60505,8,S081,M062,Moussaka,Greek,Casserole,4,160.84,9.69,151.15,Cancelled,Paid,Dine-in,High
+O063,2024-09-30,C8581,"Gerald Hernandez",Peoria,IL,"United States",61602,15,S060,M008,Risotto,Other,Miscellaneous,5,838.20,11.29,826.91,Cancelled,Unpaid,Delivery,Medium
+O064,2024-09-29,C2590,"Alyssa Price",Aurora,IL,"United States",60505,15,S055,M133,Lahmacun,Turkish,Pastry,4,577.92,29.89,548.03,Cancelled,Unpaid,Delivery,Low
+O065,2024-10-20,C8941,"Suzanne Jones",Peoria,IL,"United States",61602,14,S004,M080,Lahmacun,Turkish,Pastry,2,299.70,14.74,284.96,Pending,Paid,Delivery,Low
+O066,2024-10-09,C9332,"Rebecca Alexander",Peoria,IL,"United States",61602,20,S091,M110,Loukoumades,Other,Miscellaneous,3,578.13,9.24,568.89,Pending,Paid,Takeaway,Low
+O067,2024-10-15,C8696,"Shawn Mayer",Peoria,IL,"United States",61602,14,S063,M031,Pastitsio,Other,Miscellaneous,2,139.40,13.92,125.48,Completed,Unpaid,Delivery,High
+O068,2024-10-05,C9226,"Ariel Hudson",Peoria,IL,"United States",61602,2,S023,M090,Souvlaki,Greek,Appetizer,1,167.20,7.66,159.54,Pending,Paid,Takeaway,Low
+O069,2024-10-16,C1567,"Elizabeth King",Chicago,IL,"United States",60601,11,S095,M091,Gnocchi,Italian,Pasta,1,144.76,6.10,138.66,Pending,Unpaid,Dine-in,High
+O070,2024-10-13,C334,"Rachel Davis",Aurora,IL,"United States",60505,14,S059,M088,Spaghetti,Italian,Pasta,4,448.76,6.72,442.04,Pending,Paid,Takeaway,Medium
+O071,2024-09-27,C4006,"James Chapman",Naperville,IL,"United States",60540,14,S084,M017,Ravioli,Italian,Pasta,5,267.30,23.51,243.79,Pending,Unpaid,Dine-in,Low
+O072,2024-10-22,C2076,"Ashley Johnson",Aurora,IL,"United States",60505,5,S044,M048,Ravioli,Italian,Pasta,1,158.59,7.28,151.31,Completed,Unpaid,Delivery,High
+O073,2024-10-02,C2692,"Matthew Hunt",Aurora,IL,"United States",60505,14,S057,M054,Risotto,Other,Miscellaneous,4,684.88,60.85,624.03,Completed,Paid,Takeaway,High
+O074,2024-10-20,C6911,"Jacqueline Mayer",Rockford,IL,"United States",61101,13,S099,M112,"Fettuccine Alfredo",Italian,Pasta,3,308.82,8.76,300.06,Completed,Paid,Delivery,Medium
+O075,2024-10-07,C2107,"Sandra Walker",Aurora,IL,"United States",60505,13,S034,M121,Kofte,Turkish,Pastry,1,17.85,0.24,17.61,Cancelled,Paid,Takeaway,High
+O076,2024-10-12,C9100,"Kevin Jones",Peoria,IL,"United States",61602,15,S062,M039,"Iskender Kebab",Other,Miscellaneous,5,224.85,3.05,221.80,Cancelled,Paid,Dine-in,Low
+O077,2024-10-20,C4175,"Phillip Smith",Naperville,IL,"United States",60540,5,S032,M098,Kofte,Turkish,Pastry,4,51.12,4.21,46.91,Pending,Paid,Dine-in,Medium
+O078,2024-10-11,C2579,"Jason Curtis",Aurora,IL,"United States",60505,9,S040,M105,Risotto,Other,Miscellaneous,4,384.28,21.81,362.47,Completed,Paid,Dine-in,Low
+O079,2024-10-19,C4380,"Jason Carter",Naperville,IL,"United States",60540,17,S014,M054,Risotto,Other,Miscellaneous,2,342.44,22.68,319.76,Pending,Paid,Dine-in,Medium
+O080,2024-10-13,C6365,"Emma Brewer",Rockford,IL,"United States",61101,13,S005,M082,Borek,Turkish,Pastry,1,155.34,5.80,149.54,Cancelled,Unpaid,Takeaway,Low
+O081,2024-10-14,C7520,"Sandra Nelson",Rockford,IL,"United States",61101,11,S052,M023,"Adana Kebab",Turkish,Kebab,5,828.85,44.37,784.48,Cancelled,Paid,Takeaway,Low
+O082,2024-10-12,C8466,"Brittany Wilkerson",Peoria,IL,"United States",61602,10,S023,M136,Ravioli,Italian,Pasta,2,196.54,13.62,182.92,Completed,Unpaid,Delivery,Low
+O083,2024-10-24,C2914,"Patricia Sullivan",Aurora,IL,"United States",60505,1,S003,M023,"Adana Kebab",Turkish,Kebab,5,828.85,13.43,815.42,Completed,Unpaid,Dine-in,Low
+O084,2024-10-04,C6160,"Martha Horne",Rockford,IL,"United States",61101,12,S066,M092,"Greek Salad",Greek,Salad,2,399.70,14.41,385.29,Cancelled,Paid,Delivery,Medium
+O085,2024-10-09,C2997,"Lisa Smith",Aurora,IL,"United States",60505,8,S077,M051,"Greek Salad",Greek,Salad,4,579.00,57.20,521.80,Cancelled,Unpaid,Takeaway,High
+O086,2024-09-29,C5716,"Joseph Camacho",Naperville,IL,"United States",60540,2,S072,M146,Dolmades,Greek,Appetizer,2,117.46,8.42,109.04,Completed,Unpaid,Delivery,Low
+O087,2024-10-12,C3895,"Michelle Davis",Aurora,IL,"United States",60505,17,S044,M057,Souvlaki,Greek,Appetizer,1,28.97,1.52,27.45,Pending,Unpaid,Delivery,High
+O088,2024-10-16,C8417,"Laurie Montgomery",Peoria,IL,"United States",61602,16,S084,M135,Calzone,Other,Miscellaneous,2,287.56,24.30,263.26,Pending,Paid,Delivery,Low
+O089,2024-10-24,C7364,"Charlene Malone",Rockford,IL,"United States",61101,4,S065,M013,Loukoumades,Other,Miscellaneous,5,479.25,6.32,472.93,Completed,Paid,Delivery,Low
+O090,2024-10-07,C3912,"Jasmine Clark",Aurora,IL,"United States",60505,19,S059,M112,"Fettuccine Alfredo",Italian,Pasta,1,102.94,2.36,100.58,Completed,Unpaid,Delivery,Low
+O091,2024-09-27,C2455,"Michael Bowen",Aurora,IL,"United States",60505,6,S047,M115,Moussaka,Greek,Casserole,1,95.52,1.24,94.28,Cancelled,Unpaid,Takeaway,Low
+O092,2024-09-30,C3710,"Amanda Mitchell",Aurora,IL,"United States",60505,2,S081,M019,Spanakopita,Other,Miscellaneous,1,155.57,11.95,143.62,Completed,Unpaid,Delivery,High
+O093,2024-10-22,C8172,"Catherine Garcia",Peoria,IL,"United States",61602,12,S038,M020,Souvlaki,Greek,Appetizer,3,52.38,1.66,50.72,Cancelled,Paid,Dine-in,Medium
+O094,2024-10-10,C2654,"Brandy Phillips",Aurora,IL,"United States",60505,3,S046,M019,Spanakopita,Other,Miscellaneous,3,466.71,39.98,426.73,Cancelled,Paid,Delivery,High
+O095,2024-09-30,C1843,"Paul Thompson",Chicago,IL,"United States",60601,14,S097,M056,Pastitsio,Other,Miscellaneous,2,207.80,17.79,190.01,Pending,Unpaid,Takeaway,Low
+O096,2024-10-22,C2456,"Diana Arnold",Aurora,IL,"United States",60505,15,S041,M036,Loukoumades,Other,Miscellaneous,5,513.90,17.33,496.57,Cancelled,Unpaid,Delivery,Medium
+O097,2024-10-18,C9688,"Brian Rodriguez",Peoria,IL,"United States",61602,13,S076,M048,Ravioli,Italian,Pasta,1,158.59,7.81,150.78,Pending,Paid,Delivery,Medium
+O098,2024-10-11,C7865,"Charles Williams",Rockford,IL,"United States",61101,14,S060,M060,Baklava,Greek,Dessert,1,57.12,0.55,56.57,Cancelled,Paid,Dine-in,High
+O099,2024-09-29,C9536,"Melissa Howard",Peoria,IL,"United States",61602,13,S014,M143,Tzatziki,Greek,Appetizer,2,302.98,5.78,297.20,Cancelled,Paid,Delivery,Medium
+O100,2024-09-29,C5418,"Karl Wilkerson",Naperville,IL,"United States",60540,15,S082,M015,"Shish Kebab",Turkish,Kebab,5,690.15,35.60,654.55,Completed,Paid,Delivery,Medium
+O1000,2024-10-04,C7678,"Christina Gill",Rockford,IL,"United States",61101,7,S009,M144,Gnocchi,Italian,Pasta,2,151.72,1.53,150.19,Cancelled,Unpaid,Dine-in,Low
+O101,2024-09-30,C8035,"Jenny Holder",Peoria,IL,"United States",61602,12,S078,M018,Pastitsio,Other,Miscellaneous,3,512.76,46.96,465.80,Pending,Unpaid,Delivery,Medium
+O102,2024-10-14,C6865,"Darren Wilson",Rockford,IL,"United States",61101,11,S029,M071,"Fettuccine Alfredo",Italian,Pasta,4,707.16,48.15,659.01,Cancelled,Unpaid,Dine-in,Low
+O103,2024-10-25,C6124,"Brooke Carlson",Rockford,IL,"United States",61101,2,S030,M115,Moussaka,Greek,Casserole,2,191.04,16.96,174.08,Completed,Unpaid,Takeaway,Medium
+O104,2024-10-04,C4819,"Mark Campbell",Naperville,IL,"United States",60540,3,S027,M059,Dolmades,Greek,Appetizer,2,302.60,16.81,285.79,Completed,Paid,Takeaway,High
+O105,2024-10-24,C296,"Tammy Bauer",Aurora,IL,"United States",60505,13,S022,M056,Pastitsio,Other,Miscellaneous,2,207.80,14.52,193.28,Cancelled,Paid,Dine-in,Medium
+O106,2024-10-08,C1557,"Derek Lopez",Chicago,IL,"United States",60601,2,S032,M092,"Greek Salad",Greek,Salad,4,799.40,61.95,737.45,Completed,Unpaid,Takeaway,High
+O107,2024-10-09,C4036,"Cassie Vaughn",Naperville,IL,"United States",60540,20,S071,M123,"Adana Kebab",Turkish,Kebab,2,366.16,10.74,355.42,Completed,Paid,Delivery,High
+O108,2024-10-03,C2256,"Elizabeth Brown",Aurora,IL,"United States",60505,18,S099,M147,Kofte,Turkish,Pastry,1,21.77,0.69,21.08,Completed,Paid,Delivery,High
+O109,2024-10-19,C8739,"Joseph Gonzalez",Peoria,IL,"United States",61602,1,S085,M019,Spanakopita,Other,Miscellaneous,1,155.57,11.87,143.70,Completed,Unpaid,Dine-in,Low
+O110,2024-10-24,C2026,"Stephen Green",Aurora,IL,"United States",60505,18,S032,M134,Moussaka,Greek,Casserole,3,177.03,11.33,165.70,Pending,Unpaid,Delivery,Low
+O111,2024-10-21,C3959,"Jessica Larsen",Aurora,IL,"United States",60505,17,S087,M034,Tzatziki,Greek,Appetizer,2,339.10,6.38,332.72,Completed,Paid,Dine-in,Medium
+O112,2024-10-10,C8528,"Lisa Hill",Peoria,IL,"United States",61602,20,S013,M050,Tiramisu,Other,Miscellaneous,4,466.44,40.43,426.01,Pending,Unpaid,Delivery,Medium
+O113,2024-10-18,C9478,"Patrick White",Peoria,IL,"United States",61602,14,S051,M077,"Fettuccine Alfredo",Italian,Pasta,1,125.42,1.15,124.27,Pending,Paid,Takeaway,Low
+O114,2024-09-26,C6786,"Samantha Massey",Rockford,IL,"United States",61101,14,S033,M121,Kofte,Turkish,Pastry,3,53.55,1.10,52.45,Pending,Paid,Dine-in,Medium
+O115,2024-10-07,C4586,"Erica Wagner",Naperville,IL,"United States",60540,16,S042,M114,"Shish Kebab",Turkish,Kebab,4,679.00,64.24,614.76,Cancelled,Unpaid,Takeaway,Medium
+O116,2024-10-13,C6677,"Matthew Smith",Rockford,IL,"United States",61101,6,S093,M096,"Doner Kebab",Turkish,Kebab,5,515.80,50.83,464.97,Completed,Unpaid,Dine-in,Low
+O117,2024-10-09,C9952,"Ronald Mcmillan",Peoria,IL,"United States",61602,19,S020,M071,"Fettuccine Alfredo",Italian,Pasta,2,353.58,16.02,337.56,Cancelled,Paid,Takeaway,Medium
+O118,2024-10-02,C8052,"Lauren Brown",Peoria,IL,"United States",61602,17,S044,M072,"Caprese Salad",Other,Miscellaneous,2,293.24,7.45,285.79,Completed,Unpaid,Dine-in,Low
+O119,2024-10-24,C1707,"John Thompson",Chicago,IL,"United States",60601,5,S082,M142,Ravioli,Italian,Pasta,1,86.36,7.05,79.31,Completed,Paid,Delivery,Low
+O120,2024-10-01,C2035,"Marcus Simmons",Aurora,IL,"United States",60505,11,S081,M053,Baklava,Greek,Dessert,1,148.36,5.45,142.91,Pending,Paid,Delivery,High
+O121,2024-10-06,C8468,"Evan Murray",Peoria,IL,"United States",61602,5,S082,M148,"Pizza Margherita",Italian,Pasta,1,61.21,4.38,56.83,Completed,Unpaid,Delivery,Low
+O122,2024-10-12,C6996,"Melissa Brown",Rockford,IL,"United States",61101,11,S078,M121,Kofte,Turkish,Pastry,1,17.85,0.22,17.63,Completed,Paid,Takeaway,Low
+O123,2024-10-15,C8639,"Wayne Sparks",Peoria,IL,"United States",61602,1,S011,M102,Tzatziki,Greek,Appetizer,2,83.58,1.42,82.16,Completed,Unpaid,Delivery,Low
+O124,2024-10-01,C2392,"Thomas Powell",Aurora,IL,"United States",60505,9,S019,M113,"Fettuccine Alfredo",Italian,Pasta,4,427.40,24.35,403.05,Completed,Unpaid,Takeaway,Low
+O125,2024-10-05,C2782,"William Martin",Aurora,IL,"United States",60505,10,S026,M138,Calzone,Other,Miscellaneous,2,192.02,5.52,186.50,Cancelled,Paid,Takeaway,Medium
+O126,2024-10-12,C345,"Victor Holden",Aurora,IL,"United States",60505,6,S009,M041,Moussaka,Greek,Casserole,2,331.40,20.40,311.00,Cancelled,Unpaid,Takeaway,Medium
+O127,2024-10-15,C2255,"Christine Lynn",Aurora,IL,"United States",60505,2,S059,M083,Menemen,Other,Miscellaneous,3,245.19,23.63,221.56,Cancelled,Paid,Delivery,Medium
+O128,2024-10-25,C2931,"Gary Murphy",Aurora,IL,"United States",60505,10,S085,M100,Lasagna,Italian,Pasta,2,175.72,0.72,175.00,Completed,Unpaid,Dine-in,High
+O129,2024-09-27,C1041,"Calvin Hopkins",Chicago,IL,"United States",60601,4,S010,M063,Spanakopita,Other,Miscellaneous,2,89.18,3.40,85.78,Completed,Unpaid,Delivery,Medium
+O130,2024-10-19,C2352,"Kathryn Walker",Aurora,IL,"United States",60505,16,S054,M119,"Doner Kebab",Turkish,Kebab,1,32.89,1.16,31.73,Pending,Unpaid,Takeaway,Low
+O131,2024-10-15,C8697,"Robert Rodriguez",Peoria,IL,"United States",61602,9,S056,M067,Loukoumades,Other,Miscellaneous,4,600.20,43.65,556.55,Pending,Unpaid,Takeaway,Low
+O132,2024-10-25,C5123,"Michael Nichols",Naperville,IL,"United States",60540,20,S046,M071,"Fettuccine Alfredo",Italian,Pasta,2,353.58,0.95,352.63,Cancelled,Unpaid,Delivery,High
+O133,2024-10-06,C6461,"Michelle Hubbard",Rockford,IL,"United States",61101,15,S088,M133,Lahmacun,Turkish,Pastry,5,722.40,68.60,653.80,Pending,Paid,Dine-in,Low
+O134,2024-10-13,C4050,"Jack Schwartz",Naperville,IL,"United States",60540,12,S010,M042,Kofte,Turkish,Pastry,1,127.43,6.07,121.36,Cancelled,Paid,Takeaway,Low
+O135,2024-10-10,C1319,"Julia Mills",Chicago,IL,"United States",60601,12,S100,M146,Dolmades,Greek,Appetizer,4,234.92,5.49,229.43,Completed,Paid,Delivery,Low
+O136,2024-10-15,C8575,"Trevor Rodriguez",Peoria,IL,"United States",61602,20,S018,M046,Spanakopita,Other,Miscellaneous,1,33.82,1.32,32.50,Completed,Paid,Takeaway,Medium
+O137,2024-10-23,C4163,"Bruce Parsons",Naperville,IL,"United States",60540,20,S001,M137,Lasagna,Italian,Pasta,1,164.93,15.49,149.44,Pending,Paid,Takeaway,Low
+O138,2024-09-28,C7110,"Nathan Long",Rockford,IL,"United States",61101,6,S032,M086,Carbonara,Italian,Pasta,1,142.88,13.89,128.99,Completed,Unpaid,Dine-in,Medium
+O139,2024-10-03,C306,"Robert Hernandez",Aurora,IL,"United States",60505,19,S039,M008,Risotto,Other,Miscellaneous,1,167.64,11.48,156.16,Completed,Paid,Delivery,Low
+O140,2024-10-03,C5301,"Carol Glover",Naperville,IL,"United States",60540,7,S034,M117,"Adana Kebab",Turkish,Kebab,5,855.90,77.91,777.99,Cancelled,Unpaid,Dine-in,High
+O141,2024-09-28,C4290,"Ivan Brown",Naperville,IL,"United States",60540,20,S032,M071,"Fettuccine Alfredo",Italian,Pasta,3,530.37,46.58,483.79,Pending,Unpaid,Dine-in,High
+O142,2024-10-13,C733,"Randy Francis",Rockford,IL,"United States",61101,19,S045,M034,Tzatziki,Greek,Appetizer,3,508.65,4.27,504.38,Pending,Paid,Delivery,High
+O143,2024-10-16,C3019,"Wendy Jarvis",Aurora,IL,"United States",60505,20,S074,M059,Dolmades,Greek,Appetizer,2,302.60,20.20,282.40,Cancelled,Paid,Dine-in,Medium
+O144,2024-10-16,C7223,"Frederick Parker",Rockford,IL,"United States",61101,15,S062,M062,Moussaka,Greek,Casserole,2,80.42,5.22,75.20,Pending,Unpaid,Dine-in,Medium
+O145,2024-10-12,C4235,"Kathryn Campbell",Naperville,IL,"United States",60540,11,S089,M082,Borek,Turkish,Pastry,1,155.34,3.31,152.03,Completed,Unpaid,Dine-in,High
+O146,2024-10-08,C683,"Tina Norris",Rockford,IL,"United States",61101,2,S100,M054,Risotto,Other,Miscellaneous,3,513.66,12.20,501.46,Pending,Unpaid,Takeaway,Medium
+O147,2024-10-10,C173,"Christina Nolan",Chicago,IL,"United States",60601,11,S060,M105,Risotto,Other,Miscellaneous,4,384.28,16.68,367.60,Cancelled,Unpaid,Dine-in,High
+O148,2024-10-12,C3841,"Sarah Gonzales",Aurora,IL,"United States",60505,20,S072,M139,Lasagna,Italian,Pasta,2,398.20,35.51,362.69,Cancelled,Paid,Takeaway,High
+O149,2024-10-14,C8978,"Robert Bell",Peoria,IL,"United States",61602,3,S011,M113,"Fettuccine Alfredo",Italian,Pasta,5,534.25,41.48,492.77,Pending,Paid,Dine-in,High
+O150,2024-10-02,C2750,"Melinda Mcdowell",Aurora,IL,"United States",60505,12,S047,M021,Ravioli,Italian,Pasta,3,275.10,14.93,260.17,Completed,Unpaid,Delivery,Medium
+O151,2024-10-24,C1282,"Kimberly Torres",Chicago,IL,"United States",60601,4,S059,M065,Carbonara,Italian,Pasta,2,112.22,3.69,108.53,Completed,Paid,Delivery,Medium
+O152,2024-10-07,C3819,"Thomas Morris",Aurora,IL,"United States",60505,12,S063,M022,"Kuzu Tandir",Other,Miscellaneous,5,745.65,41.90,703.75,Pending,Unpaid,Dine-in,Medium
+O153,2024-10-17,C4194,"Adrian Phillips",Naperville,IL,"United States",60540,11,S030,M105,Risotto,Other,Miscellaneous,3,288.21,11.78,276.43,Cancelled,Unpaid,Delivery,Medium
+O154,2024-09-26,C4954,"Jeffrey Boyd",Naperville,IL,"United States",60540,19,S034,M056,Pastitsio,Other,Miscellaneous,2,207.80,3.73,204.07,Cancelled,Paid,Takeaway,High
+O155,2024-10-18,C5987,"Robin Barnes",Naperville,IL,"United States",60540,20,S029,M029,Pide,Turkish,Flatbread,4,188.64,8.86,179.78,Completed,Unpaid,Takeaway,Low
+O156,2024-10-06,C7800,"Albert Simmons",Rockford,IL,"United States",61101,11,S043,M117,"Adana Kebab",Turkish,Kebab,4,684.72,32.74,651.98,Pending,Paid,Dine-in,Medium
+O157,2024-10-18,C1198,"Frank Armstrong",Chicago,IL,"United States",60601,4,S092,M148,"Pizza Margherita",Italian,Pasta,3,183.63,16.11,167.52,Completed,Unpaid,Dine-in,High
+O158,2024-10-08,C5005,"Leslie Green",Naperville,IL,"United States",60540,7,S043,M091,Gnocchi,Italian,Pasta,5,723.80,69.78,654.02,Cancelled,Unpaid,Takeaway,High
+O159,2024-10-23,C6687,"Allison Graham",Rockford,IL,"United States",61101,14,S044,M087,Risotto,Other,Miscellaneous,5,103.90,1.78,102.12,Pending,Unpaid,Dine-in,Medium
+O160,2024-10-22,C2059,"Kathleen Garcia",Aurora,IL,"United States",60505,19,S051,M019,Spanakopita,Other,Miscellaneous,3,466.71,31.15,435.56,Pending,Paid,Delivery,High
+O161,2024-10-09,C9155,"Tina Moore",Peoria,IL,"United States",61602,8,S079,M104,Fasolada,Other,Miscellaneous,2,212.08,7.38,204.70,Completed,Unpaid,Takeaway,High
+O162,2024-10-15,C3280,"Kayla Jackson",Aurora,IL,"United States",60505,7,S097,M075,"Kuzu Tandir",Other,Miscellaneous,4,558.96,43.44,515.52,Completed,Paid,Delivery,Medium
+O163,2024-10-07,C4664,"Carol Leon",Naperville,IL,"United States",60540,7,S088,M048,Ravioli,Italian,Pasta,2,317.18,9.52,307.66,Pending,Unpaid,Takeaway,Low
+O164,2024-10-23,C7786,"Tina Martin",Rockford,IL,"United States",61101,1,S016,M069,"Doner Kebab",Turkish,Kebab,5,704.60,20.22,684.38,Cancelled,Paid,Dine-in,Low
+O165,2024-10-02,C4023,"Andrew Carter",Naperville,IL,"United States",60540,18,S031,M028,Tzatziki,Greek,Appetizer,3,396.45,22.50,373.95,Cancelled,Unpaid,Takeaway,Medium
+O166,2024-10-04,C1201,"Amanda Freeman",Chicago,IL,"United States",60601,11,S054,M083,Menemen,Other,Miscellaneous,2,163.46,8.40,155.06,Completed,Unpaid,Delivery,Medium
+O167,2024-10-24,C9684,"Steven Hunter",Peoria,IL,"United States",61602,6,S042,M077,"Fettuccine Alfredo",Italian,Pasta,3,376.26,25.75,350.51,Cancelled,Paid,Takeaway,Medium
+O168,2024-10-17,C1469,"Catherine Bradley",Chicago,IL,"United States",60601,19,S093,M065,Carbonara,Italian,Pasta,2,112.22,5.98,106.24,Pending,Unpaid,Dine-in,High
+O169,2024-10-11,C1807,"Manuel Escobar",Chicago,IL,"United States",60601,10,S073,M007,"Adana Kebab",Turkish,Kebab,5,465.95,45.73,420.22,Pending,Paid,Dine-in,Low
+O170,2024-10-19,C6069,"Tina Perez",Rockford,IL,"United States",61101,14,S002,M013,Loukoumades,Other,Miscellaneous,1,95.85,5.37,90.48,Pending,Paid,Takeaway,Low
+O171,2024-10-23,C5049,"Betty Black",Naperville,IL,"United States",60540,11,S067,M015,"Shish Kebab",Turkish,Kebab,1,138.03,5.01,133.02,Cancelled,Paid,Dine-in,Medium
+O172,2024-10-12,C9311,"Becky Pratt",Peoria,IL,"United States",61602,20,S084,M076,"Greek Salad",Greek,Salad,5,253.95,13.01,240.94,Completed,Paid,Dine-in,Low
+O173,2024-10-03,C9504,"Alicia Tate",Peoria,IL,"United States",61602,10,S004,M044,Gnocchi,Italian,Pasta,3,205.47,18.00,187.47,Pending,Unpaid,Delivery,High
+O174,2024-10-22,C6429,"Carlos Marks",Rockford,IL,"United States",61101,15,S065,M142,Ravioli,Italian,Pasta,4,345.44,7.63,337.81,Cancelled,Paid,Takeaway,Medium
+O175,2024-10-07,C9535,"Richard Garcia",Peoria,IL,"United States",61602,3,S017,M075,"Kuzu Tandir",Other,Miscellaneous,2,279.48,8.13,271.35,Pending,Unpaid,Dine-in,Low
+O176,2024-10-13,C7124,"Zachary Mack",Rockford,IL,"United States",61101,19,S062,M087,Risotto,Other,Miscellaneous,2,41.56,0.35,41.21,Completed,Paid,Dine-in,Low
+O177,2024-10-18,C4498,"James Graves",Naperville,IL,"United States",60540,13,S091,M063,Spanakopita,Other,Miscellaneous,1,44.59,3.57,41.02,Cancelled,Paid,Takeaway,Low
+O178,2024-10-16,C5102,"Christopher Fletcher",Naperville,IL,"United States",60540,1,S094,M119,"Doner Kebab",Turkish,Kebab,3,98.67,1.85,96.82,Pending,Unpaid,Takeaway,High
+O179,2024-10-15,C2641,"Ernest Gordon",Aurora,IL,"United States",60505,16,S061,M129,Borek,Turkish,Pastry,1,56.21,1.38,54.83,Completed,Paid,Delivery,Low
+O180,2024-09-29,C6144,"Brandon Buck",Rockford,IL,"United States",61101,7,S092,M016,Fasolada,Other,Miscellaneous,3,450.75,34.29,416.46,Cancelled,Paid,Dine-in,Medium
+O181,2024-10-24,C9055,"Alan Moore",Peoria,IL,"United States",61602,13,S097,M013,Loukoumades,Other,Miscellaneous,5,479.25,32.65,446.60,Completed,Paid,Takeaway,Low
+O182,2024-10-15,C9900,"Kathleen Hernandez",Peoria,IL,"United States",61602,6,S078,M035,"Pizza Margherita",Italian,Pasta,2,268.52,10.68,257.84,Cancelled,Unpaid,Takeaway,Medium
+O183,2024-10-02,C2444,"Katherine Fuentes",Aurora,IL,"United States",60505,15,S017,M066,"Fettuccine Alfredo",Italian,Pasta,1,117.63,9.10,108.53,Pending,Paid,Delivery,Low
+O184,2024-10-07,C2149,"Katherine Lee",Aurora,IL,"United States",60505,9,S037,M071,"Fettuccine Alfredo",Italian,Pasta,1,176.79,12.24,164.55,Cancelled,Unpaid,Dine-in,Medium
+O185,2024-09-29,C5494,"Devin Johnson",Naperville,IL,"United States",60540,12,S037,M078,Pide,Turkish,Flatbread,5,725.05,61.49,663.56,Cancelled,Paid,Delivery,Low
+O186,2024-09-27,C1816,"Gilbert Cook",Chicago,IL,"United States",60601,11,S088,M032,Tiramisu,Other,Miscellaneous,4,740.80,15.01,725.79,Cancelled,Paid,Takeaway,Low
+O187,2024-10-23,C3608,"Jonathon Donovan",Aurora,IL,"United States",60505,13,S006,M134,Moussaka,Greek,Casserole,1,59.01,4.93,54.08,Pending,Paid,Delivery,Low
+O188,2024-09-28,C1737,"Steven Hart",Chicago,IL,"United States",60601,9,S059,M090,Souvlaki,Greek,Appetizer,2,334.40,18.62,315.78,Pending,Paid,Dine-in,High
+O189,2024-10-19,C9647,"Corey Edwards",Peoria,IL,"United States",61602,2,S020,M043,Moussaka,Greek,Casserole,5,202.95,5.93,197.02,Pending,Unpaid,Takeaway,High
+O190,2024-09-27,C8830,"Darryl Hood",Peoria,IL,"United States",61602,13,S024,M150,Souvlaki,Greek,Appetizer,3,554.49,10.72,543.77,Completed,Paid,Delivery,High
+O191,2024-10-01,C071,"Edward Pham",Chicago,IL,"United States",60601,6,S060,M018,Pastitsio,Other,Miscellaneous,1,170.92,4.42,166.50,Pending,Unpaid,Takeaway,High
+O192,2024-10-15,C3525,"Dillon Black",Aurora,IL,"United States",60505,20,S094,M089,Spaghetti,Italian,Pasta,5,795.05,40.14,754.91,Cancelled,Paid,Delivery,Low
+O193,2024-10-25,C5746,"Deborah Henderson",Naperville,IL,"United States",60540,12,S080,M064,Lahmacun,Turkish,Pastry,4,657.84,63.70,594.14,Completed,Paid,Takeaway,Low
+O194,2024-10-23,C5324,"Jeffrey Alvarado",Naperville,IL,"United States",60540,16,S035,M004,Pide,Turkish,Flatbread,5,554.85,34.26,520.59,Pending,Unpaid,Delivery,Medium
+O195,2024-10-21,C6882,"Melissa Mcdonald",Rockford,IL,"United States",61101,20,S072,M070,"Doner Kebab",Turkish,Kebab,5,914.05,46.89,867.16,Cancelled,Paid,Dine-in,Low
+O196,2024-09-26,C9807,"Lindsey Jacobs",Peoria,IL,"United States",61602,18,S021,M096,"Doner Kebab",Turkish,Kebab,3,309.48,20.11,289.37,Cancelled,Paid,Dine-in,Low
+O197,2024-10-24,C2595,"Chelsea Moreno",Aurora,IL,"United States",60505,4,S065,M123,"Adana Kebab",Turkish,Kebab,4,732.32,5.36,726.96,Cancelled,Paid,Delivery,Medium
+O198,2024-09-29,C3935,"Andrew Nielsen",Aurora,IL,"United States",60505,18,S021,M084,Tzatziki,Greek,Appetizer,4,547.04,18.07,528.97,Pending,Unpaid,Delivery,Medium
+O199,2024-10-07,C797,"Ann Townsend",Rockford,IL,"United States",61101,15,S073,M104,Fasolada,Other,Miscellaneous,5,530.20,3.59,526.61,Completed,Unpaid,Delivery,Low
+O200,2024-10-24,C1008,"Ryan Mccullough",Chicago,IL,"United States",60601,2,S057,M041,Moussaka,Greek,Casserole,3,497.10,47.38,449.72,Cancelled,Unpaid,Dine-in,Medium
+O201,2024-09-27,C2231,"Kimberly Frank",Aurora,IL,"United States",60505,3,S030,M063,Spanakopita,Other,Miscellaneous,3,133.77,1.53,132.24,Pending,Paid,Takeaway,Medium
+O202,2024-10-22,C2806,"Christina Wilson",Aurora,IL,"United States",60505,17,S079,M083,Menemen,Other,Miscellaneous,5,408.65,27.59,381.06,Pending,Unpaid,Delivery,High
+O203,2024-09-26,C2846,"Ruth Summers",Aurora,IL,"United States",60505,20,S070,M139,Lasagna,Italian,Pasta,1,199.10,11.83,187.27,Cancelled,Paid,Delivery,High
+O204,2024-10-07,C4388,"Alison Haney",Naperville,IL,"United States",60540,9,S042,M150,Souvlaki,Greek,Appetizer,3,554.49,13.16,541.33,Completed,Unpaid,Takeaway,High
+O205,2024-09-28,C1986,"Marc Smith",Chicago,IL,"United States",60601,6,S005,M047,Gnocchi,Italian,Pasta,2,219.92,17.74,202.18,Completed,Paid,Delivery,Medium
+O206,2024-10-12,C7624,"Helen Peterson",Rockford,IL,"United States",61101,18,S010,M077,"Fettuccine Alfredo",Italian,Pasta,5,627.10,0.49,626.61,Completed,Unpaid,Delivery,High
+O207,2024-10-15,C8474,"Pamela Sullivan",Peoria,IL,"United States",61602,4,S075,M008,Risotto,Other,Miscellaneous,1,167.64,3.93,163.71,Pending,Unpaid,Delivery,Medium
+O208,2024-10-11,C4507,"Andrea Smith",Naperville,IL,"United States",60540,16,S038,M101,Spanakopita,Other,Miscellaneous,3,31.11,1.98,29.13,Pending,Unpaid,Takeaway,Low
+O209,2024-10-01,C5720,"Maria Bowman",Naperville,IL,"United States",60540,14,S088,M074,Baklava,Greek,Dessert,2,136.32,10.92,125.40,Pending,Paid,Takeaway,High
+O210,2024-10-14,C3904,"Shawn Thompson",Aurora,IL,"United States",60505,13,S035,M047,Gnocchi,Italian,Pasta,5,549.80,40.88,508.92,Pending,Paid,Takeaway,Medium
+O211,2024-10-13,C7102,"James Horn",Rockford,IL,"United States",61101,3,S053,M128,"Greek Salad",Greek,Salad,2,387.84,2.98,384.86,Pending,Paid,Delivery,High
+O212,2024-10-13,C3898,"Jenna Wallace",Aurora,IL,"United States",60505,9,S096,M119,"Doner Kebab",Turkish,Kebab,3,98.67,9.84,88.83,Cancelled,Unpaid,Takeaway,High
+O213,2024-10-09,C9152,"Gregory Gonzales",Peoria,IL,"United States",61602,8,S051,M041,Moussaka,Greek,Casserole,5,828.50,81.45,747.05,Pending,Unpaid,Dine-in,High
+O214,2024-09-26,C5974,"David Hill",Naperville,IL,"United States",60540,7,S084,M105,Risotto,Other,Miscellaneous,5,480.35,45.74,434.61,Cancelled,Paid,Takeaway,Low
+O215,2024-10-22,C8705,"Charles Mills",Peoria,IL,"United States",61602,19,S064,M009,Pide,Turkish,Flatbread,5,254.10,13.75,240.35,Cancelled,Paid,Delivery,Medium
+O216,2024-10-03,C6923,"Alexander Gilbert",Rockford,IL,"United States",61101,5,S012,M075,"Kuzu Tandir",Other,Miscellaneous,3,419.22,37.51,381.71,Completed,Unpaid,Delivery,High
+O217,2024-10-10,C7466,"Danny Wallace",Rockford,IL,"United States",61101,19,S045,M116,Baklava,Greek,Dessert,4,428.16,2.88,425.28,Cancelled,Paid,Takeaway,Low
+O218,2024-10-03,C8635,"Lori Wyatt",Peoria,IL,"United States",61602,15,S059,M138,Calzone,Other,Miscellaneous,3,288.03,5.39,282.64,Cancelled,Paid,Takeaway,Low
+O219,2024-10-15,C7895,"Thomas Walters",Rockford,IL,"United States",61101,7,S028,M087,Risotto,Other,Miscellaneous,1,20.78,0.33,20.45,Completed,Paid,Dine-in,High
+O220,2024-10-02,C296,"Tammy Bauer",Aurora,IL,"United States",60505,7,S034,M039,"Iskender Kebab",Other,Miscellaneous,4,179.88,1.81,178.07,Completed,Unpaid,Delivery,Low
+O221,2024-10-21,C3068,"Patricia Wade",Aurora,IL,"United States",60505,12,S075,M123,"Adana Kebab",Turkish,Kebab,4,732.32,51.31,681.01,Completed,Unpaid,Takeaway,High
+O222,2024-10-15,C8205,"Jason Skinner",Peoria,IL,"United States",61602,18,S096,M051,"Greek Salad",Greek,Salad,5,723.75,19.89,703.86,Pending,Paid,Takeaway,Low
+O223,2024-10-07,C7225,"Teresa Castillo",Rockford,IL,"United States",61101,14,S098,M100,Lasagna,Italian,Pasta,3,263.58,0.88,262.70,Cancelled,Unpaid,Dine-in,Low
+O224,2024-10-20,C9823,"Brittany Hill",Peoria,IL,"United States",61602,1,S092,M025,Risotto,Other,Miscellaneous,1,86.17,3.91,82.26,Pending,Unpaid,Dine-in,Medium
+O225,2024-10-24,C6075,"James Ho",Rockford,IL,"United States",61101,4,S046,M006,"Caprese Salad",Other,Miscellaneous,1,74.43,2.04,72.39,Cancelled,Paid,Takeaway,Medium
+O226,2024-10-03,C8017,"Jacob Wilson",Peoria,IL,"United States",61602,3,S059,M150,Souvlaki,Greek,Appetizer,1,184.83,1.45,183.38,Completed,Paid,Delivery,Low
+O227,2024-10-23,C7340,"Sherry Vasquez",Rockford,IL,"United States",61101,1,S052,M081,Tzatziki,Greek,Appetizer,4,733.88,5.68,728.20,Cancelled,Unpaid,Dine-in,Low
+O228,2024-10-04,C8280,"Jennifer Hoffman",Peoria,IL,"United States",61602,15,S062,M050,Tiramisu,Other,Miscellaneous,2,233.22,6.83,226.39,Completed,Unpaid,Takeaway,Low
+O229,2024-09-30,C3254,"Arthur Harrell",Aurora,IL,"United States",60505,2,S073,M133,Lahmacun,Turkish,Pastry,4,577.92,54.79,523.13,Completed,Paid,Takeaway,High
+O230,2024-10-04,C8436,"Monica Bennett",Peoria,IL,"United States",61602,17,S006,M108,"Kuzu Tandir",Other,Miscellaneous,5,472.65,8.60,464.05,Cancelled,Unpaid,Takeaway,Low
+O231,2024-10-23,C8283,"Jamie Lopez",Peoria,IL,"United States",61602,16,S017,M089,Spaghetti,Italian,Pasta,4,636.04,12.87,623.17,Pending,Paid,Dine-in,Low
+O232,2024-10-15,C2192,"Ashley Davis",Aurora,IL,"United States",60505,11,S005,M009,Pide,Turkish,Flatbread,4,203.28,2.18,201.10,Pending,Paid,Delivery,Low
+O233,2024-10-01,C4810,"Christopher Callahan",Naperville,IL,"United States",60540,4,S006,M029,Pide,Turkish,Flatbread,1,47.16,1.84,45.32,Completed,Unpaid,Takeaway,Low
+O234,2024-10-15,C8007,"Jennifer Cardenas",Peoria,IL,"United States",61602,17,S031,M001,Lasagna,Italian,Pasta,4,554.16,24.27,529.89,Cancelled,Unpaid,Dine-in,Medium
+O235,2024-09-27,C6165,"Laura Matthews",Rockford,IL,"United States",61101,3,S031,M076,"Greek Salad",Greek,Salad,2,101.58,2.30,99.28,Completed,Paid,Dine-in,High
+O236,2024-09-30,C9201,"Jill Erickson",Peoria,IL,"United States",61602,1,S021,M106,"Imam Bayildi",Other,Miscellaneous,5,786.00,33.15,752.85,Pending,Paid,Takeaway,High
+O237,2024-09-27,C5457,"Tyrone Dominguez",Naperville,IL,"United States",60540,14,S021,M101,Spanakopita,Other,Miscellaneous,3,31.11,1.10,30.01,Completed,Unpaid,Delivery,High
+O238,2024-09-29,C653,"Christopher Rasmussen",Rockford,IL,"United States",61101,16,S059,M095,"Caprese Salad",Other,Miscellaneous,1,36.96,2.19,34.77,Completed,Paid,Delivery,High
+O239,2024-10-17,C1935,"Julie Kim",Chicago,IL,"United States",60601,17,S060,M098,Kofte,Turkish,Pastry,1,12.78,0.71,12.07,Pending,Unpaid,Dine-in,Low
+O240,2024-10-24,C9037,"Angela Nixon",Peoria,IL,"United States",61602,14,S075,M016,Fasolada,Other,Miscellaneous,3,450.75,16.00,434.75,Cancelled,Paid,Dine-in,Low
+O241,2024-10-16,C2268,"Jeffrey Dixon",Aurora,IL,"United States",60505,5,S046,M061,Moussaka,Greek,Casserole,4,594.16,24.61,569.55,Cancelled,Paid,Takeaway,Medium
+O242,2024-10-04,C5831,"Christopher Smith",Naperville,IL,"United States",60540,11,S080,M031,Pastitsio,Other,Miscellaneous,2,139.40,8.87,130.53,Cancelled,Unpaid,Takeaway,High
+O243,2024-09-26,C1520,"Jacob White",Chicago,IL,"United States",60601,1,S098,M071,"Fettuccine Alfredo",Italian,Pasta,1,176.79,6.48,170.31,Pending,Paid,Dine-in,High
+O244,2024-10-18,C6375,"Pamela Mcdaniel",Rockford,IL,"United States",61101,7,S022,M051,"Greek Salad",Greek,Salad,3,434.25,33.14,401.11,Pending,Unpaid,Delivery,Medium
+O245,2024-10-23,C5828,"Marcus Hall",Naperville,IL,"United States",60540,18,S050,M049,Menemen,Other,Miscellaneous,5,213.90,3.28,210.62,Pending,Paid,Takeaway,Medium
+O246,2024-10-15,C7540,"Rachel Garcia",Rockford,IL,"United States",61101,9,S029,M026,Galaktoboureko,Other,Miscellaneous,3,303.36,9.98,293.38,Cancelled,Unpaid,Delivery,Low
+O247,2024-10-07,C8197,"Christy Vargas",Peoria,IL,"United States",61602,18,S078,M036,Loukoumades,Other,Miscellaneous,3,308.34,3.06,305.28,Pending,Paid,Dine-in,Medium
+O248,2024-10-23,C6130,"Ana Elliott",Rockford,IL,"United States",61101,15,S099,M039,"Iskender Kebab",Other,Miscellaneous,3,134.91,12.46,122.45,Completed,Paid,Dine-in,High
+O249,2024-10-13,C9213,"Cynthia Ware",Peoria,IL,"United States",61602,3,S052,M051,"Greek Salad",Greek,Salad,2,289.50,11.60,277.90,Pending,Unpaid,Dine-in,High
+O250,2024-10-25,C2157,"Shelley Johnson",Aurora,IL,"United States",60505,15,S009,M002,Dolmades,Greek,Appetizer,5,370.50,24.47,346.03,Completed,Unpaid,Dine-in,Medium
+O251,2024-09-30,C4955,"Alicia Gardner",Naperville,IL,"United States",60540,17,S055,M092,"Greek Salad",Greek,Salad,1,199.85,5.64,194.21,Completed,Paid,Takeaway,High
+O252,2024-10-22,C7631,"Michael Allen",Rockford,IL,"United States",61101,17,S042,M138,Calzone,Other,Miscellaneous,4,384.04,37.43,346.61,Completed,Unpaid,Delivery,High
+O253,2024-10-04,C711,"Cynthia Perez",Rockford,IL,"United States",61101,20,S012,M142,Ravioli,Italian,Pasta,1,86.36,2.15,84.21,Pending,Unpaid,Dine-in,Low
+O254,2024-10-06,C971,"Tara Ryan",Peoria,IL,"United States",61602,4,S081,M047,Gnocchi,Italian,Pasta,4,439.84,3.01,436.83,Completed,Paid,Takeaway,Medium
+O255,2024-09-30,C8439,"Leslie Thomas",Peoria,IL,"United States",61602,11,S085,M073,Spanakopita,Other,Miscellaneous,5,652.65,50.44,602.21,Pending,Unpaid,Delivery,Low
+O256,2024-10-06,C653,"Christopher Rasmussen",Rockford,IL,"United States",61101,4,S065,M046,Spanakopita,Other,Miscellaneous,2,67.64,1.24,66.40,Completed,Unpaid,Takeaway,Low
+O257,2024-10-21,C4013,"Christopher Reese",Naperville,IL,"United States",60540,2,S047,M115,Moussaka,Greek,Casserole,2,191.04,3.05,187.99,Cancelled,Paid,Delivery,Medium
+O258,2024-10-08,C3115,"Tiffany Wood",Aurora,IL,"United States",60505,4,S065,M006,"Caprese Salad",Other,Miscellaneous,3,223.29,8.84,214.45,Pending,Paid,Dine-in,Low
+O259,2024-10-13,C5572,"Kathleen Montgomery",Naperville,IL,"United States",60540,13,S047,M136,Ravioli,Italian,Pasta,2,196.54,5.88,190.66,Cancelled,Unpaid,Takeaway,High
+O260,2024-10-21,C1892,"Stacie Smith",Chicago,IL,"United States",60601,11,S009,M150,Souvlaki,Greek,Appetizer,4,739.32,9.31,730.01,Completed,Paid,Takeaway,Low
+O261,2024-10-21,C7436,"Tonya Nelson",Rockford,IL,"United States",61101,15,S037,M116,Baklava,Greek,Dessert,3,321.12,24.19,296.93,Pending,Paid,Delivery,High
+O262,2024-10-23,C2085,"Teresa Scott",Aurora,IL,"United States",60505,8,S081,M047,Gnocchi,Italian,Pasta,4,439.84,30.64,409.20,Completed,Unpaid,Takeaway,High
+O263,2024-10-03,C1829,"Brian Johnson",Chicago,IL,"United States",60601,17,S091,M108,"Kuzu Tandir",Other,Miscellaneous,2,189.06,1.47,187.59,Pending,Paid,Delivery,Low
+O264,2024-10-13,C9655,"Chad Frye",Peoria,IL,"United States",61602,5,S099,M053,Baklava,Greek,Dessert,3,445.08,34.03,411.05,Cancelled,Unpaid,Takeaway,Medium
+O265,2024-10-12,C6809,"Jared Cline",Rockford,IL,"United States",61101,9,S050,M012,Baklava,Greek,Dessert,1,196.02,4.00,192.02,Completed,Unpaid,Delivery,High
+O266,2024-10-11,C8072,"Jennifer Nelson",Peoria,IL,"United States",61602,17,S098,M065,Carbonara,Italian,Pasta,2,112.22,5.97,106.25,Cancelled,Paid,Takeaway,Low
+O267,2024-10-13,C8212,"Marcus Ortiz",Peoria,IL,"United States",61602,19,S056,M069,"Doner Kebab",Turkish,Kebab,1,140.92,7.87,133.05,Pending,Unpaid,Dine-in,High
+O268,2024-10-17,C1058,"Benjamin Leonard",Chicago,IL,"United States",60601,16,S076,M086,Carbonara,Italian,Pasta,3,428.64,13.75,414.89,Completed,Unpaid,Dine-in,Medium
+O269,2024-10-21,C7994,"Thomas Wong",Rockford,IL,"United States",61101,15,S024,M107,Dolmades,Greek,Appetizer,1,155.92,5.59,150.33,Cancelled,Paid,Dine-in,High
+O270,2024-10-14,C5815,"Heidi Johnson",Naperville,IL,"United States",60540,14,S064,M120,Borek,Turkish,Pastry,4,228.92,22.00,206.92,Completed,Paid,Takeaway,Low
+O271,2024-10-21,C5169,"Jacqueline Adams",Naperville,IL,"United States",60540,6,S056,M086,Carbonara,Italian,Pasta,3,428.64,26.12,402.52,Pending,Unpaid,Dine-in,High
+O272,2024-09-29,C8225,"Samantha Ibarra",Peoria,IL,"United States",61602,12,S083,M088,Spaghetti,Italian,Pasta,5,560.95,53.04,507.91,Completed,Unpaid,Takeaway,Medium
+O273,2024-10-23,C573,"Heather Gates",Naperville,IL,"United States",60540,16,S095,M032,Tiramisu,Other,Miscellaneous,4,740.80,12.06,728.74,Pending,Paid,Dine-in,High
+O274,2024-10-18,C2209,"Abigail Welch",Aurora,IL,"United States",60505,17,S016,M146,Dolmades,Greek,Appetizer,1,58.73,5.07,53.66,Cancelled,Paid,Takeaway,Low
+O275,2024-10-19,C1525,"Shane Kelly",Chicago,IL,"United States",60601,3,S069,M055,Galaktoboureko,Other,Miscellaneous,5,916.00,30.23,885.77,Cancelled,Paid,Delivery,Low
+O276,2024-10-21,C9545,"Amanda Wood",Peoria,IL,"United States",61602,1,S065,M003,Carbonara,Italian,Pasta,1,65.44,0.61,64.83,Completed,Paid,Dine-in,Medium
+O277,2024-10-15,C1142,"Michael Webb",Chicago,IL,"United States",60601,11,S040,M083,Menemen,Other,Miscellaneous,5,408.65,1.58,407.07,Completed,Unpaid,Takeaway,Low
+O278,2024-10-14,C6330,"Brandy Briggs",Rockford,IL,"United States",61101,1,S080,M109,Spaghetti,Italian,Pasta,3,42.54,0.20,42.34,Pending,Paid,Dine-in,Low
+O279,2024-10-04,C2505,"Brian Johnson",Aurora,IL,"United States",60505,8,S002,M034,Tzatziki,Greek,Appetizer,5,847.75,62.66,785.09,Completed,Unpaid,Takeaway,Medium
+O280,2024-10-05,C3714,"Christine Ruiz",Aurora,IL,"United States",60505,4,S024,M132,Fasolada,Other,Miscellaneous,1,133.01,2.54,130.47,Pending,Unpaid,Delivery,High
+O281,2024-10-23,C9886,"Alexandra Clayton",Peoria,IL,"United States",61602,20,S037,M115,Moussaka,Greek,Casserole,5,477.60,0.99,476.61,Pending,Paid,Takeaway,High
+O282,2024-09-28,C8063,"Jose Gaines",Peoria,IL,"United States",61602,18,S040,M003,Carbonara,Italian,Pasta,5,327.20,14.22,312.98,Pending,Paid,Takeaway,Medium
+O283,2024-09-28,C2352,"Kathryn Walker",Aurora,IL,"United States",60505,1,S061,M143,Tzatziki,Greek,Appetizer,1,151.49,8.75,142.74,Cancelled,Paid,Takeaway,Low
+O284,2024-09-27,C4401,"Regina Johnson",Naperville,IL,"United States",60540,7,S100,M073,Spanakopita,Other,Miscellaneous,2,261.06,17.79,243.27,Pending,Unpaid,Takeaway,High
+O285,2024-10-22,C6726,"Nathan George",Rockford,IL,"United States",61101,12,S075,M021,Ravioli,Italian,Pasta,1,91.70,1.81,89.89,Cancelled,Unpaid,Delivery,Low
+O286,2024-10-18,C292,"Daniel Campbell",Aurora,IL,"United States",60505,1,S004,M135,Calzone,Other,Miscellaneous,5,718.90,68.58,650.32,Cancelled,Paid,Delivery,Low
+O287,2024-10-06,C205,"Mary Larson",Aurora,IL,"United States",60505,1,S099,M049,Menemen,Other,Miscellaneous,3,128.34,8.64,119.70,Completed,Paid,Delivery,High
+O288,2024-10-04,C9594,"Kathleen Wallace",Peoria,IL,"United States",61602,20,S057,M038,Spaghetti,Italian,Pasta,5,597.90,10.98,586.92,Completed,Paid,Dine-in,Low
+O289,2024-10-11,C9076,"Gordon Henderson",Peoria,IL,"United States",61602,10,S043,M063,Spanakopita,Other,Miscellaneous,2,89.18,0.42,88.76,Cancelled,Paid,Takeaway,Medium
+O290,2024-10-01,C6373,"Olivia Klein",Rockford,IL,"United States",61101,13,S018,M007,"Adana Kebab",Turkish,Kebab,3,279.57,14.80,264.77,Pending,Paid,Dine-in,Medium
+O291,2024-09-27,C1723,"Mitchell Jordan",Chicago,IL,"United States",60601,4,S097,M090,Souvlaki,Greek,Appetizer,5,836.00,68.79,767.21,Cancelled,Unpaid,Delivery,Medium
+O292,2024-09-28,C8384,"Tony Diaz",Peoria,IL,"United States",61602,17,S058,M016,Fasolada,Other,Miscellaneous,4,601.00,20.48,580.52,Pending,Paid,Delivery,High
+O293,2024-10-22,C063,"Stephen Martinez",Chicago,IL,"United States",60601,2,S090,M085,"Greek Salad",Greek,Salad,2,318.42,5.24,313.18,Pending,Unpaid,Dine-in,High
+O294,2024-10-23,C4886,"Kathy Poole",Naperville,IL,"United States",60540,13,S080,M129,Borek,Turkish,Pastry,3,168.63,9.88,158.75,Pending,Unpaid,Takeaway,Medium
+O295,2024-09-30,C6314,"Kimberly Brooks",Rockford,IL,"United States",61101,12,S065,M147,Kofte,Turkish,Pastry,2,43.54,4.04,39.50,Cancelled,Unpaid,Dine-in,Low
+O296,2024-10-07,C6234,"Evan Leon",Rockford,IL,"United States",61101,5,S095,M121,Kofte,Turkish,Pastry,5,89.25,5.30,83.95,Pending,Unpaid,Takeaway,Low
+O297,2024-09-26,C4654,"Gabriel Martin",Naperville,IL,"United States",60540,1,S081,M126,Gnocchi,Italian,Pasta,3,106.29,6.24,100.05,Completed,Paid,Dine-in,Medium
+O298,2024-10-08,C6917,"Sharon Jackson",Rockford,IL,"United States",61101,19,S024,M108,"Kuzu Tandir",Other,Miscellaneous,5,472.65,10.01,462.64,Completed,Unpaid,Dine-in,Medium
+O299,2024-10-08,C8743,"Patricia Davis",Peoria,IL,"United States",61602,1,S036,M092,"Greek Salad",Greek,Salad,2,399.70,30.22,369.48,Completed,Unpaid,Takeaway,Medium
+O300,2024-10-17,C1043,"Allison Mayo",Chicago,IL,"United States",60601,7,S037,M028,Tzatziki,Greek,Appetizer,4,528.60,40.30,488.30,Completed,Unpaid,Delivery,Low
+O301,2024-10-11,C2883,"Martha Carey",Aurora,IL,"United States",60505,5,S088,M001,Lasagna,Italian,Pasta,5,692.70,3.10,689.60,Pending,Paid,Takeaway,High
+O302,2024-10-16,C5279,"Megan Lyons",Naperville,IL,"United States",60540,14,S017,M087,Risotto,Other,Miscellaneous,3,62.34,2.58,59.76,Cancelled,Paid,Takeaway,High
+O303,2024-10-11,C6778,"Angela Long",Rockford,IL,"United States",61101,6,S057,M110,Loukoumades,Other,Miscellaneous,1,192.71,14.50,178.21,Pending,Unpaid,Delivery,High
+O304,2024-10-11,C4711,"Cheryl Williams",Naperville,IL,"United States",60540,9,S075,M046,Spanakopita,Other,Miscellaneous,1,33.82,2.33,31.49,Pending,Unpaid,Dine-in,Medium
+O305,2024-10-19,C4966,"Brent Delgado",Naperville,IL,"United States",60540,15,S058,M007,"Adana Kebab",Turkish,Kebab,1,93.19,5.51,87.68,Completed,Unpaid,Delivery,Low
+O306,2024-10-06,C7849,"Amanda Peterson",Rockford,IL,"United States",61101,7,S077,M090,Souvlaki,Greek,Appetizer,1,167.20,5.31,161.89,Cancelled,Paid,Delivery,Medium
+O307,2024-09-27,C5730,"James Hart",Naperville,IL,"United States",60540,11,S072,M004,Pide,Turkish,Flatbread,2,221.94,7.98,213.96,Pending,Unpaid,Dine-in,High
+O308,2024-10-09,C3439,"Makayla Rasmussen",Aurora,IL,"United States",60505,4,S065,M102,Tzatziki,Greek,Appetizer,4,167.16,14.84,152.32,Completed,Unpaid,Dine-in,Low
+O309,2024-10-24,C5771,"David Roberts",Naperville,IL,"United States",60540,18,S060,M124,Galaktoboureko,Other,Miscellaneous,3,266.91,20.80,246.11,Cancelled,Unpaid,Dine-in,Medium
+O310,2024-10-01,C7793,"Zachary Taylor",Rockford,IL,"United States",61101,5,S029,M044,Gnocchi,Italian,Pasta,4,273.96,12.24,261.72,Cancelled,Unpaid,Dine-in,High
+O311,2024-10-24,C2797,"Nicholas Williams",Aurora,IL,"United States",60505,1,S076,M039,"Iskender Kebab",Other,Miscellaneous,3,134.91,9.41,125.50,Completed,Unpaid,Dine-in,Low
+O312,2024-09-29,C703,"Johnathan Golden",Rockford,IL,"United States",61101,8,S078,M052,Lasagna,Italian,Pasta,3,498.75,30.84,467.91,Pending,Paid,Dine-in,High
+O313,2024-10-23,C4231,"Karen Rios",Naperville,IL,"United States",60540,7,S099,M012,Baklava,Greek,Dessert,2,392.04,31.20,360.84,Completed,Unpaid,Delivery,Low
+O314,2024-10-20,C8178,"Chad Duncan",Peoria,IL,"United States",61602,4,S017,M058,"Greek Salad",Greek,Salad,4,683.48,13.78,669.70,Cancelled,Paid,Dine-in,Low
+O315,2024-09-29,C5857,"Benjamin Mcbride",Naperville,IL,"United States",60540,14,S062,M012,Baklava,Greek,Dessert,2,392.04,22.38,369.66,Cancelled,Paid,Delivery,Medium
+O316,2024-10-06,C9163,"Frank Murphy",Peoria,IL,"United States",61602,12,S001,M029,Pide,Turkish,Flatbread,2,94.32,4.19,90.13,Completed,Unpaid,Dine-in,High
+O317,2024-10-18,C8346,"Nicole Lloyd",Peoria,IL,"United States",61602,5,S023,M121,Kofte,Turkish,Pastry,2,35.70,0.64,35.06,Cancelled,Unpaid,Delivery,Medium
+O318,2024-10-02,C5765,"Andrew Howard",Naperville,IL,"United States",60540,8,S037,M121,Kofte,Turkish,Pastry,2,35.70,2.76,32.94,Pending,Paid,Dine-in,Low
+O319,2024-10-08,C1728,"Robert Garcia",Chicago,IL,"United States",60601,2,S048,M150,Souvlaki,Greek,Appetizer,3,554.49,40.43,514.06,Completed,Unpaid,Dine-in,Medium
+O320,2024-10-16,C7989,"Ashley Palmer",Rockford,IL,"United States",61101,15,S052,M092,"Greek Salad",Greek,Salad,3,599.55,53.83,545.72,Pending,Unpaid,Takeaway,High
+O321,2024-10-10,C5548,"Sue Richards",Naperville,IL,"United States",60540,11,S026,M035,"Pizza Margherita",Italian,Pasta,3,402.78,13.59,389.19,Completed,Unpaid,Takeaway,High
+O322,2024-10-12,C2881,"Harold Hayes",Aurora,IL,"United States",60505,16,S053,M015,"Shish Kebab",Turkish,Kebab,4,552.12,54.04,498.08,Pending,Paid,Takeaway,Low
+O323,2024-10-08,C8022,"Michael Davis",Peoria,IL,"United States",61602,10,S042,M095,"Caprese Salad",Other,Miscellaneous,1,36.96,1.52,35.44,Cancelled,Paid,Delivery,Medium
+O324,2024-10-22,C8191,"Lindsay Ortiz",Peoria,IL,"United States",61602,18,S056,M049,Menemen,Other,Miscellaneous,3,128.34,2.98,125.36,Pending,Unpaid,Delivery,High
+O325,2024-10-12,C8783,"Caleb Padilla",Peoria,IL,"United States",61602,6,S040,M097,Menemen,Other,Miscellaneous,5,685.20,65.83,619.37,Completed,Unpaid,Dine-in,Low
+O326,2024-09-29,C2865,"Natasha Munoz",Aurora,IL,"United States",60505,5,S078,M002,Dolmades,Greek,Appetizer,5,370.50,31.65,338.85,Pending,Unpaid,Dine-in,High
+O327,2024-09-26,C5074,"Samuel Ramirez",Naperville,IL,"United States",60540,17,S056,M013,Loukoumades,Other,Miscellaneous,3,287.55,28.35,259.20,Cancelled,Paid,Delivery,High
+O328,2024-10-21,C3209,"Jose Russell",Aurora,IL,"United States",60505,10,S046,M106,"Imam Bayildi",Other,Miscellaneous,2,314.40,14.31,300.09,Pending,Paid,Delivery,Low
+O329,2024-09-30,C382,"Joseph Cobb",Aurora,IL,"United States",60505,2,S091,M114,"Shish Kebab",Turkish,Kebab,2,339.50,17.04,322.46,Cancelled,Unpaid,Takeaway,Medium
+O330,2024-10-07,C3459,"Lori Morris",Aurora,IL,"United States",60505,3,S013,M023,"Adana Kebab",Turkish,Kebab,2,331.54,19.92,311.62,Pending,Unpaid,Delivery,Low
+O331,2024-10-04,C6160,"Martha Horne",Rockford,IL,"United States",61101,13,S097,M119,"Doner Kebab",Turkish,Kebab,4,131.56,2.03,129.53,Completed,Unpaid,Takeaway,Low
+O332,2024-10-15,C172,"Loretta Parker",Chicago,IL,"United States",60601,19,S039,M145,Baklava,Greek,Dessert,3,175.14,16.87,158.27,Pending,Unpaid,Delivery,High
+O333,2024-10-16,C7217,"James Thompson",Rockford,IL,"United States",61101,7,S098,M015,"Shish Kebab",Turkish,Kebab,5,690.15,61.44,628.71,Pending,Paid,Dine-in,Medium
+O334,2024-10-16,C8859,"Amy Johnson",Peoria,IL,"United States",61602,10,S084,M036,Loukoumades,Other,Miscellaneous,1,102.78,0.38,102.40,Pending,Unpaid,Dine-in,High
+O335,2024-10-20,C3830,"Jonathan Rodriguez",Aurora,IL,"United States",60505,20,S054,M010,Ravioli,Italian,Pasta,3,50.04,0.90,49.14,Pending,Unpaid,Dine-in,High
+O336,2024-10-24,C1781,"Ashley Tate",Chicago,IL,"United States",60601,15,S059,M054,Risotto,Other,Miscellaneous,4,684.88,62.91,621.97,Cancelled,Unpaid,Delivery,Low
+O337,2024-10-20,C4856,"Jason Richardson",Naperville,IL,"United States",60540,1,S039,M001,Lasagna,Italian,Pasta,5,692.70,57.88,634.82,Pending,Paid,Delivery,High
+O338,2024-10-14,C1307,"Catherine Foster",Chicago,IL,"United States",60601,12,S047,M131,Pide,Turkish,Flatbread,3,306.93,17.99,288.94,Pending,Paid,Dine-in,High
+O339,2024-10-19,C1225,"Anthony Ortiz",Chicago,IL,"United States",60601,19,S094,M146,Dolmades,Greek,Appetizer,3,176.19,1.18,175.01,Pending,Unpaid,Takeaway,High
+O340,2024-10-15,C2546,"Anne Taylor",Aurora,IL,"United States",60505,10,S007,M064,Lahmacun,Turkish,Pastry,4,657.84,20.03,637.81,Pending,Paid,Delivery,Low
+O341,2024-10-03,C2351,"Elijah Brown",Aurora,IL,"United States",60505,13,S026,M062,Moussaka,Greek,Casserole,2,80.42,6.87,73.55,Cancelled,Paid,Delivery,High
+O342,2024-10-13,C3438,"Angela Singh",Aurora,IL,"United States",60505,7,S033,M073,Spanakopita,Other,Miscellaneous,1,130.53,0.53,130.00,Cancelled,Paid,Delivery,Medium
+O343,2024-10-08,C3156,"April Taylor",Aurora,IL,"United States",60505,1,S011,M147,Kofte,Turkish,Pastry,3,65.31,0.97,64.34,Completed,Paid,Delivery,Low
+O344,2024-10-07,C5271,"Patrick Pena",Naperville,IL,"United States",60540,5,S021,M017,Ravioli,Italian,Pasta,5,267.30,14.65,252.65,Cancelled,Paid,Takeaway,Low
+O345,2024-10-06,C5868,"Paige Jones",Naperville,IL,"United States",60540,12,S063,M018,Pastitsio,Other,Miscellaneous,2,341.84,13.93,327.91,Cancelled,Unpaid,Delivery,Low
+O346,2024-10-10,C7217,"James Thompson",Rockford,IL,"United States",61101,13,S026,M085,"Greek Salad",Greek,Salad,3,477.63,2.98,474.65,Pending,Unpaid,Dine-in,Low
+O347,2024-10-24,C2624,"Mary Warren",Aurora,IL,"United States",60505,6,S060,M025,Risotto,Other,Miscellaneous,1,86.17,5.53,80.64,Cancelled,Unpaid,Dine-in,Medium
+O348,2024-10-07,C9825,"Sean Rodriguez",Peoria,IL,"United States",61602,4,S094,M138,Calzone,Other,Miscellaneous,2,192.02,8.00,184.02,Cancelled,Unpaid,Delivery,Medium
+O349,2024-10-15,C1810,"Erica Sampson",Chicago,IL,"United States",60601,4,S086,M083,Menemen,Other,Miscellaneous,5,408.65,30.76,377.89,Cancelled,Unpaid,Dine-in,High
+O350,2024-10-01,C8348,"Emma Peterson",Peoria,IL,"United States",61602,1,S065,M113,"Fettuccine Alfredo",Italian,Pasta,2,213.70,15.45,198.25,Cancelled,Unpaid,Dine-in,High
+O351,2024-10-04,C5797,"Kurt Arnold",Naperville,IL,"United States",60540,18,S002,M065,Carbonara,Italian,Pasta,1,56.11,4.01,52.10,Completed,Unpaid,Takeaway,Medium
+O352,2024-10-17,C7378,"Brittany Medina",Rockford,IL,"United States",61101,5,S083,M021,Ravioli,Italian,Pasta,5,458.50,45.14,413.36,Cancelled,Unpaid,Takeaway,Low
+O353,2024-09-26,C5398,"Janice Quinn",Naperville,IL,"United States",60540,19,S077,M040,Lasagna,Italian,Pasta,3,200.49,9.81,190.68,Pending,Paid,Delivery,Low
+O354,2024-10-07,C305,"Natalie Stevens",Aurora,IL,"United States",60505,13,S092,M082,Borek,Turkish,Pastry,3,466.02,26.58,439.44,Completed,Unpaid,Dine-in,High
+O355,2024-10-04,C3734,"Robert Perez",Aurora,IL,"United States",60505,14,S055,M015,"Shish Kebab",Turkish,Kebab,4,552.12,2.39,549.73,Cancelled,Paid,Takeaway,Medium
+O356,2024-10-12,C9163,"Frank Murphy",Peoria,IL,"United States",61602,16,S007,M139,Lasagna,Italian,Pasta,2,398.20,7.90,390.30,Completed,Unpaid,Takeaway,Medium
+O357,2024-10-04,C9897,"Christopher Cruz",Peoria,IL,"United States",61602,15,S005,M038,Spaghetti,Italian,Pasta,5,597.90,0.63,597.27,Cancelled,Unpaid,Takeaway,High
+O358,2024-10-05,C9822,"Nancy Brown",Peoria,IL,"United States",61602,20,S074,M073,Spanakopita,Other,Miscellaneous,2,261.06,12.37,248.69,Cancelled,Unpaid,Dine-in,Low
+O359,2024-10-16,C7624,"Helen Peterson",Rockford,IL,"United States",61101,14,S062,M130,Lasagna,Italian,Pasta,1,196.52,16.92,179.60,Completed,Paid,Delivery,Low
+O360,2024-10-04,C9021,"Gary Johnson",Peoria,IL,"United States",61602,19,S039,M061,Moussaka,Greek,Casserole,3,445.62,14.78,430.84,Pending,Paid,Dine-in,High
+O361,2024-09-29,C6538,"Jennifer Freeman",Rockford,IL,"United States",61101,18,S064,M020,Souvlaki,Greek,Appetizer,5,87.30,0.73,86.57,Pending,Paid,Delivery,High
+O362,2024-10-03,C8135,"Zachary Jones",Peoria,IL,"United States",61602,10,S080,M045,Lasagna,Italian,Pasta,5,224.20,10.57,213.63,Pending,Unpaid,Dine-in,Low
+O363,2024-09-30,C1166,"William Brown",Chicago,IL,"United States",60601,12,S061,M138,Calzone,Other,Miscellaneous,4,384.04,16.05,367.99,Cancelled,Unpaid,Delivery,Medium
+O364,2024-10-11,C5406,"Ricardo Johnson",Naperville,IL,"United States",60540,9,S022,M043,Moussaka,Greek,Casserole,3,121.77,3.47,118.30,Pending,Unpaid,Dine-in,High
+O365,2024-10-08,C1602,"Zachary Ferguson",Chicago,IL,"United States",60601,12,S062,M026,Galaktoboureko,Other,Miscellaneous,5,505.60,17.08,488.52,Pending,Unpaid,Takeaway,Medium
+O366,2024-10-09,C656,"Jennifer Cordova",Rockford,IL,"United States",61101,5,S090,M041,Moussaka,Greek,Casserole,1,165.70,14.12,151.58,Cancelled,Unpaid,Takeaway,Low
+O367,2024-10-22,C3115,"Tiffany Wood",Aurora,IL,"United States",60505,20,S031,M067,Loukoumades,Other,Miscellaneous,4,600.20,6.48,593.72,Cancelled,Paid,Takeaway,High
+O368,2024-10-01,C1765,"Catherine Brown",Chicago,IL,"United States",60601,4,S099,M023,"Adana Kebab",Turkish,Kebab,1,165.77,6.51,159.26,Cancelled,Unpaid,Takeaway,High
+O369,2024-10-18,C5905,"Mark Lambert",Naperville,IL,"United States",60540,15,S057,M041,Moussaka,Greek,Casserole,1,165.70,4.36,161.34,Cancelled,Paid,Dine-in,High
+O370,2024-10-08,C2729,"Matthew Christensen",Aurora,IL,"United States",60505,3,S062,M070,"Doner Kebab",Turkish,Kebab,5,914.05,46.28,867.77,Pending,Unpaid,Delivery,Medium
+O371,2024-10-01,C9280,"Francis Long",Peoria,IL,"United States",61602,13,S027,M069,"Doner Kebab",Turkish,Kebab,3,422.76,17.14,405.62,Pending,Unpaid,Delivery,Low
+O372,2024-10-11,C2287,"Kendra Myers",Aurora,IL,"United States",60505,5,S020,M038,Spaghetti,Italian,Pasta,1,119.58,5.12,114.46,Completed,Unpaid,Dine-in,High
+O373,2024-09-27,C7888,"Amy Thomas",Rockford,IL,"United States",61101,13,S071,M120,Borek,Turkish,Pastry,2,114.46,9.05,105.41,Cancelled,Unpaid,Takeaway,Low
+O374,2024-10-08,C1698,"Mark Parks",Chicago,IL,"United States",60601,14,S086,M047,Gnocchi,Italian,Pasta,2,219.92,13.10,206.82,Cancelled,Unpaid,Takeaway,High
+O375,2024-10-18,C8618,"Virginia Rodriguez",Peoria,IL,"United States",61602,7,S014,M138,Calzone,Other,Miscellaneous,5,480.05,47.96,432.09,Completed,Paid,Dine-in,Medium
+O376,2024-10-04,C5147,"Jenna Scott",Naperville,IL,"United States",60540,7,S034,M086,Carbonara,Italian,Pasta,2,285.76,10.41,275.35,Completed,Unpaid,Delivery,High
+O377,2024-10-23,C4050,"Jack Schwartz",Naperville,IL,"United States",60540,16,S038,M008,Risotto,Other,Miscellaneous,3,502.92,19.59,483.33,Completed,Unpaid,Delivery,High
+O378,2024-09-27,C1048,"Kyle Zuniga",Chicago,IL,"United States",60601,15,S035,M092,"Greek Salad",Greek,Salad,5,999.25,87.35,911.90,Completed,Unpaid,Takeaway,Medium
+O379,2024-10-13,C993,"Bryan Ward",Peoria,IL,"United States",61602,14,S077,M007,"Adana Kebab",Turkish,Kebab,5,465.95,4.24,461.71,Pending,Unpaid,Delivery,Low
+O380,2024-10-04,C6228,"Randall Mcmahon",Rockford,IL,"United States",61101,13,S036,M083,Menemen,Other,Miscellaneous,4,326.92,13.90,313.02,Cancelled,Unpaid,Dine-in,Medium
+O381,2024-10-25,C4663,"Kimberly Thomas",Naperville,IL,"United States",60540,20,S014,M117,"Adana Kebab",Turkish,Kebab,3,513.54,18.96,494.58,Completed,Unpaid,Dine-in,Low
+O382,2024-10-13,C6720,"Nathan Wells",Rockford,IL,"United States",61101,12,S086,M016,Fasolada,Other,Miscellaneous,5,751.25,63.42,687.83,Completed,Paid,Takeaway,Medium
+O383,2024-10-19,C8655,"Louis Hubbard",Peoria,IL,"United States",61602,8,S027,M086,Carbonara,Italian,Pasta,3,428.64,40.82,387.82,Pending,Paid,Takeaway,High
+O384,2024-10-11,C266,"Dustin Gallegos",Aurora,IL,"United States",60505,12,S020,M005,Moussaka,Greek,Casserole,3,564.06,16.58,547.48,Completed,Unpaid,Takeaway,High
+O385,2024-10-16,C2054,"Matthew Steele",Aurora,IL,"United States",60505,3,S039,M149,Souvlaki,Greek,Appetizer,2,369.48,7.36,362.12,Completed,Paid,Delivery,High
+O386,2024-10-10,C5688,"Joseph Flores",Naperville,IL,"United States",60540,8,S017,M112,"Fettuccine Alfredo",Italian,Pasta,4,411.76,24.40,387.36,Pending,Unpaid,Dine-in,Low
+O387,2024-10-10,C181,"Angela Buckley",Chicago,IL,"United States",60601,7,S055,M072,"Caprese Salad",Other,Miscellaneous,3,439.86,3.31,436.55,Cancelled,Unpaid,Delivery,High
+O388,2024-09-30,C7063,"Christy Tucker",Rockford,IL,"United States",61101,13,S068,M030,Fasolada,Other,Miscellaneous,4,357.84,4.00,353.84,Completed,Paid,Delivery,Low
+O389,2024-10-17,C9087,"Johnny Castillo",Peoria,IL,"United States",61602,9,S097,M015,"Shish Kebab",Turkish,Kebab,3,414.09,7.92,406.17,Pending,Paid,Takeaway,Medium
+O390,2024-10-01,C2648,"Alyssa Whitehead",Aurora,IL,"United States",60505,8,S006,M049,Menemen,Other,Miscellaneous,5,213.90,2.00,211.90,Pending,Unpaid,Delivery,Low
+O391,2024-10-17,C2827,"Derrick Castro",Aurora,IL,"United States",60505,1,S046,M104,Fasolada,Other,Miscellaneous,3,318.12,17.34,300.78,Pending,Paid,Dine-in,High
+O392,2024-10-04,C6754,"Kathryn Rodriguez",Rockford,IL,"United States",61101,9,S024,M060,Baklava,Greek,Dessert,4,228.48,11.47,217.01,Cancelled,Unpaid,Delivery,Medium
+O393,2024-10-19,C5918,"Stephen Gibson",Naperville,IL,"United States",60540,9,S010,M004,Pide,Turkish,Flatbread,4,443.88,32.13,411.75,Completed,Unpaid,Delivery,Medium
+O394,2024-10-07,C5652,"William Gomez",Naperville,IL,"United States",60540,10,S028,M139,Lasagna,Italian,Pasta,4,796.40,75.64,720.76,Pending,Paid,Takeaway,Medium
+O395,2024-10-02,C9847,"Jeffrey Jefferson",Peoria,IL,"United States",61602,8,S071,M020,Souvlaki,Greek,Appetizer,3,52.38,0.71,51.67,Cancelled,Unpaid,Dine-in,High
+O396,2024-10-06,C6183,"Michael Wells",Rockford,IL,"United States",61101,16,S036,M125,"Kuzu Tandir",Other,Miscellaneous,2,368.00,3.40,364.60,Pending,Unpaid,Takeaway,Medium
+O397,2024-10-11,C3390,"Renee Ramos",Aurora,IL,"United States",60505,19,S057,M061,Moussaka,Greek,Casserole,1,148.54,14.40,134.14,Pending,Paid,Delivery,High
+O398,2024-10-14,C2188,"Christopher Ramirez",Aurora,IL,"United States",60505,11,S079,M093,Tzatziki,Greek,Appetizer,4,88.52,2.38,86.14,Cancelled,Unpaid,Delivery,High
+O399,2024-10-23,C4735,"John Simpson",Naperville,IL,"United States",60540,18,S019,M067,Loukoumades,Other,Miscellaneous,4,600.20,39.53,560.67,Pending,Unpaid,Dine-in,Medium
+O400,2024-10-10,C9874,"Amy Wood",Peoria,IL,"United States",61602,19,S063,M019,Spanakopita,Other,Miscellaneous,3,466.71,45.36,421.35,Cancelled,Unpaid,Dine-in,Medium
+O401,2024-09-30,C5969,"Samuel Wilson",Naperville,IL,"United States",60540,1,S064,M110,Loukoumades,Other,Miscellaneous,1,192.71,16.23,176.48,Completed,Paid,Takeaway,Medium
+O402,2024-10-16,C2025,"Charles Cooper",Aurora,IL,"United States",60505,18,S081,M146,Dolmades,Greek,Appetizer,2,117.46,0.12,117.34,Completed,Paid,Takeaway,Low
+O403,2024-10-16,C9311,"Becky Pratt",Peoria,IL,"United States",61602,14,S017,M006,"Caprese Salad",Other,Miscellaneous,2,148.86,12.20,136.66,Cancelled,Paid,Takeaway,Low
+O404,2024-09-27,C9392,"Taylor Wallace",Peoria,IL,"United States",61602,16,S046,M145,Baklava,Greek,Dessert,4,233.52,8.86,224.66,Cancelled,Paid,Delivery,High
+O405,2024-10-14,C4804,"Jessica Wells",Naperville,IL,"United States",60540,2,S057,M115,Moussaka,Greek,Casserole,5,477.60,5.05,472.55,Cancelled,Paid,Delivery,Low
+O406,2024-09-30,C416,"Robert Matthews",Naperville,IL,"United States",60540,15,S076,M115,Moussaka,Greek,Casserole,1,95.52,2.10,93.42,Completed,Paid,Dine-in,High
+O407,2024-10-01,C6869,"Cassandra Dudley",Rockford,IL,"United States",61101,1,S021,M039,"Iskender Kebab",Other,Miscellaneous,4,179.88,7.60,172.28,Pending,Unpaid,Dine-in,Low
+O408,2024-10-20,C2899,"John Robertson",Aurora,IL,"United States",60505,9,S063,M131,Pide,Turkish,Flatbread,4,409.24,8.43,400.81,Pending,Unpaid,Dine-in,Low
+O409,2024-09-29,C3271,"Gary Phillips",Aurora,IL,"United States",60505,7,S086,M125,"Kuzu Tandir",Other,Miscellaneous,5,920.00,59.50,860.50,Completed,Paid,Dine-in,High
+O410,2024-10-24,C3313,"Jimmy Hall",Aurora,IL,"United States",60505,13,S014,M044,Gnocchi,Italian,Pasta,1,68.49,3.99,64.50,Cancelled,Paid,Takeaway,Medium
+O411,2024-10-06,C8942,"Melissa Hughes",Peoria,IL,"United States",61602,8,S003,M019,Spanakopita,Other,Miscellaneous,2,311.14,14.86,296.28,Pending,Paid,Takeaway,Medium
+O412,2024-09-26,C2051,"Stephen Horn",Aurora,IL,"United States",60505,13,S050,M034,Tzatziki,Greek,Appetizer,4,678.20,55.40,622.80,Cancelled,Paid,Dine-in,Medium
+O413,2024-10-01,C7782,"Glenn Martin",Rockford,IL,"United States",61101,5,S097,M017,Ravioli,Italian,Pasta,1,53.46,4.79,48.67,Cancelled,Paid,Delivery,Medium
+O414,2024-10-14,C5070,"Megan Mccann",Naperville,IL,"United States",60540,5,S022,M108,"Kuzu Tandir",Other,Miscellaneous,3,283.59,7.43,276.16,Pending,Paid,Takeaway,Low
+O415,2024-10-22,C2064,"Joseph Edwards",Aurora,IL,"United States",60505,2,S024,M136,Ravioli,Italian,Pasta,1,98.27,7.31,90.96,Pending,Paid,Delivery,High
+O416,2024-10-22,C3709,"Brian Tate",Aurora,IL,"United States",60505,8,S087,M076,"Greek Salad",Greek,Salad,3,152.37,14.15,138.22,Pending,Unpaid,Dine-in,Low
+O417,2024-10-14,C8415,"David Willis",Peoria,IL,"United States",61602,14,S094,M104,Fasolada,Other,Miscellaneous,4,424.16,15.23,408.93,Completed,Unpaid,Delivery,Low
+O418,2024-09-30,C8021,"Heather Montoya",Peoria,IL,"United States",61602,7,S097,M002,Dolmades,Greek,Appetizer,5,370.50,1.88,368.62,Pending,Paid,Dine-in,Low
+O419,2024-10-06,C2012,"Amanda Cummings",Aurora,IL,"United States",60505,8,S010,M001,Lasagna,Italian,Pasta,5,692.70,24.93,667.77,Completed,Unpaid,Takeaway,Medium
+O420,2024-10-21,C040,"Joshua Woods",Chicago,IL,"United States",60601,9,S055,M050,Tiramisu,Other,Miscellaneous,3,349.83,5.28,344.55,Cancelled,Paid,Delivery,High
+O421,2024-10-14,C4091,"Dana Hall",Naperville,IL,"United States",60540,18,S023,M039,"Iskender Kebab",Other,Miscellaneous,1,44.97,3.54,41.43,Pending,Unpaid,Dine-in,Medium
+O422,2024-10-18,C2779,"Amy Lopez",Aurora,IL,"United States",60505,7,S083,M056,Pastitsio,Other,Miscellaneous,5,519.50,1.29,518.21,Cancelled,Paid,Delivery,Medium
+O423,2024-10-16,C4728,"Stanley Sullivan",Naperville,IL,"United States",60540,9,S097,M116,Baklava,Greek,Dessert,1,107.04,9.89,97.15,Cancelled,Unpaid,Takeaway,High
+O424,2024-09-28,C6128,"Jared Contreras",Rockford,IL,"United States",61101,10,S078,M142,Ravioli,Italian,Pasta,4,345.44,27.39,318.05,Pending,Unpaid,Dine-in,Medium
+O425,2024-10-08,C8788,"Sarah Gibbs",Peoria,IL,"United States",61602,3,S063,M077,"Fettuccine Alfredo",Italian,Pasta,1,125.42,1.06,124.36,Completed,Unpaid,Delivery,Medium
+O426,2024-10-15,C419,"Samantha Lyons",Naperville,IL,"United States",60540,4,S080,M005,Moussaka,Greek,Casserole,1,188.02,9.75,178.27,Completed,Paid,Dine-in,High
+O427,2024-10-24,C9772,"Christine Harris",Peoria,IL,"United States",61602,9,S088,M035,"Pizza Margherita",Italian,Pasta,5,671.30,49.28,622.02,Pending,Paid,Dine-in,Low
+O428,2024-10-08,C9208,"Laura Martinez",Peoria,IL,"United States",61602,16,S096,M007,"Adana Kebab",Turkish,Kebab,5,465.95,5.61,460.34,Cancelled,Paid,Dine-in,High
+O429,2024-10-21,C069,"Taylor Sloan",Chicago,IL,"United States",60601,14,S083,M025,Risotto,Other,Miscellaneous,3,258.51,8.04,250.47,Pending,Paid,Takeaway,High
+O430,2024-10-21,C2440,"Joshua Lawson",Aurora,IL,"United States",60505,10,S073,M014,Pide,Turkish,Flatbread,3,178.11,11.20,166.91,Pending,Unpaid,Takeaway,High
+O431,2024-09-26,C8804,"Christine Smith",Peoria,IL,"United States",61602,7,S026,M022,"Kuzu Tandir",Other,Miscellaneous,4,596.52,27.23,569.29,Cancelled,Paid,Takeaway,High
+O432,2024-10-05,C6645,"Julie Griffin",Rockford,IL,"United States",61101,5,S039,M072,"Caprese Salad",Other,Miscellaneous,3,439.86,22.14,417.72,Cancelled,Unpaid,Takeaway,Medium
+O433,2024-10-20,C6239,"Jennifer Taylor",Rockford,IL,"United States",61101,14,S076,M120,Borek,Turkish,Pastry,5,286.15,25.84,260.31,Pending,Unpaid,Delivery,High
+O434,2024-10-04,C7705,"Jeremiah Silva",Rockford,IL,"United States",61101,10,S095,M061,Moussaka,Greek,Casserole,5,742.70,3.27,739.43,Completed,Paid,Dine-in,Low
+O435,2024-10-25,C8331,"James Russell",Peoria,IL,"United States",61602,15,S086,M143,Tzatziki,Greek,Appetizer,5,757.45,14.72,742.73,Completed,Paid,Delivery,Low
+O436,2024-10-14,C7774,"Dustin Jensen",Rockford,IL,"United States",61101,2,S001,M067,Loukoumades,Other,Miscellaneous,4,600.20,24.18,576.02,Completed,Unpaid,Delivery,Medium
+O437,2024-10-21,C2610,"Michael Walker",Aurora,IL,"United States",60505,14,S098,M136,Ravioli,Italian,Pasta,2,196.54,5.73,190.81,Cancelled,Paid,Takeaway,High
+O438,2024-10-25,C9178,"David Quinn",Peoria,IL,"United States",61602,10,S021,M107,Dolmades,Greek,Appetizer,1,155.92,14.11,141.81,Completed,Paid,Dine-in,High
+O439,2024-10-12,C7815,"Brandon Barton",Rockford,IL,"United States",61101,6,S056,M109,Spaghetti,Italian,Pasta,3,42.54,1.97,40.57,Cancelled,Paid,Delivery,High
+O440,2024-10-02,C8375,"Darren Conner",Peoria,IL,"United States",61602,14,S083,M033,Pide,Turkish,Flatbread,5,329.25,23.01,306.24,Pending,Unpaid,Delivery,Low
+O441,2024-10-02,C9930,"Debra Hale",Peoria,IL,"United States",61602,13,S082,M127,Tiramisu,Other,Miscellaneous,2,277.68,16.25,261.43,Pending,Unpaid,Delivery,Low
+O442,2024-10-10,C1566,"Joseph Daniels",Chicago,IL,"United States",60601,18,S060,M029,Pide,Turkish,Flatbread,3,141.48,10.02,131.46,Cancelled,Paid,Takeaway,High
+O443,2024-10-22,C8377,"Richard Johnson",Peoria,IL,"United States",61602,16,S027,M017,Ravioli,Italian,Pasta,5,267.30,12.57,254.73,Cancelled,Unpaid,Delivery,Low
+O444,2024-09-27,C9066,"Stephen Clay",Peoria,IL,"United States",61602,4,S049,M100,Lasagna,Italian,Pasta,5,439.30,15.61,423.69,Cancelled,Paid,Takeaway,Medium
+O445,2024-09-30,C5155,"Caleb Baker",Naperville,IL,"United States",60540,4,S053,M058,"Greek Salad",Greek,Salad,5,854.35,5.49,848.86,Cancelled,Paid,Dine-in,Low
+O446,2024-09-29,C5684,"Katie Davis",Naperville,IL,"United States",60540,2,S066,M041,Moussaka,Greek,Casserole,3,497.10,11.30,485.80,Completed,Paid,Delivery,Low
+O447,2024-10-06,C440,"Rhonda Ramos",Naperville,IL,"United States",60540,14,S100,M082,Borek,Turkish,Pastry,5,776.70,28.07,748.63,Completed,Unpaid,Delivery,Medium
+O448,2024-09-29,C4460,"Jacob Hayes",Naperville,IL,"United States",60540,3,S080,M122,Gyro,Other,Miscellaneous,2,261.24,6.04,255.20,Cancelled,Unpaid,Dine-in,Low
+O449,2024-09-26,C025,"Alexander Cooper",Chicago,IL,"United States",60601,13,S065,M108,"Kuzu Tandir",Other,Miscellaneous,5,472.65,18.93,453.72,Completed,Paid,Takeaway,Low
+O450,2024-10-20,C3994,"Sean Robbins",Aurora,IL,"United States",60505,18,S024,M027,Lahmacun,Turkish,Pastry,1,30.57,0.15,30.42,Completed,Unpaid,Takeaway,High
+O451,2024-10-23,C7852,"Sandra Young",Rockford,IL,"United States",61101,8,S041,M102,Tzatziki,Greek,Appetizer,2,83.58,1.33,82.25,Completed,Paid,Delivery,Low
+O452,2024-09-26,C188,"Kathryn Robinson",Chicago,IL,"United States",60601,12,S072,M124,Galaktoboureko,Other,Miscellaneous,4,355.88,28.67,327.21,Completed,Paid,Delivery,Low
+O453,2024-09-26,C7734,"Randy Bond",Rockford,IL,"United States",61101,4,S051,M128,"Greek Salad",Greek,Salad,1,193.92,18.92,175.00,Cancelled,Paid,Dine-in,High
+O454,2024-10-22,C2410,"Eric Lopez",Aurora,IL,"United States",60505,17,S002,M018,Pastitsio,Other,Miscellaneous,1,170.92,4.48,166.44,Pending,Paid,Takeaway,High
+O455,2024-09-28,C1155,"Lisa Allen",Chicago,IL,"United States",60601,11,S100,M148,"Pizza Margherita",Italian,Pasta,2,122.42,11.33,111.09,Completed,Paid,Takeaway,Low
+O456,2024-10-10,C8464,"Patrick Luna",Peoria,IL,"United States",61602,16,S059,M019,Spanakopita,Other,Miscellaneous,1,155.57,1.11,154.46,Completed,Unpaid,Delivery,Medium
+O457,2024-10-11,C7058,"Thomas Sullivan",Rockford,IL,"United States",61101,4,S032,M011,"Imam Bayildi",Other,Miscellaneous,3,170.46,13.87,156.59,Cancelled,Unpaid,Delivery,High
+O458,2024-10-05,C2027,"Nancy Johnson",Aurora,IL,"United States",60505,12,S090,M062,Moussaka,Greek,Casserole,3,120.63,2.83,117.80,Cancelled,Unpaid,Dine-in,Low
+O459,2024-10-14,C943,"Shawn Morrison",Peoria,IL,"United States",61602,18,S018,M126,Gnocchi,Italian,Pasta,4,141.72,7.49,134.23,Pending,Paid,Delivery,Low
+O460,2024-10-11,C3929,"Jeremy Fisher",Aurora,IL,"United States",60505,20,S036,M082,Borek,Turkish,Pastry,2,310.68,27.18,283.50,Completed,Unpaid,Delivery,High
+O461,2024-10-16,C9340,"Julie Bush",Peoria,IL,"United States",61602,19,S096,M137,Lasagna,Italian,Pasta,3,494.79,25.97,468.82,Pending,Unpaid,Takeaway,Medium
+O462,2024-10-21,C9047,"Shannon Murray",Peoria,IL,"United States",61602,16,S037,M026,Galaktoboureko,Other,Miscellaneous,5,505.60,47.30,458.30,Completed,Paid,Delivery,Medium
+O463,2024-10-17,C2932,"Stephanie Rivera",Aurora,IL,"United States",60505,10,S001,M083,Menemen,Other,Miscellaneous,3,245.19,15.85,229.34,Completed,Paid,Delivery,High
+O464,2024-09-26,C5255,"Miguel Taylor",Naperville,IL,"United States",60540,11,S054,M015,"Shish Kebab",Turkish,Kebab,5,690.15,18.70,671.45,Completed,Unpaid,Delivery,High
+O465,2024-10-12,C1452,"Cassandra Little",Chicago,IL,"United States",60601,12,S074,M015,"Shish Kebab",Turkish,Kebab,4,552.12,23.91,528.21,Completed,Paid,Dine-in,Medium
+O466,2024-10-17,C9386,"Tammy Ortiz",Peoria,IL,"United States",61602,15,S039,M143,Tzatziki,Greek,Appetizer,4,605.96,25.55,580.41,Pending,Unpaid,Takeaway,Low
+O467,2024-10-02,C4359,"Beth King",Naperville,IL,"United States",60540,15,S063,M059,Dolmades,Greek,Appetizer,5,756.50,57.88,698.62,Completed,Paid,Dine-in,Medium
+O468,2024-10-16,C3409,"Erica House",Aurora,IL,"United States",60505,10,S084,M011,"Imam Bayildi",Other,Miscellaneous,2,113.64,8.95,104.69,Completed,Unpaid,Delivery,Low
+O469,2024-09-26,C6897,"Christopher Daniels",Rockford,IL,"United States",61101,9,S057,M058,"Greek Salad",Greek,Salad,3,512.61,50.55,462.06,Cancelled,Unpaid,Takeaway,Medium
+O470,2024-09-27,C7951,"Andrea Phelps",Rockford,IL,"United States",61101,4,S093,M104,Fasolada,Other,Miscellaneous,1,106.04,9.82,96.22,Cancelled,Paid,Dine-in,Low
+O471,2024-10-14,C6087,"Michael Hansen",Rockford,IL,"United States",61101,18,S033,M114,"Shish Kebab",Turkish,Kebab,2,339.50,7.25,332.25,Cancelled,Paid,Dine-in,Low
+O472,2024-10-08,C8002,"Michelle Christensen",Peoria,IL,"United States",61602,19,S074,M059,Dolmades,Greek,Appetizer,4,605.20,33.36,571.84,Pending,Unpaid,Delivery,High
+O473,2024-10-09,C8955,"Samantha Lam",Peoria,IL,"United States",61602,4,S053,M098,Kofte,Turkish,Pastry,1,12.78,0.20,12.58,Pending,Unpaid,Takeaway,Low
+O474,2024-10-24,C7711,"Andrew Perez",Rockford,IL,"United States",61101,13,S086,M135,Calzone,Other,Miscellaneous,4,575.12,15.86,559.26,Pending,Paid,Delivery,High
+O475,2024-10-22,C7010,"Elizabeth Lyons",Rockford,IL,"United States",61101,8,S060,M104,Fasolada,Other,Miscellaneous,2,212.08,7.34,204.74,Cancelled,Paid,Delivery,High
+O476,2024-10-16,C8991,"John Ortega",Peoria,IL,"United States",61602,10,S062,M012,Baklava,Greek,Dessert,4,784.08,51.46,732.62,Cancelled,Paid,Delivery,Medium
+O477,2024-10-14,C8040,"Andrew Clark",Peoria,IL,"United States",61602,17,S029,M008,Risotto,Other,Miscellaneous,4,670.56,44.51,626.05,Completed,Paid,Delivery,High
+O478,2024-10-10,C2414,"Bethany Brooks",Aurora,IL,"United States",60505,13,S068,M082,Borek,Turkish,Pastry,3,466.02,29.56,436.46,Cancelled,Unpaid,Delivery,High
+O479,2024-10-02,C5523,"Jacob Poole",Naperville,IL,"United States",60540,3,S096,M061,Moussaka,Greek,Casserole,3,445.62,27.37,418.25,Pending,Paid,Takeaway,High
+O480,2024-09-29,C4864,"Traci Wilson",Naperville,IL,"United States",60540,8,S033,M129,Borek,Turkish,Pastry,1,56.21,1.31,54.90,Completed,Unpaid,Takeaway,High
+O481,2024-10-20,C4067,"Frederick Wilson",Naperville,IL,"United States",60540,1,S031,M051,"Greek Salad",Greek,Salad,3,434.25,40.36,393.89,Cancelled,Unpaid,Delivery,Medium
+O482,2024-10-03,C4770,"David Martin",Naperville,IL,"United States",60540,3,S065,M006,"Caprese Salad",Other,Miscellaneous,5,372.15,9.80,362.35,Cancelled,Unpaid,Takeaway,Low
+O483,2024-10-06,C9911,"David Delgado",Peoria,IL,"United States",61602,4,S056,M068,Baklava,Greek,Dessert,5,353.55,17.56,335.99,Completed,Unpaid,Dine-in,Low
+O484,2024-10-02,C3658,"Cheryl Deleon",Aurora,IL,"United States",60505,9,S089,M134,Moussaka,Greek,Casserole,2,118.02,7.32,110.70,Pending,Unpaid,Delivery,High
+O485,2024-10-11,C762,"Eric Shaw",Rockford,IL,"United States",61101,19,S063,M061,Moussaka,Greek,Casserole,3,445.62,8.45,437.17,Completed,Unpaid,Dine-in,High
+O486,2024-10-03,C9810,"Jason Brock",Peoria,IL,"United States",61602,7,S081,M031,Pastitsio,Other,Miscellaneous,1,69.70,4.90,64.80,Completed,Paid,Takeaway,Medium
+O487,2024-09-30,C721,"Misty Murray",Rockford,IL,"United States",61101,4,S060,M007,"Adana Kebab",Turkish,Kebab,5,465.95,37.73,428.22,Pending,Paid,Takeaway,High
+O488,2024-10-02,C6598,"Adam Gomez",Rockford,IL,"United States",61101,12,S015,M090,Souvlaki,Greek,Appetizer,4,668.80,31.35,637.45,Cancelled,Unpaid,Delivery,High
+O489,2024-10-09,C4916,"Michael Brown",Naperville,IL,"United States",60540,4,S018,M056,Pastitsio,Other,Miscellaneous,1,103.90,10.15,93.75,Cancelled,Paid,Delivery,Medium
+O490,2024-10-24,C544,"Sarah Bell",Naperville,IL,"United States",60540,16,S096,M016,Fasolada,Other,Miscellaneous,5,751.25,46.26,704.99,Pending,Unpaid,Dine-in,Medium
+O491,2024-10-05,C3919,"Daniel Miller",Aurora,IL,"United States",60505,10,S074,M136,Ravioli,Italian,Pasta,2,196.54,10.47,186.07,Pending,Unpaid,Delivery,Medium
+O492,2024-10-06,C6466,"Gregory Jenkins",Rockford,IL,"United States",61101,6,S073,M131,Pide,Turkish,Flatbread,1,102.31,2.35,99.96,Cancelled,Paid,Delivery,Low
+O493,2024-09-28,C3388,"Sandra Sutton",Aurora,IL,"United States",60505,17,S034,M126,Gnocchi,Italian,Pasta,2,70.86,0.92,69.94,Completed,Paid,Delivery,Medium
+O494,2024-10-15,C2210,"Amy Harris",Aurora,IL,"United States",60505,17,S007,M049,Menemen,Other,Miscellaneous,3,128.34,8.12,120.22,Completed,Paid,Delivery,Low
+O495,2024-10-23,C8455,"Jared Ellis",Peoria,IL,"United States",61602,17,S088,M025,Risotto,Other,Miscellaneous,2,172.34,7.44,164.90,Completed,Unpaid,Takeaway,High
+O496,2024-10-22,C7320,"Shaun Quinn",Rockford,IL,"United States",61101,19,S095,M021,Ravioli,Italian,Pasta,4,366.80,31.79,335.01,Cancelled,Unpaid,Takeaway,Medium
+O497,2024-10-16,C8619,"Richard Lambert",Peoria,IL,"United States",61602,13,S022,M138,Calzone,Other,Miscellaneous,3,288.03,13.55,274.48,Pending,Unpaid,Dine-in,Low
+O498,2024-10-23,C3640,"Courtney Wise",Aurora,IL,"United States",60505,4,S045,M057,Souvlaki,Greek,Appetizer,3,86.91,1.90,85.01,Completed,Paid,Dine-in,High
+O499,2024-10-25,C9669,"Scott Barnett",Peoria,IL,"United States",61602,2,S015,M133,Lahmacun,Turkish,Pastry,5,722.40,25.58,696.82,Completed,Unpaid,Takeaway,Medium
+O500,2024-10-08,C4539,"Monica Lyons",Naperville,IL,"United States",60540,17,S015,M021,Ravioli,Italian,Pasta,3,275.10,3.80,271.30,Cancelled,Paid,Dine-in,Low
+O501,2024-10-11,C7455,"Alexa Edwards",Rockford,IL,"United States",61101,4,S100,M116,Baklava,Greek,Dessert,3,321.12,5.31,315.81,Cancelled,Unpaid,Dine-in,Low
+O502,2024-09-26,C8969,"Bethany Simmons",Peoria,IL,"United States",61602,20,S024,M094,"Kuzu Tandir",Other,Miscellaneous,3,443.43,3.34,440.09,Cancelled,Paid,Takeaway,Medium
+O503,2024-10-13,C3146,"Bonnie Romero",Aurora,IL,"United States",60505,16,S070,M123,"Adana Kebab",Turkish,Kebab,1,183.08,16.38,166.70,Completed,Paid,Takeaway,High
+O504,2024-10-10,C5118,"Jessica Moody",Naperville,IL,"United States",60540,8,S057,M122,Gyro,Other,Miscellaneous,4,522.48,12.87,509.61,Cancelled,Unpaid,Dine-in,High
+O505,2024-10-18,C5294,"Taylor Spencer",Naperville,IL,"United States",60540,3,S098,M072,"Caprese Salad",Other,Miscellaneous,1,146.62,11.38,135.24,Completed,Unpaid,Dine-in,Medium
+O506,2024-10-21,C9707,"Danny Underwood",Peoria,IL,"United States",61602,9,S055,M053,Baklava,Greek,Dessert,5,741.80,45.61,696.19,Completed,Paid,Delivery,Low
+O507,2024-10-03,C4862,"Thomas Vargas",Naperville,IL,"United States",60540,15,S093,M066,"Fettuccine Alfredo",Italian,Pasta,4,470.52,6.69,463.83,Pending,Paid,Dine-in,High
+O508,2024-10-10,C445,"Isabel Ross",Naperville,IL,"United States",60540,17,S027,M080,Lahmacun,Turkish,Pastry,4,599.40,17.00,582.40,Completed,Unpaid,Delivery,Low
+O509,2024-10-24,C5956,"Joseph Turner",Naperville,IL,"United States",60540,14,S088,M028,Tzatziki,Greek,Appetizer,5,660.75,9.59,651.16,Pending,Paid,Delivery,Low
+O510,2024-09-27,C030,"Paul Mcdonald",Chicago,IL,"United States",60601,2,S074,M004,Pide,Turkish,Flatbread,4,443.88,26.18,417.70,Pending,Unpaid,Takeaway,Medium
+O511,2024-10-09,C7062,"Janice Kelly",Rockford,IL,"United States",61101,8,S036,M144,Gnocchi,Italian,Pasta,3,227.58,4.65,222.93,Cancelled,Paid,Takeaway,Low
+O512,2024-10-19,C6419,"Susan Higgins",Rockford,IL,"United States",61101,3,S074,M097,Menemen,Other,Miscellaneous,4,548.16,18.79,529.37,Pending,Paid,Delivery,High
+O513,2024-10-04,C1075,"Joseph Medina",Chicago,IL,"United States",60601,7,S009,M109,Spaghetti,Italian,Pasta,3,42.54,1.00,41.54,Cancelled,Unpaid,Takeaway,Low
+O514,2024-10-08,C9436,"Ashley Jackson",Peoria,IL,"United States",61602,17,S006,M112,"Fettuccine Alfredo",Italian,Pasta,4,411.76,40.43,371.33,Cancelled,Paid,Takeaway,High
+O515,2024-10-23,C5999,"Richard Weber",Naperville,IL,"United States",60540,12,S051,M066,"Fettuccine Alfredo",Italian,Pasta,4,470.52,20.33,450.19,Cancelled,Paid,Takeaway,High
+O516,2024-10-22,C7548,"Jason Brown",Rockford,IL,"United States",61101,9,S077,M077,"Fettuccine Alfredo",Italian,Pasta,5,627.10,34.84,592.26,Completed,Paid,Dine-in,High
+O517,2024-09-28,C5155,"Caleb Baker",Naperville,IL,"United States",60540,14,S071,M090,Souvlaki,Greek,Appetizer,5,836.00,52.07,783.93,Pending,Unpaid,Dine-in,High
+O518,2024-10-20,C7466,"Danny Wallace",Rockford,IL,"United States",61101,16,S010,M020,Souvlaki,Greek,Appetizer,2,34.92,2.80,32.12,Completed,Unpaid,Dine-in,High
+O519,2024-10-08,C2111,"Melissa Stewart",Aurora,IL,"United States",60505,12,S046,M121,Kofte,Turkish,Pastry,1,17.85,0.25,17.60,Pending,Paid,Dine-in,High
+O520,2024-10-21,C9030,"Vincent Foster",Peoria,IL,"United States",61602,19,S054,M129,Borek,Turkish,Pastry,4,224.84,16.59,208.25,Cancelled,Unpaid,Takeaway,Low
+O521,2024-10-12,C2707,"Kelly Rios",Aurora,IL,"United States",60505,9,S002,M123,"Adana Kebab",Turkish,Kebab,4,732.32,4.28,728.04,Pending,Unpaid,Dine-in,High
+O522,2024-10-10,C3393,"Kevin Patterson",Aurora,IL,"United States",60505,12,S034,M114,"Shish Kebab",Turkish,Kebab,3,509.25,5.87,503.38,Cancelled,Unpaid,Delivery,Low
+O523,2024-10-19,C6730,"Katherine Williams",Rockford,IL,"United States",61101,3,S013,M070,"Doner Kebab",Turkish,Kebab,1,182.81,17.99,164.82,Pending,Unpaid,Delivery,Medium
+O524,2024-10-22,C9726,"Linda Smith",Peoria,IL,"United States",61602,19,S004,M093,Tzatziki,Greek,Appetizer,1,22.13,0.20,21.93,Cancelled,Paid,Delivery,Low
+O525,2024-10-24,C2635,"Jessica Medina",Aurora,IL,"United States",60505,9,S016,M111,Borek,Turkish,Pastry,5,78.30,5.04,73.26,Cancelled,Paid,Delivery,Low
+O526,2024-09-26,C7319,"Samuel Munoz",Rockford,IL,"United States",61101,5,S050,M011,"Imam Bayildi",Other,Miscellaneous,1,56.82,5.04,51.78,Completed,Paid,Dine-in,Medium
+O527,2024-10-10,C6624,"Zachary Garcia",Rockford,IL,"United States",61101,20,S048,M134,Moussaka,Greek,Casserole,4,236.04,3.92,232.12,Cancelled,Unpaid,Takeaway,Low
+O528,2024-10-25,C5519,"Jason Anderson",Naperville,IL,"United States",60540,14,S094,M112,"Fettuccine Alfredo",Italian,Pasta,1,102.94,9.49,93.45,Completed,Unpaid,Delivery,Low
+O529,2024-10-10,C1356,"Julia Morgan",Chicago,IL,"United States",60601,1,S065,M124,Galaktoboureko,Other,Miscellaneous,4,355.88,33.18,322.70,Completed,Paid,Takeaway,Medium
+O530,2024-10-08,C8768,"Shelly Garcia",Peoria,IL,"United States",61602,11,S065,M029,Pide,Turkish,Flatbread,3,141.48,2.78,138.70,Pending,Paid,Dine-in,Medium
+O531,2024-09-30,C4430,"William Bennett",Naperville,IL,"United States",60540,19,S055,M045,Lasagna,Italian,Pasta,5,224.20,0.66,223.54,Completed,Paid,Delivery,High
+O532,2024-10-16,C3745,"Susan Dunn",Aurora,IL,"United States",60505,18,S100,M146,Dolmades,Greek,Appetizer,1,58.73,2.77,55.96,Completed,Unpaid,Dine-in,High
+O533,2024-10-06,C3572,"Chad Bennett",Aurora,IL,"United States",60505,15,S071,M094,"Kuzu Tandir",Other,Miscellaneous,5,739.05,32.87,706.18,Cancelled,Unpaid,Takeaway,Low
+O534,2024-10-24,C4338,"Debra Stafford",Naperville,IL,"United States",60540,6,S044,M121,Kofte,Turkish,Pastry,5,89.25,7.49,81.76,Pending,Unpaid,Takeaway,High
+O535,2024-10-14,C9136,"Charles Peterson",Peoria,IL,"United States",61602,9,S099,M018,Pastitsio,Other,Miscellaneous,4,683.68,0.95,682.73,Completed,Unpaid,Delivery,High
+O536,2024-10-19,C4269,"Jill Avila",Naperville,IL,"United States",60540,13,S096,M037,Tzatziki,Greek,Appetizer,5,960.10,67.33,892.77,Pending,Paid,Delivery,High
+O537,2024-10-23,C2815,"Amanda Becker",Aurora,IL,"United States",60505,6,S061,M099,Lahmacun,Turkish,Pastry,3,84.36,5.72,78.64,Completed,Paid,Takeaway,High
+O538,2024-10-09,C785,"Trevor Rodriguez",Rockford,IL,"United States",61101,20,S088,M124,Galaktoboureko,Other,Miscellaneous,4,355.88,26.07,329.81,Completed,Paid,Delivery,High
+O539,2024-10-01,C7381,"James Davis",Rockford,IL,"United States",61101,16,S058,M014,Pide,Turkish,Flatbread,4,237.48,6.03,231.45,Completed,Unpaid,Takeaway,Low
+O540,2024-10-07,C3271,"Gary Phillips",Aurora,IL,"United States",60505,16,S030,M136,Ravioli,Italian,Pasta,3,294.81,1.05,293.76,Pending,Unpaid,Dine-in,Medium
+O541,2024-10-12,C1889,"Nancy Wright",Chicago,IL,"United States",60601,11,S042,M126,Gnocchi,Italian,Pasta,1,35.43,2.69,32.74,Completed,Paid,Takeaway,High
+O542,2024-10-05,C3243,"Jennifer Short",Aurora,IL,"United States",60505,4,S075,M147,Kofte,Turkish,Pastry,5,108.85,3.47,105.38,Cancelled,Unpaid,Dine-in,High
+O543,2024-10-05,C1354,"Calvin Martinez",Chicago,IL,"United States",60601,17,S084,M122,Gyro,Other,Miscellaneous,3,391.86,9.95,381.91,Completed,Paid,Takeaway,High
+O544,2024-09-29,C7337,"Jennifer Parks",Rockford,IL,"United States",61101,20,S022,M010,Ravioli,Italian,Pasta,2,33.36,1.73,31.63,Pending,Paid,Takeaway,Medium
+O545,2024-10-04,C8333,"Jeremy Hall",Peoria,IL,"United States",61602,15,S087,M027,Lahmacun,Turkish,Pastry,2,61.14,1.14,60.00,Cancelled,Unpaid,Dine-in,Low
+O546,2024-10-06,C6955,"Kimberly Pena",Rockford,IL,"United States",61101,15,S080,M010,Ravioli,Italian,Pasta,1,16.68,1.36,15.32,Completed,Unpaid,Takeaway,Medium
+O547,2024-10-07,C4095,"Cassie Robertson",Naperville,IL,"United States",60540,5,S077,M028,Tzatziki,Greek,Appetizer,3,396.45,5.39,391.06,Pending,Paid,Takeaway,Low
+O548,2024-10-12,C1646,"Laura Marquez",Chicago,IL,"United States",60601,11,S072,M098,Kofte,Turkish,Pastry,5,63.90,1.09,62.81,Pending,Paid,Dine-in,High
+O549,2024-10-25,C1548,"Robin Patton",Chicago,IL,"United States",60601,17,S070,M136,Ravioli,Italian,Pasta,1,98.27,6.51,91.76,Completed,Unpaid,Takeaway,High
+O550,2024-10-20,C9353,"Christine Mccormick",Peoria,IL,"United States",61602,18,S088,M118,Risotto,Other,Miscellaneous,2,21.76,1.90,19.86,Cancelled,Unpaid,Dine-in,High
+O551,2024-10-18,C5574,"Gabriel Powell",Naperville,IL,"United States",60540,13,S091,M070,"Doner Kebab",Turkish,Kebab,2,365.62,31.34,334.28,Pending,Paid,Dine-in,Medium
+O552,2024-10-13,C3389,"Brian Rodriguez",Aurora,IL,"United States",60505,4,S045,M098,Kofte,Turkish,Pastry,3,38.34,1.25,37.09,Pending,Paid,Dine-in,Low
+O553,2024-09-30,C6059,"Luis Hansen",Rockford,IL,"United States",61101,9,S068,M088,Spaghetti,Italian,Pasta,2,224.38,9.04,215.34,Pending,Unpaid,Takeaway,High
+O554,2024-10-04,C1082,"Elizabeth Cooley",Chicago,IL,"United States",60601,15,S080,M098,Kofte,Turkish,Pastry,5,63.90,3.08,60.82,Cancelled,Paid,Takeaway,Low
+O555,2024-10-06,C637,"Yolanda Reed",Rockford,IL,"United States",61101,10,S020,M144,Gnocchi,Italian,Pasta,4,303.44,29.10,274.34,Completed,Unpaid,Dine-in,Low
+O556,2024-09-27,C7483,"Timothy Bauer",Rockford,IL,"United States",61101,4,S093,M034,Tzatziki,Greek,Appetizer,1,169.55,5.59,163.96,Completed,Unpaid,Delivery,High
+O557,2024-09-29,C7618,"Robert Johnson",Rockford,IL,"United States",61101,9,S056,M099,Lahmacun,Turkish,Pastry,1,28.12,0.03,28.09,Pending,Unpaid,Takeaway,Low
+O558,2024-10-02,C208,"Adrian Wright",Aurora,IL,"United States",60505,15,S039,M130,Lasagna,Italian,Pasta,4,786.08,32.19,753.89,Cancelled,Unpaid,Dine-in,Low
+O559,2024-10-04,C3048,"Elizabeth Nixon",Aurora,IL,"United States",60505,20,S016,M045,Lasagna,Italian,Pasta,3,134.52,8.19,126.33,Completed,Unpaid,Delivery,Low
+O560,2024-10-24,C1495,"Courtney Miller",Chicago,IL,"United States",60601,11,S051,M048,Ravioli,Italian,Pasta,4,634.36,58.61,575.75,Pending,Paid,Delivery,High
+O561,2024-10-13,C4985,"Jennifer Ortega",Naperville,IL,"United States",60540,12,S092,M038,Spaghetti,Italian,Pasta,2,239.16,23.66,215.50,Completed,Paid,Delivery,High
+O562,2024-10-24,C5888,"Lauren Lee",Naperville,IL,"United States",60540,15,S084,M035,"Pizza Margherita",Italian,Pasta,1,134.26,0.20,134.06,Completed,Paid,Dine-in,Low
+O563,2024-10-15,C8650,"Rebecca Nguyen",Peoria,IL,"United States",61602,8,S062,M119,"Doner Kebab",Turkish,Kebab,2,65.78,0.70,65.08,Cancelled,Unpaid,Takeaway,High
+O564,2024-10-01,C6964,"Patrick Perry",Rockford,IL,"United States",61101,9,S009,M105,Risotto,Other,Miscellaneous,2,192.14,4.76,187.38,Pending,Unpaid,Delivery,Medium
+O565,2024-10-09,C1075,"Joseph Medina",Chicago,IL,"United States",60601,1,S056,M019,Spanakopita,Other,Miscellaneous,5,777.85,67.41,710.44,Pending,Paid,Dine-in,Medium
+O566,2024-10-09,C4514,"Eileen Shaffer",Naperville,IL,"United States",60540,8,S058,M127,Tiramisu,Other,Miscellaneous,3,416.52,4.93,411.59,Cancelled,Unpaid,Takeaway,Medium
+O567,2024-10-17,C3588,"Betty Wells",Aurora,IL,"United States",60505,20,S010,M130,Lasagna,Italian,Pasta,4,786.08,15.75,770.33,Pending,Unpaid,Takeaway,Low
+O568,2024-10-17,C3177,"Ryan Gonzales",Aurora,IL,"United States",60505,18,S071,M149,Souvlaki,Greek,Appetizer,3,554.22,48.82,505.40,Pending,Unpaid,Delivery,Low
+O569,2024-10-03,C8308,"Jennifer Reed",Peoria,IL,"United States",61602,2,S059,M120,Borek,Turkish,Pastry,4,228.92,15.63,213.29,Cancelled,Paid,Delivery,Medium
+O570,2024-10-02,C8908,"Alexander Warren",Peoria,IL,"United States",61602,5,S029,M071,"Fettuccine Alfredo",Italian,Pasta,1,176.79,10.84,165.95,Pending,Unpaid,Takeaway,High
+O571,2024-10-15,C767,"Cindy Moreno",Rockford,IL,"United States",61101,9,S086,M045,Lasagna,Italian,Pasta,5,224.20,3.43,220.77,Pending,Unpaid,Delivery,Medium
+O572,2024-10-20,C4481,"Maria Conway",Naperville,IL,"United States",60540,9,S043,M094,"Kuzu Tandir",Other,Miscellaneous,5,739.05,31.32,707.73,Completed,Paid,Dine-in,Low
+O573,2024-09-27,C8812,"Tami Brown",Peoria,IL,"United States",61602,14,S037,M063,Spanakopita,Other,Miscellaneous,1,44.59,1.25,43.34,Completed,Unpaid,Dine-in,Low
+O574,2024-10-11,C6225,"Dale Green",Rockford,IL,"United States",61101,12,S045,M032,Tiramisu,Other,Miscellaneous,1,185.20,8.60,176.60,Completed,Paid,Delivery,Medium
+O575,2024-09-29,C4141,"Bradley Lozano",Naperville,IL,"United States",60540,17,S054,M057,Souvlaki,Greek,Appetizer,3,86.91,0.71,86.20,Pending,Unpaid,Takeaway,Medium
+O576,2024-10-01,C1227,"Corey Watkins",Chicago,IL,"United States",60601,5,S007,M084,Tzatziki,Greek,Appetizer,5,683.80,47.82,635.98,Completed,Unpaid,Delivery,Low
+O577,2024-10-10,C7336,"Erin Weber",Rockford,IL,"United States",61101,2,S045,M122,Gyro,Other,Miscellaneous,5,653.10,24.25,628.85,Pending,Unpaid,Takeaway,Low
+O578,2024-10-02,C4308,"Victoria Aguilar",Naperville,IL,"United States",60540,20,S009,M096,"Doner Kebab",Turkish,Kebab,4,412.64,31.57,381.07,Completed,Unpaid,Takeaway,High
+O579,2024-10-13,C7843,"Matthew Johnson",Rockford,IL,"United States",61101,20,S055,M121,Kofte,Turkish,Pastry,1,17.85,0.89,16.96,Cancelled,Unpaid,Takeaway,Medium
+O580,2024-10-18,C1464,"Becky Thompson",Chicago,IL,"United States",60601,7,S085,M002,Dolmades,Greek,Appetizer,2,148.20,3.69,144.51,Pending,Paid,Dine-in,Medium
+O581,2024-10-18,C5375,"Angelica Campbell",Naperville,IL,"United States",60540,12,S068,M093,Tzatziki,Greek,Appetizer,3,66.39,0.13,66.26,Pending,Unpaid,Takeaway,High
+O582,2024-10-07,C4618,"Brandon Waters",Naperville,IL,"United States",60540,1,S070,M111,Borek,Turkish,Pastry,5,78.30,5.25,73.05,Cancelled,Unpaid,Takeaway,High
+O583,2024-10-14,C8550,"Timothy Pruitt",Peoria,IL,"United States",61602,2,S011,M086,Carbonara,Italian,Pasta,3,428.64,36.75,391.89,Completed,Unpaid,Takeaway,High
+O584,2024-09-30,C9353,"Christine Mccormick",Peoria,IL,"United States",61602,15,S034,M135,Calzone,Other,Miscellaneous,1,143.78,11.41,132.37,Pending,Unpaid,Dine-in,Medium
+O585,2024-10-16,C5090,"Carla Bradley",Naperville,IL,"United States",60540,4,S028,M011,"Imam Bayildi",Other,Miscellaneous,3,170.46,6.17,164.29,Pending,Unpaid,Dine-in,High
+O586,2024-10-14,C7413,"Michael Moore",Rockford,IL,"United States",61101,1,S069,M068,Baklava,Greek,Dessert,5,353.55,6.60,346.95,Pending,Paid,Delivery,Low
+O587,2024-10-16,C1110,"Gregory Williamson",Chicago,IL,"United States",60601,3,S003,M102,Tzatziki,Greek,Appetizer,5,208.95,15.32,193.63,Completed,Paid,Dine-in,High
+O588,2024-10-10,C6269,"Destiny Flores",Rockford,IL,"United States",61101,1,S037,M097,Menemen,Other,Miscellaneous,1,137.04,13.04,124.00,Completed,Paid,Delivery,High
+O589,2024-10-18,C2098,"Eric Cochran",Aurora,IL,"United States",60505,1,S043,M113,"Fettuccine Alfredo",Italian,Pasta,2,213.70,7.15,206.55,Pending,Unpaid,Takeaway,Medium
+O590,2024-10-12,C5395,"Stacey Moore",Naperville,IL,"United States",60540,7,S095,M117,"Adana Kebab",Turkish,Kebab,4,684.72,19.79,664.93,Cancelled,Unpaid,Takeaway,Low
+O591,2024-10-06,C790,"Diane Raymond",Rockford,IL,"United States",61101,8,S024,M076,"Greek Salad",Greek,Salad,4,203.16,3.25,199.91,Completed,Paid,Delivery,High
+O592,2024-10-01,C9560,"Jessica Murphy",Peoria,IL,"United States",61602,3,S084,M109,Spaghetti,Italian,Pasta,5,70.90,1.68,69.22,Completed,Unpaid,Takeaway,High
+O593,2024-10-21,C4241,"Christine Anderson",Naperville,IL,"United States",60540,2,S011,M020,Souvlaki,Greek,Appetizer,5,87.30,6.10,81.20,Completed,Paid,Delivery,Medium
+O594,2024-10-01,C192,"Briana Williams",Chicago,IL,"United States",60601,7,S090,M075,"Kuzu Tandir",Other,Miscellaneous,1,139.74,8.64,131.10,Cancelled,Unpaid,Dine-in,Medium
+O595,2024-10-13,C9686,"Ryan Lee",Peoria,IL,"United States",61602,6,S059,M101,Spanakopita,Other,Miscellaneous,5,51.85,0.85,51.00,Pending,Paid,Delivery,Low
+O596,2024-10-15,C2061,"Jessica Kerr",Aurora,IL,"United States",60505,5,S100,M137,Lasagna,Italian,Pasta,4,659.72,25.05,634.67,Cancelled,Unpaid,Delivery,Medium
+O597,2024-10-21,C9363,"Shannon Barnes",Peoria,IL,"United States",61602,18,S050,M025,Risotto,Other,Miscellaneous,4,344.68,8.84,335.84,Completed,Unpaid,Delivery,Low
+O598,2024-10-08,C5955,"Steven Frederick",Naperville,IL,"United States",60540,5,S026,M132,Fasolada,Other,Miscellaneous,3,399.03,36.68,362.35,Pending,Paid,Dine-in,Medium
+O599,2024-10-03,C3742,"Tony Hoffman",Aurora,IL,"United States",60505,9,S067,M114,"Shish Kebab",Turkish,Kebab,1,169.75,12.25,157.50,Cancelled,Paid,Delivery,High
+O600,2024-10-25,C5633,"Joseph Garcia",Naperville,IL,"United States",60540,16,S059,M058,"Greek Salad",Greek,Salad,3,512.61,25.15,487.46,Cancelled,Unpaid,Dine-in,Low
+O601,2024-10-17,C5912,"Michael Harper",Naperville,IL,"United States",60540,2,S084,M128,"Greek Salad",Greek,Salad,2,387.84,26.56,361.28,Completed,Unpaid,Takeaway,Low
+O602,2024-10-20,C8831,"Richard Fowler",Peoria,IL,"United States",61602,14,S016,M134,Moussaka,Greek,Casserole,2,118.02,11.14,106.88,Pending,Paid,Dine-in,High
+O603,2024-10-11,C8030,"Kelly Young",Peoria,IL,"United States",61602,14,S084,M020,Souvlaki,Greek,Appetizer,4,69.84,0.81,69.03,Completed,Paid,Takeaway,Medium
+O604,2024-09-26,C4403,"Dylan Arias",Naperville,IL,"United States",60540,4,S060,M043,Moussaka,Greek,Casserole,4,162.36,4.52,157.84,Completed,Paid,Delivery,Low
+O605,2024-09-29,C8525,"Danielle Gross",Peoria,IL,"United States",61602,2,S095,M091,Gnocchi,Italian,Pasta,2,289.52,5.81,283.71,Pending,Paid,Takeaway,Medium
+O606,2024-09-30,C3384,"Michelle Taylor",Aurora,IL,"United States",60505,10,S013,M133,Lahmacun,Turkish,Pastry,3,433.44,2.23,431.21,Cancelled,Unpaid,Delivery,High
+O607,2024-10-16,C7979,"Michelle Gates",Rockford,IL,"United States",61101,20,S077,M035,"Pizza Margherita",Italian,Pasta,1,134.26,13.08,121.18,Cancelled,Paid,Takeaway,Low
+O608,2024-10-22,C1080,"Alec Graham",Chicago,IL,"United States",60601,20,S022,M039,"Iskender Kebab",Other,Miscellaneous,4,179.88,7.02,172.86,Completed,Unpaid,Takeaway,Medium
+O609,2024-10-08,C4744,"Cassandra Hall",Naperville,IL,"United States",60540,9,S009,M092,"Greek Salad",Greek,Salad,1,199.85,6.96,192.89,Cancelled,Unpaid,Dine-in,High
+O610,2024-10-08,C6157,"Joshua Miller",Rockford,IL,"United States",61101,17,S097,M025,Risotto,Other,Miscellaneous,1,86.17,4.77,81.40,Cancelled,Paid,Dine-in,Low
+O611,2024-10-14,C3149,"Emily Burns",Aurora,IL,"United States",60505,11,S019,M129,Borek,Turkish,Pastry,3,168.63,2.99,165.64,Cancelled,Paid,Takeaway,Medium
+O612,2024-10-18,C8461,"Kristen Perez",Peoria,IL,"United States",61602,20,S003,M073,Spanakopita,Other,Miscellaneous,3,391.59,25.96,365.63,Cancelled,Paid,Takeaway,High
+O613,2024-10-15,C2586,"Pamela Santos",Aurora,IL,"United States",60505,8,S032,M011,"Imam Bayildi",Other,Miscellaneous,5,284.10,26.04,258.06,Cancelled,Paid,Takeaway,Medium
+O614,2024-10-11,C4880,"Timothy Austin",Naperville,IL,"United States",60540,10,S016,M021,Ravioli,Italian,Pasta,2,183.40,12.00,171.40,Completed,Paid,Delivery,Medium
+O615,2024-10-05,C7838,"Patrick Adams",Rockford,IL,"United States",61101,1,S076,M107,Dolmades,Greek,Appetizer,2,311.84,5.89,305.95,Completed,Paid,Dine-in,Low
+O616,2024-10-08,C989,"Amy Rice",Peoria,IL,"United States",61602,1,S020,M137,Lasagna,Italian,Pasta,1,164.93,15.25,149.68,Pending,Paid,Takeaway,Medium
+O617,2024-10-09,C7314,"Amanda Thomas",Rockford,IL,"United States",61101,4,S050,M028,Tzatziki,Greek,Appetizer,4,528.60,10.82,517.78,Cancelled,Paid,Takeaway,Low
+O618,2024-10-16,C8009,"Jacob Williams",Peoria,IL,"United States",61602,3,S015,M053,Baklava,Greek,Dessert,4,593.44,39.97,553.47,Pending,Paid,Delivery,Low
+O619,2024-10-14,C4497,"Kim Hines",Naperville,IL,"United States",60540,3,S030,M137,Lasagna,Italian,Pasta,2,329.86,28.13,301.73,Completed,Paid,Delivery,High
+O620,2024-09-29,C6374,"Theresa Cole",Rockford,IL,"United States",61101,15,S067,M012,Baklava,Greek,Dessert,4,784.08,13.83,770.25,Cancelled,Unpaid,Delivery,Low
+O621,2024-10-11,C3642,"Justin Reed",Aurora,IL,"United States",60505,10,S029,M045,Lasagna,Italian,Pasta,4,179.36,5.32,174.04,Pending,Unpaid,Takeaway,Low
+O622,2024-10-21,C6959,"Samantha Smith",Rockford,IL,"United States",61101,16,S041,M127,Tiramisu,Other,Miscellaneous,3,416.52,6.78,409.74,Completed,Paid,Dine-in,Low
+O623,2024-10-11,C5158,"Deborah Dominguez",Naperville,IL,"United States",60540,13,S055,M145,Baklava,Greek,Dessert,2,116.76,1.10,115.66,Pending,Unpaid,Takeaway,Low
+O624,2024-10-10,C8992,"Joseph Lopez",Peoria,IL,"United States",61602,10,S075,M041,Moussaka,Greek,Casserole,3,497.10,1.21,495.89,Pending,Unpaid,Delivery,Medium
+O625,2024-10-01,C6166,"Pamela Padilla",Rockford,IL,"United States",61101,11,S069,M114,"Shish Kebab",Turkish,Kebab,1,169.75,8.01,161.74,Completed,Unpaid,Dine-in,Low
+O626,2024-10-22,C1305,"Patricia Miller",Chicago,IL,"United States",60601,13,S051,M133,Lahmacun,Turkish,Pastry,2,288.96,8.34,280.62,Completed,Paid,Takeaway,Low
+O627,2024-10-25,C8563,"David Miller",Peoria,IL,"United States",61602,6,S055,M121,Kofte,Turkish,Pastry,1,17.85,1.48,16.37,Completed,Paid,Takeaway,Low
+O628,2024-10-21,C237,"Patrick Wagner",Aurora,IL,"United States",60505,12,S086,M010,Ravioli,Italian,Pasta,3,50.04,4.86,45.18,Cancelled,Unpaid,Delivery,Low
+O629,2024-10-13,C6168,"Mark Thomas",Rockford,IL,"United States",61101,10,S092,M148,"Pizza Margherita",Italian,Pasta,1,61.21,5.75,55.46,Completed,Unpaid,Dine-in,Low
+O630,2024-10-13,C6012,"Arthur Phillips",Rockford,IL,"United States",61101,15,S033,M053,Baklava,Greek,Dessert,3,445.08,28.43,416.65,Pending,Unpaid,Dine-in,Medium
+O631,2024-10-18,C5873,"Kevin Hill",Naperville,IL,"United States",60540,7,S100,M112,"Fettuccine Alfredo",Italian,Pasta,3,308.82,13.14,295.68,Completed,Unpaid,Dine-in,High
+O632,2024-10-19,C045,"Daniel Ortiz",Chicago,IL,"United States",60601,9,S024,M150,Souvlaki,Greek,Appetizer,1,184.83,3.33,181.50,Pending,Paid,Takeaway,High
+O633,2024-10-03,C1320,"Juan Boyer",Chicago,IL,"United States",60601,5,S046,M140,Spaghetti,Italian,Pasta,1,117.29,5.72,111.57,Completed,Unpaid,Dine-in,Medium
+O634,2024-10-03,C1510,"Michael Powers",Chicago,IL,"United States",60601,19,S096,M012,Baklava,Greek,Dessert,3,588.06,4.09,583.97,Cancelled,Unpaid,Delivery,Low
+O635,2024-09-27,C6083,"Sydney Shields",Rockford,IL,"United States",61101,18,S085,M046,Spanakopita,Other,Miscellaneous,3,101.46,7.19,94.27,Completed,Paid,Takeaway,Medium
+O636,2024-10-07,C7964,"Michelle Mendoza",Rockford,IL,"United States",61101,15,S097,M127,Tiramisu,Other,Miscellaneous,3,416.52,26.75,389.77,Cancelled,Paid,Delivery,Medium
+O637,2024-10-17,C1916,"Andrea Bryan",Chicago,IL,"United States",60601,7,S052,M062,Moussaka,Greek,Casserole,1,40.21,0.06,40.15,Pending,Unpaid,Delivery,High
+O638,2024-10-21,C961,"Jorge Wong",Peoria,IL,"United States",61602,8,S051,M018,Pastitsio,Other,Miscellaneous,1,170.92,1.69,169.23,Cancelled,Unpaid,Takeaway,High
+O639,2024-09-29,C884,"Chase Benson",Peoria,IL,"United States",61602,7,S066,M004,Pide,Turkish,Flatbread,5,554.85,39.87,514.98,Cancelled,Paid,Delivery,Medium
+O640,2024-10-21,C2197,"Jon Austin",Aurora,IL,"United States",60505,8,S050,M011,"Imam Bayildi",Other,Miscellaneous,5,284.10,5.46,278.64,Pending,Paid,Takeaway,High
+O641,2024-10-08,C6467,"Timothy Mckay",Rockford,IL,"United States",61101,10,S014,M025,Risotto,Other,Miscellaneous,1,86.17,0.33,85.84,Completed,Unpaid,Dine-in,Medium
+O642,2024-10-23,C9760,"Gavin Lee",Peoria,IL,"United States",61602,16,S048,M064,Lahmacun,Turkish,Pastry,3,493.38,18.42,474.96,Pending,Unpaid,Delivery,Medium
+O643,2024-09-29,C6651,"Cindy Davis",Rockford,IL,"United States",61101,11,S064,M137,Lasagna,Italian,Pasta,5,824.65,42.12,782.53,Pending,Unpaid,Takeaway,Low
+O644,2024-09-26,C5495,"Samuel Simpson",Naperville,IL,"United States",60540,18,S027,M088,Spaghetti,Italian,Pasta,3,336.57,3.35,333.22,Cancelled,Paid,Dine-in,Low
+O645,2024-10-07,C6813,"Cassandra Brown",Rockford,IL,"United States",61101,1,S006,M021,Ravioli,Italian,Pasta,1,91.70,5.26,86.44,Pending,Paid,Delivery,Medium
+O646,2024-10-10,C7473,"James Jordan",Rockford,IL,"United States",61101,11,S017,M101,Spanakopita,Other,Miscellaneous,5,51.85,1.17,50.68,Pending,Paid,Takeaway,High
+O647,2024-09-26,C9279,"Gregory Porter",Peoria,IL,"United States",61602,18,S055,M040,Lasagna,Italian,Pasta,3,200.49,8.40,192.09,Completed,Paid,Takeaway,High
+O648,2024-10-11,C7685,"Nicole Saunders",Rockford,IL,"United States",61101,2,S094,M125,"Kuzu Tandir",Other,Miscellaneous,5,920.00,33.34,886.66,Pending,Paid,Delivery,Medium
+O649,2024-09-28,C7655,"Tonya Garcia",Rockford,IL,"United States",61101,16,S039,M052,Lasagna,Italian,Pasta,4,665.00,13.76,651.24,Completed,Unpaid,Dine-in,Medium
+O650,2024-10-10,C6579,"Christopher Fry",Rockford,IL,"United States",61101,8,S012,M114,"Shish Kebab",Turkish,Kebab,4,679.00,48.56,630.44,Cancelled,Paid,Dine-in,Medium
+O651,2024-09-28,C6357,"Ian Clements",Rockford,IL,"United States",61101,10,S038,M142,Ravioli,Italian,Pasta,5,431.80,6.54,425.26,Cancelled,Paid,Takeaway,High
+O652,2024-10-25,C2598,"Leah Elliott",Aurora,IL,"United States",60505,19,S048,M094,"Kuzu Tandir",Other,Miscellaneous,4,591.24,41.09,550.15,Cancelled,Unpaid,Takeaway,Low
+O653,2024-10-13,C5307,"Courtney Hines",Naperville,IL,"United States",60540,12,S069,M025,Risotto,Other,Miscellaneous,4,344.68,23.83,320.85,Cancelled,Unpaid,Takeaway,Medium
+O654,2024-10-05,C6210,"Gary Reyes",Rockford,IL,"United States",61101,11,S030,M132,Fasolada,Other,Miscellaneous,1,133.01,12.15,120.86,Completed,Unpaid,Takeaway,Medium
+O655,2024-10-03,C7808,"Derrick Gomez",Rockford,IL,"United States",61101,14,S009,M120,Borek,Turkish,Pastry,1,57.23,2.02,55.21,Pending,Unpaid,Dine-in,Low
+O656,2024-10-22,C5115,"Angela Jones",Naperville,IL,"United States",60540,9,S063,M113,"Fettuccine Alfredo",Italian,Pasta,3,320.55,5.95,314.60,Cancelled,Paid,Dine-in,High
+O657,2024-09-29,C1391,"Shane Collins",Chicago,IL,"United States",60601,11,S038,M023,"Adana Kebab",Turkish,Kebab,3,497.31,38.32,458.99,Cancelled,Unpaid,Takeaway,Medium
+O658,2024-10-23,C8646,"Janet Estes",Peoria,IL,"United States",61602,18,S008,M098,Kofte,Turkish,Pastry,4,51.12,2.54,48.58,Completed,Unpaid,Delivery,Low
+O659,2024-10-02,C2998,"Denise Rollins",Aurora,IL,"United States",60505,10,S084,M024,Calzone,Other,Miscellaneous,4,425.44,8.32,417.12,Cancelled,Unpaid,Takeaway,Low
+O660,2024-10-05,C7706,"Kayla Harris",Rockford,IL,"United States",61101,5,S086,M121,Kofte,Turkish,Pastry,1,17.85,1.15,16.70,Pending,Paid,Takeaway,Low
+O661,2024-10-19,C8871,"Daniel Roberts",Peoria,IL,"United States",61602,14,S083,M140,Spaghetti,Italian,Pasta,4,469.16,40.19,428.97,Pending,Paid,Delivery,Medium
+O662,2024-10-02,C991,"Robert Anderson",Peoria,IL,"United States",61602,19,S086,M022,"Kuzu Tandir",Other,Miscellaneous,2,298.26,28.99,269.27,Pending,Unpaid,Delivery,Medium
+O663,2024-10-10,C9273,"Christina Richards",Peoria,IL,"United States",61602,3,S085,M056,Pastitsio,Other,Miscellaneous,1,103.90,6.32,97.58,Cancelled,Paid,Takeaway,Medium
+O664,2024-09-28,C2177,"Debra Bailey",Aurora,IL,"United States",60505,17,S086,M116,Baklava,Greek,Dessert,1,107.04,10.43,96.61,Completed,Unpaid,Takeaway,Medium
+O665,2024-10-13,C3262,"James Campbell",Aurora,IL,"United States",60505,5,S004,M088,Spaghetti,Italian,Pasta,2,224.38,4.26,220.12,Completed,Paid,Delivery,High
+O666,2024-10-15,C096,"James Mercado",Chicago,IL,"United States",60601,1,S098,M148,"Pizza Margherita",Italian,Pasta,3,183.63,2.86,180.77,Pending,Paid,Dine-in,High
+O667,2024-10-16,C9896,"Samantha Williams",Peoria,IL,"United States",61602,17,S092,M006,"Caprese Salad",Other,Miscellaneous,2,148.86,7.61,141.25,Pending,Unpaid,Dine-in,High
+O668,2024-09-27,C3188,"Jason Bates",Aurora,IL,"United States",60505,11,S053,M148,"Pizza Margherita",Italian,Pasta,1,61.21,1.60,59.61,Cancelled,Paid,Delivery,High
+O669,2024-10-11,C9896,"Samantha Williams",Peoria,IL,"United States",61602,11,S047,M053,Baklava,Greek,Dessert,3,445.08,11.02,434.06,Cancelled,Paid,Delivery,Medium
+O670,2024-10-06,C2680,"Thomas Franco",Aurora,IL,"United States",60505,8,S022,M088,Spaghetti,Italian,Pasta,2,224.38,19.04,205.34,Pending,Unpaid,Takeaway,Medium
+O671,2024-10-06,C5340,"Julie Hernandez",Naperville,IL,"United States",60540,7,S072,M042,Kofte,Turkish,Pastry,3,382.29,15.54,366.75,Pending,Paid,Takeaway,Medium
+O672,2024-10-18,C744,"Chad Green",Rockford,IL,"United States",61101,13,S084,M014,Pide,Turkish,Flatbread,1,59.37,1.67,57.70,Cancelled,Unpaid,Takeaway,High
+O673,2024-09-26,C6882,"Melissa Mcdonald",Rockford,IL,"United States",61101,4,S096,M033,Pide,Turkish,Flatbread,3,197.55,1.70,195.85,Cancelled,Paid,Delivery,Low
+O674,2024-10-24,C3767,"Shawn Cordova",Aurora,IL,"United States",60505,9,S088,M144,Gnocchi,Italian,Pasta,1,75.86,7.49,68.37,Cancelled,Paid,Takeaway,Low
+O675,2024-10-02,C1228,"Stephen Diaz",Chicago,IL,"United States",60601,6,S024,M102,Tzatziki,Greek,Appetizer,1,41.79,3.18,38.61,Completed,Paid,Delivery,Medium
+O676,2024-09-26,C8146,"Rachel Allen",Peoria,IL,"United States",61602,5,S100,M034,Tzatziki,Greek,Appetizer,3,508.65,13.80,494.85,Cancelled,Unpaid,Dine-in,Medium
+O677,2024-09-26,C5258,"Joshua White",Naperville,IL,"United States",60540,10,S057,M147,Kofte,Turkish,Pastry,5,108.85,2.50,106.35,Cancelled,Paid,Delivery,Medium
+O678,2024-09-28,C3017,"Laura Curtis",Aurora,IL,"United States",60505,1,S047,M139,Lasagna,Italian,Pasta,2,398.20,10.45,387.75,Cancelled,Unpaid,Delivery,High
+O679,2024-10-02,C1734,"Karl Clark",Chicago,IL,"United States",60601,4,S030,M058,"Greek Salad",Greek,Salad,5,854.35,57.43,796.92,Completed,Paid,Takeaway,Low
+O680,2024-10-02,C7168,"Joel Johnson",Rockford,IL,"United States",61101,11,S025,M100,Lasagna,Italian,Pasta,4,351.44,7.70,343.74,Completed,Paid,Delivery,Medium
+O681,2024-10-13,C8796,"Logan Sullivan",Peoria,IL,"United States",61602,11,S085,M149,Souvlaki,Greek,Appetizer,2,369.48,34.74,334.74,Completed,Paid,Delivery,Low
+O682,2024-10-07,C4633,"Stacy Lopez",Naperville,IL,"United States",60540,6,S098,M048,Ravioli,Italian,Pasta,3,475.77,27.71,448.06,Pending,Paid,Delivery,Low
+O683,2024-10-16,C3826,"Sharon Sanchez",Aurora,IL,"United States",60505,8,S043,M068,Baklava,Greek,Dessert,4,282.84,7.49,275.35,Cancelled,Paid,Delivery,Low
+O684,2024-10-25,C9523,"Sara Castro",Peoria,IL,"United States",61602,12,S003,M001,Lasagna,Italian,Pasta,5,692.70,35.13,657.57,Cancelled,Unpaid,Takeaway,Low
+O685,2024-10-16,C7379,"Amanda Santana",Rockford,IL,"United States",61101,16,S074,M034,Tzatziki,Greek,Appetizer,5,847.75,57.62,790.13,Pending,Unpaid,Delivery,Low
+O686,2024-10-15,C3784,"Katie Lamb",Aurora,IL,"United States",60505,8,S001,M024,Calzone,Other,Miscellaneous,5,531.80,46.40,485.40,Pending,Unpaid,Takeaway,Medium
+O687,2024-09-26,C3665,"Danielle Rich",Aurora,IL,"United States",60505,6,S022,M109,Spaghetti,Italian,Pasta,3,42.54,0.55,41.99,Completed,Paid,Delivery,Medium
+O688,2024-10-13,C237,"Patrick Wagner",Aurora,IL,"United States",60505,2,S068,M066,"Fettuccine Alfredo",Italian,Pasta,4,470.52,2.28,468.24,Completed,Unpaid,Dine-in,Low
+O689,2024-10-09,C7870,"Eric Bryant",Rockford,IL,"United States",61101,2,S093,M136,Ravioli,Italian,Pasta,1,98.27,0.61,97.66,Completed,Paid,Takeaway,Medium
+O690,2024-10-18,C137,"Matthew Gamble",Chicago,IL,"United States",60601,5,S004,M045,Lasagna,Italian,Pasta,3,134.52,5.82,128.70,Completed,Unpaid,Dine-in,Medium
+O691,2024-10-24,C6956,"Scott Brown",Rockford,IL,"United States",61101,18,S070,M131,Pide,Turkish,Flatbread,3,306.93,13.52,293.41,Pending,Unpaid,Takeaway,High
+O692,2024-10-21,C7349,"Rebecca Simpson",Rockford,IL,"United States",61101,5,S042,M090,Souvlaki,Greek,Appetizer,4,668.80,53.23,615.57,Pending,Unpaid,Delivery,Low
+O693,2024-09-28,C8227,"Tyler Berry",Peoria,IL,"United States",61602,7,S003,M150,Souvlaki,Greek,Appetizer,5,924.15,90.41,833.74,Completed,Unpaid,Dine-in,High
+O694,2024-10-21,C9538,"Susan Jarvis",Peoria,IL,"United States",61602,16,S087,M117,"Adana Kebab",Turkish,Kebab,4,684.72,50.00,634.72,Pending,Paid,Delivery,Low
+O695,2024-09-30,C502,"Eric Patterson",Naperville,IL,"United States",60540,6,S082,M134,Moussaka,Greek,Casserole,5,295.05,12.68,282.37,Cancelled,Unpaid,Takeaway,Low
+O696,2024-10-12,C5365,"Diane Burgess",Naperville,IL,"United States",60540,8,S047,M121,Kofte,Turkish,Pastry,3,53.55,1.48,52.07,Cancelled,Paid,Takeaway,Low
+O697,2024-10-11,C4288,"Tommy Perez",Naperville,IL,"United States",60540,13,S043,M110,Loukoumades,Other,Miscellaneous,2,385.42,28.46,356.96,Cancelled,Unpaid,Takeaway,Low
+O698,2024-10-22,C3844,"Marissa Collins",Aurora,IL,"United States",60505,6,S036,M102,Tzatziki,Greek,Appetizer,5,208.95,18.53,190.42,Completed,Paid,Delivery,Low
+O699,2024-10-13,C1102,"Lisa Morris",Chicago,IL,"United States",60601,17,S046,M087,Risotto,Other,Miscellaneous,1,20.78,1.60,19.18,Completed,Unpaid,Dine-in,High
+O700,2024-10-19,C7705,"Jeremiah Silva",Rockford,IL,"United States",61101,8,S007,M094,"Kuzu Tandir",Other,Miscellaneous,3,443.43,10.33,433.10,Pending,Paid,Delivery,High
+O701,2024-10-09,C8594,"Madison Hansen",Peoria,IL,"United States",61602,7,S059,M009,Pide,Turkish,Flatbread,2,101.64,9.10,92.54,Completed,Paid,Takeaway,High
+O702,2024-10-18,C4380,"Jason Carter",Naperville,IL,"United States",60540,1,S075,M060,Baklava,Greek,Dessert,3,171.36,11.55,159.81,Cancelled,Paid,Dine-in,Low
+O703,2024-10-19,C708,"Jamie Bell",Rockford,IL,"United States",61101,12,S053,M053,Baklava,Greek,Dessert,2,296.72,0.84,295.88,Cancelled,Paid,Dine-in,High
+O704,2024-10-17,C5237,"Joshua Nguyen",Naperville,IL,"United States",60540,5,S075,M118,Risotto,Other,Miscellaneous,2,21.76,1.70,20.06,Completed,Paid,Takeaway,Medium
+O705,2024-10-20,C1491,"Paul Chavez",Chicago,IL,"United States",60601,11,S012,M005,Moussaka,Greek,Casserole,2,376.04,17.19,358.85,Cancelled,Paid,Delivery,High
+O706,2024-10-01,C1477,"Brian Melton",Chicago,IL,"United States",60601,18,S043,M097,Menemen,Other,Miscellaneous,2,274.08,4.82,269.26,Pending,Unpaid,Takeaway,Medium
+O707,2024-10-01,C9976,"Helen Morgan",Peoria,IL,"United States",61602,18,S062,M036,Loukoumades,Other,Miscellaneous,2,205.56,19.62,185.94,Pending,Unpaid,Delivery,High
+O708,2024-09-30,C4987,"Richard Wood",Naperville,IL,"United States",60540,12,S052,M125,"Kuzu Tandir",Other,Miscellaneous,3,552.00,6.94,545.06,Cancelled,Paid,Delivery,Medium
+O709,2024-09-27,C4922,"Valerie Martin",Naperville,IL,"United States",60540,7,S099,M078,Pide,Turkish,Flatbread,1,145.01,13.54,131.47,Pending,Paid,Dine-in,Medium
+O710,2024-10-11,C3654,"Andrew Lee",Aurora,IL,"United States",60505,15,S042,M119,"Doner Kebab",Turkish,Kebab,3,98.67,8.27,90.40,Pending,Unpaid,Delivery,Low
+O711,2024-10-03,C9396,"Natasha West",Peoria,IL,"United States",61602,16,S017,M136,Ravioli,Italian,Pasta,3,294.81,28.09,266.72,Completed,Unpaid,Dine-in,Low
+O712,2024-10-06,C7747,"Eric Holmes",Rockford,IL,"United States",61101,4,S025,M148,"Pizza Margherita",Italian,Pasta,2,122.42,10.36,112.06,Cancelled,Unpaid,Delivery,High
+O713,2024-10-09,C1704,"Mary Benitez",Chicago,IL,"United States",60601,4,S078,M119,"Doner Kebab",Turkish,Kebab,4,131.56,6.45,125.11,Completed,Paid,Dine-in,High
+O714,2024-10-21,C4232,"Joshua Brown",Naperville,IL,"United States",60540,13,S012,M110,Loukoumades,Other,Miscellaneous,2,385.42,35.41,350.01,Cancelled,Paid,Takeaway,High
+O715,2024-10-15,C4051,"Robin Adkins",Naperville,IL,"United States",60540,15,S063,M024,Calzone,Other,Miscellaneous,2,212.72,17.04,195.68,Pending,Unpaid,Takeaway,Medium
+O716,2024-10-01,C7336,"Erin Weber",Rockford,IL,"United States",61101,8,S044,M103,Calzone,Other,Miscellaneous,1,112.36,2.51,109.85,Cancelled,Unpaid,Dine-in,Medium
+O717,2024-09-27,C4480,"Danielle Mclean",Naperville,IL,"United States",60540,12,S080,M128,"Greek Salad",Greek,Salad,4,775.68,75.23,700.45,Completed,Paid,Dine-in,Medium
+O718,2024-10-06,C5456,"Melissa Garcia",Naperville,IL,"United States",60540,10,S064,M139,Lasagna,Italian,Pasta,3,597.30,13.71,583.59,Pending,Unpaid,Dine-in,Medium
+O719,2024-10-16,C5138,"Craig Yang",Naperville,IL,"United States",60540,1,S100,M111,Borek,Turkish,Pastry,4,62.64,5.77,56.87,Pending,Paid,Delivery,Medium
+O720,2024-09-27,C103,"Shannon Green",Chicago,IL,"United States",60601,18,S070,M020,Souvlaki,Greek,Appetizer,5,87.30,5.28,82.02,Pending,Paid,Dine-in,High
+O721,2024-10-19,C5884,"Jack Kemp",Naperville,IL,"United States",60540,2,S047,M103,Calzone,Other,Miscellaneous,3,337.08,5.43,331.65,Pending,Paid,Dine-in,Medium
+O722,2024-10-07,C7699,"Kevin Trujillo",Rockford,IL,"United States",61101,13,S005,M097,Menemen,Other,Miscellaneous,1,137.04,12.33,124.71,Pending,Paid,Delivery,High
+O723,2024-10-21,C1237,"Walter Wilson",Chicago,IL,"United States",60601,2,S091,M060,Baklava,Greek,Dessert,1,57.12,0.16,56.96,Pending,Unpaid,Takeaway,Low
+O724,2024-10-06,C7838,"Patrick Adams",Rockford,IL,"United States",61101,18,S032,M048,Ravioli,Italian,Pasta,4,634.36,11.00,623.36,Completed,Unpaid,Takeaway,Medium
+O725,2024-10-22,C4225,"Brandi Newman",Naperville,IL,"United States",60540,12,S083,M110,Loukoumades,Other,Miscellaneous,3,578.13,49.00,529.13,Completed,Paid,Takeaway,Low
+O726,2024-10-14,C1106,"Scott Martin",Chicago,IL,"United States",60601,13,S076,M045,Lasagna,Italian,Pasta,2,89.68,0.09,89.59,Pending,Unpaid,Delivery,Low
+O727,2024-10-15,C9153,"Robert Sanchez",Peoria,IL,"United States",61602,6,S044,M057,Souvlaki,Greek,Appetizer,3,86.91,3.47,83.44,Completed,Unpaid,Dine-in,High
+O728,2024-09-30,C6561,"Austin Roman",Rockford,IL,"United States",61101,10,S053,M112,"Fettuccine Alfredo",Italian,Pasta,5,514.70,39.18,475.52,Pending,Unpaid,Dine-in,Medium
+O729,2024-10-08,C1089,"Brandon Carter",Chicago,IL,"United States",60601,20,S022,M113,"Fettuccine Alfredo",Italian,Pasta,1,106.85,10.39,96.46,Cancelled,Paid,Takeaway,Medium
+O730,2024-09-30,C356,"Phillip Cross",Aurora,IL,"United States",60505,3,S061,M086,Carbonara,Italian,Pasta,3,428.64,4.17,424.47,Pending,Unpaid,Takeaway,Low
+O731,2024-10-03,C4465,"Brian Davis",Naperville,IL,"United States",60540,7,S099,M007,"Adana Kebab",Turkish,Kebab,3,279.57,23.49,256.08,Completed,Unpaid,Dine-in,High
+O732,2024-10-02,C4156,"Thomas Cruz",Naperville,IL,"United States",60540,18,S038,M109,Spaghetti,Italian,Pasta,3,42.54,3.42,39.12,Pending,Unpaid,Dine-in,Low
+O733,2024-10-07,C6776,"Morgan Baker",Rockford,IL,"United States",61101,7,S039,M095,"Caprese Salad",Other,Miscellaneous,1,36.96,3.31,33.65,Completed,Paid,Dine-in,Low
+O734,2024-09-29,C628,"Renee Serrano",Rockford,IL,"United States",61101,4,S050,M138,Calzone,Other,Miscellaneous,4,384.04,26.73,357.31,Pending,Paid,Delivery,Medium
+O735,2024-10-12,C3509,"Laura Gonzales",Aurora,IL,"United States",60505,15,S069,M066,"Fettuccine Alfredo",Italian,Pasta,5,588.15,13.17,574.98,Completed,Paid,Delivery,Medium
+O736,2024-10-05,C7659,"Daisy Dean",Rockford,IL,"United States",61101,10,S076,M043,Moussaka,Greek,Casserole,2,81.18,6.92,74.26,Completed,Unpaid,Dine-in,High
+O737,2024-09-27,C2139,"Crystal Cooper",Aurora,IL,"United States",60505,4,S024,M118,Risotto,Other,Miscellaneous,4,43.52,1.76,41.76,Completed,Paid,Dine-in,Low
+O738,2024-10-24,C7144,"Cindy Estrada",Rockford,IL,"United States",61101,16,S008,M071,"Fettuccine Alfredo",Italian,Pasta,5,883.95,18.80,865.15,Cancelled,Unpaid,Takeaway,Low
+O739,2024-10-10,C8564,"Ian Diaz",Peoria,IL,"United States",61602,7,S019,M134,Moussaka,Greek,Casserole,2,118.02,9.37,108.65,Cancelled,Paid,Delivery,Low
+O740,2024-10-05,C7674,"Melissa Martin",Rockford,IL,"United States",61101,19,S081,M144,Gnocchi,Italian,Pasta,2,151.72,6.21,145.51,Completed,Paid,Delivery,Low
+O741,2024-10-20,C4022,"John Johnson",Naperville,IL,"United States",60540,3,S095,M068,Baklava,Greek,Dessert,5,353.55,7.28,346.27,Pending,Paid,Dine-in,Low
+O742,2024-10-23,C3810,"Cynthia Baker",Aurora,IL,"United States",60505,20,S005,M084,Tzatziki,Greek,Appetizer,1,136.76,8.30,128.46,Completed,Unpaid,Delivery,Low
+O743,2024-10-19,C4743,"Megan Hill",Naperville,IL,"United States",60540,18,S023,M144,Gnocchi,Italian,Pasta,4,303.44,22.77,280.67,Completed,Paid,Delivery,High
+O744,2024-10-17,C4268,"Nancy Hunt",Naperville,IL,"United States",60540,17,S077,M143,Tzatziki,Greek,Appetizer,1,151.49,11.88,139.61,Pending,Paid,Takeaway,Low
+O745,2024-10-25,C176,"Stacy Ramos",Chicago,IL,"United States",60601,11,S083,M031,Pastitsio,Other,Miscellaneous,2,139.40,9.02,130.38,Pending,Paid,Dine-in,High
+O746,2024-09-26,C1112,"Samantha Hill",Chicago,IL,"United States",60601,7,S074,M105,Risotto,Other,Miscellaneous,1,96.07,7.98,88.09,Completed,Paid,Dine-in,High
+O747,2024-10-10,C640,"Maria Mitchell",Rockford,IL,"United States",61101,9,S089,M009,Pide,Turkish,Flatbread,3,152.46,3.26,149.20,Cancelled,Unpaid,Takeaway,Low
+O748,2024-10-03,C7278,"Kaylee Jennings",Rockford,IL,"United States",61101,16,S009,M096,"Doner Kebab",Turkish,Kebab,2,206.32,9.06,197.26,Pending,Unpaid,Delivery,Low
+O749,2024-10-09,C5887,"David Jenkins",Naperville,IL,"United States",60540,2,S020,M048,Ravioli,Italian,Pasta,1,158.59,4.50,154.09,Pending,Paid,Takeaway,Low
+O750,2024-09-29,C021,"Jennifer Riggs",Chicago,IL,"United States",60601,1,S030,M092,"Greek Salad",Greek,Salad,4,799.40,51.99,747.41,Cancelled,Unpaid,Delivery,Low
+O751,2024-10-02,C1888,"Amanda Edwards",Chicago,IL,"United States",60601,17,S010,M030,Fasolada,Other,Miscellaneous,5,447.30,4.47,442.83,Pending,Unpaid,Dine-in,High
+O752,2024-10-09,C2335,"Kelly Charles",Aurora,IL,"United States",60505,8,S024,M010,Ravioli,Italian,Pasta,2,33.36,2.54,30.82,Completed,Unpaid,Takeaway,Medium
+O753,2024-09-29,C7931,"Michael Rodriguez",Rockford,IL,"United States",61101,9,S081,M009,Pide,Turkish,Flatbread,4,203.28,0.13,203.15,Cancelled,Unpaid,Dine-in,High
+O754,2024-10-11,C2455,"Michael Bowen",Aurora,IL,"United States",60505,20,S023,M139,Lasagna,Italian,Pasta,1,199.10,12.66,186.44,Cancelled,Paid,Delivery,Low
+O755,2024-10-05,C6160,"Martha Horne",Rockford,IL,"United States",61101,10,S004,M112,"Fettuccine Alfredo",Italian,Pasta,4,411.76,6.35,405.41,Pending,Paid,Delivery,Low
+O756,2024-10-02,C7924,"Jessica Khan",Rockford,IL,"United States",61101,12,S045,M016,Fasolada,Other,Miscellaneous,1,150.25,6.10,144.15,Completed,Unpaid,Delivery,Medium
+O757,2024-09-30,C5287,"Nathan Estrada",Naperville,IL,"United States",60540,7,S076,M021,Ravioli,Italian,Pasta,2,183.40,17.75,165.65,Completed,Unpaid,Takeaway,High
+O758,2024-10-11,C8845,"Linda Reyes",Peoria,IL,"United States",61602,10,S029,M062,Moussaka,Greek,Casserole,1,40.21,2.72,37.49,Completed,Paid,Delivery,Low
+O759,2024-10-16,C1532,"Matthew York",Chicago,IL,"United States",60601,12,S066,M033,Pide,Turkish,Flatbread,3,197.55,13.65,183.90,Completed,Paid,Dine-in,Low
+O760,2024-10-13,C5026,"Thomas Washington",Naperville,IL,"United States",60540,5,S080,M003,Carbonara,Italian,Pasta,2,130.88,11.09,119.79,Completed,Unpaid,Dine-in,Low
+O761,2024-10-14,C6397,"Jose Cruz",Rockford,IL,"United States",61101,13,S049,M015,"Shish Kebab",Turkish,Kebab,5,690.15,8.87,681.28,Pending,Paid,Dine-in,Low
+O762,2024-10-10,C4931,"Jorge Foster",Naperville,IL,"United States",60540,2,S008,M044,Gnocchi,Italian,Pasta,1,68.49,6.02,62.47,Pending,Unpaid,Takeaway,Low
+O763,2024-10-20,C240,"Christopher Andrews",Aurora,IL,"United States",60505,1,S073,M122,Gyro,Other,Miscellaneous,5,653.10,31.34,621.76,Cancelled,Paid,Takeaway,Low
+O764,2024-10-05,C943,"Shawn Morrison",Peoria,IL,"United States",61602,17,S009,M116,Baklava,Greek,Dessert,2,214.08,18.05,196.03,Completed,Unpaid,Delivery,Low
+O765,2024-10-02,C6328,"Jay Sanchez",Rockford,IL,"United States",61101,3,S084,M078,Pide,Turkish,Flatbread,2,290.02,11.70,278.32,Pending,Unpaid,Dine-in,Medium
+O766,2024-09-26,C850,"Autumn Mcclure",Peoria,IL,"United States",61602,16,S011,M122,Gyro,Other,Miscellaneous,1,130.62,12.97,117.65,Completed,Paid,Dine-in,High
+O767,2024-10-11,C619,"Marissa Winters",Rockford,IL,"United States",61101,1,S071,M148,"Pizza Margherita",Italian,Pasta,5,306.05,8.19,297.86,Cancelled,Unpaid,Delivery,Medium
+O768,2024-10-03,C1235,"Jared Watts",Chicago,IL,"United States",60601,10,S100,M091,Gnocchi,Italian,Pasta,1,144.76,2.76,142.00,Pending,Unpaid,Dine-in,Low
+O769,2024-10-25,C034,"Daniel Jones",Chicago,IL,"United States",60601,9,S080,M070,"Doner Kebab",Turkish,Kebab,1,182.81,13.48,169.33,Completed,Paid,Dine-in,Medium
+O770,2024-10-04,C8874,"Toni Jenkins",Peoria,IL,"United States",61602,4,S067,M080,Lahmacun,Turkish,Pastry,3,449.55,13.43,436.12,Pending,Unpaid,Dine-in,Medium
+O771,2024-10-21,C3007,"Jennifer Jackson",Aurora,IL,"United States",60505,14,S053,M003,Carbonara,Italian,Pasta,4,261.76,13.40,248.36,Cancelled,Unpaid,Dine-in,Low
+O772,2024-09-28,C1889,"Nancy Wright",Chicago,IL,"United States",60601,20,S037,M109,Spaghetti,Italian,Pasta,5,70.90,1.36,69.54,Completed,Unpaid,Takeaway,High
+O773,2024-09-30,C3942,"Steven Mullins",Aurora,IL,"United States",60505,8,S036,M021,Ravioli,Italian,Pasta,4,366.80,25.63,341.17,Completed,Unpaid,Delivery,Low
+O774,2024-10-04,C2542,"Lauren Stout",Aurora,IL,"United States",60505,16,S072,M098,Kofte,Turkish,Pastry,5,63.90,3.31,60.59,Pending,Unpaid,Dine-in,High
+O775,2024-10-19,C1560,"Jason Smith",Chicago,IL,"United States",60601,11,S098,M089,Spaghetti,Italian,Pasta,1,159.01,7.14,151.87,Pending,Paid,Takeaway,High
+O776,2024-09-30,C2983,"Aaron Wood",Aurora,IL,"United States",60505,6,S032,M031,Pastitsio,Other,Miscellaneous,2,139.40,2.69,136.71,Completed,Paid,Delivery,Medium
+O777,2024-10-04,C8973,"Lisa Harris",Peoria,IL,"United States",61602,16,S050,M109,Spaghetti,Italian,Pasta,2,28.36,1.93,26.43,Pending,Unpaid,Takeaway,Low
+O778,2024-10-02,C3305,"Michael Smith",Aurora,IL,"United States",60505,12,S070,M028,Tzatziki,Greek,Appetizer,3,396.45,21.47,374.98,Cancelled,Paid,Dine-in,Medium
+O779,2024-10-07,C6277,"Richard Ruiz",Rockford,IL,"United States",61101,4,S026,M083,Menemen,Other,Miscellaneous,4,326.92,11.83,315.09,Pending,Unpaid,Dine-in,High
+O780,2024-10-08,C2210,"Amy Harris",Aurora,IL,"United States",60505,18,S006,M001,Lasagna,Italian,Pasta,4,554.16,6.78,547.38,Pending,Unpaid,Dine-in,Low
+O781,2024-09-28,C4664,"Carol Leon",Naperville,IL,"United States",60540,16,S034,M074,Baklava,Greek,Dessert,2,136.32,7.98,128.34,Completed,Unpaid,Delivery,High
+O782,2024-10-05,C9141,"David Fowler",Peoria,IL,"United States",61602,14,S083,M042,Kofte,Turkish,Pastry,4,509.72,19.87,489.85,Cancelled,Unpaid,Delivery,Low
+O783,2024-10-11,C3240,"Melissa Flores",Aurora,IL,"United States",60505,20,S075,M118,Risotto,Other,Miscellaneous,1,10.88,0.77,10.11,Cancelled,Paid,Delivery,Medium
+O784,2024-10-10,C1827,"Joseph Foster",Chicago,IL,"United States",60601,2,S070,M052,Lasagna,Italian,Pasta,2,332.50,32.09,300.41,Pending,Paid,Takeaway,Medium
+O785,2024-10-19,C1537,"Bruce Aguilar",Chicago,IL,"United States",60601,2,S037,M046,Spanakopita,Other,Miscellaneous,3,101.46,1.50,99.96,Cancelled,Paid,Takeaway,High
+O786,2024-09-26,C2523,"Amanda Rogers",Aurora,IL,"United States",60505,8,S050,M114,"Shish Kebab",Turkish,Kebab,5,848.75,70.28,778.47,Cancelled,Unpaid,Delivery,Medium
+O787,2024-10-11,C3546,"Stacy Anderson",Aurora,IL,"United States",60505,5,S061,M145,Baklava,Greek,Dessert,5,291.90,29.00,262.90,Completed,Paid,Takeaway,High
+O788,2024-10-15,C6253,"Anthony Bauer",Rockford,IL,"United States",61101,7,S009,M069,"Doner Kebab",Turkish,Kebab,4,563.68,15.42,548.26,Pending,Paid,Takeaway,High
+O789,2024-10-09,C119,"Jamie Baker",Chicago,IL,"United States",60601,10,S020,M049,Menemen,Other,Miscellaneous,2,85.56,2.99,82.57,Pending,Unpaid,Dine-in,Medium
+O790,2024-10-11,C1725,"Susan Soto",Chicago,IL,"United States",60601,3,S047,M052,Lasagna,Italian,Pasta,4,665.00,58.18,606.82,Cancelled,Paid,Takeaway,Low
+O791,2024-10-10,C2196,"Shelia Gilbert",Aurora,IL,"United States",60505,7,S090,M085,"Greek Salad",Greek,Salad,4,636.84,40.65,596.19,Cancelled,Unpaid,Dine-in,Low
+O792,2024-10-25,C2209,"Abigail Welch",Aurora,IL,"United States",60505,4,S063,M137,Lasagna,Italian,Pasta,1,164.93,8.30,156.63,Pending,Paid,Dine-in,Low
+O793,2024-10-03,C3551,"Mary Cervantes",Aurora,IL,"United States",60505,20,S057,M127,Tiramisu,Other,Miscellaneous,2,277.68,1.70,275.98,Completed,Unpaid,Takeaway,High
+O794,2024-10-14,C1412,"Michael Jimenez",Chicago,IL,"United States",60601,15,S048,M088,Spaghetti,Italian,Pasta,4,448.76,29.53,419.23,Pending,Unpaid,Dine-in,High
+O795,2024-10-02,C1623,"Jacob Turner",Chicago,IL,"United States",60601,4,S099,M022,"Kuzu Tandir",Other,Miscellaneous,3,447.39,17.35,430.04,Cancelled,Paid,Delivery,Medium
+O796,2024-10-24,C5071,"Heather Wu",Naperville,IL,"United States",60540,20,S025,M141,Minestrone,Other,Miscellaneous,4,712.40,61.59,650.81,Cancelled,Unpaid,Takeaway,Medium
+O797,2024-10-12,C3966,"Andrea Bridges",Aurora,IL,"United States",60505,3,S072,M051,"Greek Salad",Greek,Salad,1,144.75,8.24,136.51,Pending,Paid,Dine-in,Low
+O798,2024-09-26,C3991,"Aaron Bray",Aurora,IL,"United States",60505,20,S043,M113,"Fettuccine Alfredo",Italian,Pasta,5,534.25,26.71,507.54,Pending,Unpaid,Dine-in,Low
+O799,2024-10-17,C3670,"Nancy Morgan",Aurora,IL,"United States",60505,4,S091,M083,Menemen,Other,Miscellaneous,2,163.46,6.80,156.66,Completed,Unpaid,Delivery,Medium
+O800,2024-10-12,C9985,"Kayla Williams",Peoria,IL,"United States",61602,13,S092,M051,"Greek Salad",Greek,Salad,1,144.75,10.84,133.91,Cancelled,Paid,Takeaway,High
+O801,2024-10-07,C4984,"Randy Tran",Naperville,IL,"United States",60540,3,S009,M028,Tzatziki,Greek,Appetizer,2,264.30,4.69,259.61,Completed,Paid,Delivery,Low
+O802,2024-10-01,C3896,"Anita Hill",Aurora,IL,"United States",60505,12,S100,M088,Spaghetti,Italian,Pasta,2,224.38,10.02,214.36,Completed,Unpaid,Delivery,Medium
+O803,2024-10-16,C9107,"Deborah Hill",Peoria,IL,"United States",61602,14,S048,M001,Lasagna,Italian,Pasta,1,138.54,4.91,133.63,Pending,Unpaid,Takeaway,Medium
+O804,2024-10-06,C097,"Sara Rodriguez",Chicago,IL,"United States",60601,12,S052,M137,Lasagna,Italian,Pasta,2,329.86,11.86,318.00,Cancelled,Unpaid,Delivery,Medium
+O805,2024-10-15,C6829,"Tyler Mcmahon",Rockford,IL,"United States",61101,8,S024,M035,"Pizza Margherita",Italian,Pasta,1,134.26,3.44,130.82,Completed,Paid,Takeaway,High
+O806,2024-10-03,C5756,"Kaylee Marshall",Naperville,IL,"United States",60540,6,S050,M044,Gnocchi,Italian,Pasta,3,205.47,10.05,195.42,Completed,Unpaid,Takeaway,Low
+O807,2024-10-25,C6072,"Robert Conway",Rockford,IL,"United States",61101,6,S060,M010,Ravioli,Italian,Pasta,4,66.72,2.04,64.68,Pending,Paid,Dine-in,Medium
+O808,2024-10-08,C1053,"Ashley Watkins",Chicago,IL,"United States",60601,10,S078,M007,"Adana Kebab",Turkish,Kebab,1,93.19,1.87,91.32,Completed,Paid,Dine-in,High
+O809,2024-09-27,C2915,"Darren Ellis",Aurora,IL,"United States",60505,20,S059,M024,Calzone,Other,Miscellaneous,4,425.44,40.61,384.83,Cancelled,Unpaid,Delivery,Low
+O810,2024-10-12,C6341,"Jason Estrada",Rockford,IL,"United States",61101,12,S075,M002,Dolmades,Greek,Appetizer,5,370.50,6.18,364.32,Completed,Unpaid,Delivery,High
+O811,2024-09-30,C3933,"Shawn Thomas",Aurora,IL,"United States",60505,14,S022,M144,Gnocchi,Italian,Pasta,2,151.72,6.21,145.51,Cancelled,Unpaid,Delivery,Low
+O812,2024-10-23,C6558,"Brent Long",Rockford,IL,"United States",61101,9,S060,M089,Spaghetti,Italian,Pasta,2,318.02,15.27,302.75,Completed,Unpaid,Takeaway,High
+O813,2024-10-05,C4088,"Robert Murphy",Naperville,IL,"United States",60540,11,S098,M042,Kofte,Turkish,Pastry,4,509.72,29.10,480.62,Completed,Paid,Dine-in,Low
+O814,2024-10-20,C6887,"Christine Montoya",Rockford,IL,"United States",61101,15,S040,M011,"Imam Bayildi",Other,Miscellaneous,5,284.10,17.12,266.98,Completed,Unpaid,Takeaway,Medium
+O815,2024-09-28,C9801,"David Warner",Peoria,IL,"United States",61602,2,S071,M113,"Fettuccine Alfredo",Italian,Pasta,1,106.85,5.75,101.10,Pending,Paid,Dine-in,Medium
+O816,2024-10-12,C8307,"Anthony Jones",Peoria,IL,"United States",61602,15,S079,M135,Calzone,Other,Miscellaneous,3,431.34,39.09,392.25,Cancelled,Paid,Delivery,Medium
+O817,2024-10-24,C5912,"Michael Harper",Naperville,IL,"United States",60540,16,S008,M137,Lasagna,Italian,Pasta,2,329.86,6.68,323.18,Completed,Paid,Delivery,Medium
+O818,2024-10-10,C9939,"Tara Martinez",Peoria,IL,"United States",61602,4,S087,M070,"Doner Kebab",Turkish,Kebab,1,182.81,4.51,178.30,Pending,Paid,Takeaway,Low
+O819,2024-10-19,C624,"Emily Kane",Rockford,IL,"United States",61101,19,S049,M141,Minestrone,Other,Miscellaneous,1,178.10,14.54,163.56,Completed,Unpaid,Dine-in,Medium
+O820,2024-10-03,C8902,"Steven Pierce",Peoria,IL,"United States",61602,19,S054,M050,Tiramisu,Other,Miscellaneous,5,583.05,31.91,551.14,Completed,Unpaid,Delivery,High
+O821,2024-09-30,C6348,"Laurie Mayer",Rockford,IL,"United States",61101,8,S036,M032,Tiramisu,Other,Miscellaneous,3,555.60,52.69,502.91,Cancelled,Unpaid,Delivery,Medium
+O822,2024-09-27,C5594,"Megan Dixon",Naperville,IL,"United States",60540,8,S074,M074,Baklava,Greek,Dessert,3,204.48,2.33,202.15,Completed,Unpaid,Takeaway,Medium
+O823,2024-10-08,C6153,"Taylor Bailey",Rockford,IL,"United States",61101,6,S044,M051,"Greek Salad",Greek,Salad,5,723.75,16.06,707.69,Cancelled,Unpaid,Delivery,High
+O824,2024-09-29,C6128,"Jared Contreras",Rockford,IL,"United States",61101,11,S096,M017,Ravioli,Italian,Pasta,2,106.92,0.03,106.89,Completed,Unpaid,Takeaway,Low
+O825,2024-10-15,C3723,"James Taylor",Aurora,IL,"United States",60505,6,S088,M046,Spanakopita,Other,Miscellaneous,1,33.82,1.54,32.28,Cancelled,Unpaid,Takeaway,High
+O826,2024-10-15,C486,"Allison Peterson",Naperville,IL,"United States",60540,15,S041,M148,"Pizza Margherita",Italian,Pasta,1,61.21,0.74,60.47,Cancelled,Paid,Dine-in,Medium
+O827,2024-09-28,C6079,"Frank Burch",Rockford,IL,"United States",61101,19,S032,M118,Risotto,Other,Miscellaneous,1,10.88,0.29,10.59,Cancelled,Unpaid,Takeaway,Medium
+O828,2024-10-01,C9467,"Renee Smith",Peoria,IL,"United States",61602,20,S004,M140,Spaghetti,Italian,Pasta,3,351.87,30.74,321.13,Pending,Paid,Takeaway,Low
+O829,2024-10-08,C6778,"Angela Long",Rockford,IL,"United States",61101,11,S073,M123,"Adana Kebab",Turkish,Kebab,2,366.16,13.24,352.92,Completed,Paid,Delivery,Low
+O830,2024-10-05,C5717,"Bruce Carson",Naperville,IL,"United States",60540,4,S048,M124,Galaktoboureko,Other,Miscellaneous,2,177.94,13.30,164.64,Completed,Paid,Takeaway,Medium
+O831,2024-09-28,C7503,"Rachael Garcia",Rockford,IL,"United States",61101,5,S026,M113,"Fettuccine Alfredo",Italian,Pasta,4,427.40,25.28,402.12,Pending,Unpaid,Dine-in,Low
+O832,2024-10-06,C4045,"Carlos Powell",Naperville,IL,"United States",60540,13,S066,M097,Menemen,Other,Miscellaneous,4,548.16,48.37,499.79,Pending,Paid,Takeaway,High
+O833,2024-10-25,C209,"Steven Stokes",Aurora,IL,"United States",60505,1,S094,M012,Baklava,Greek,Dessert,2,392.04,29.88,362.16,Completed,Paid,Delivery,High
+O834,2024-10-08,C1196,"Nicole Donovan",Chicago,IL,"United States",60601,11,S009,M092,"Greek Salad",Greek,Salad,2,399.70,14.52,385.18,Cancelled,Paid,Takeaway,Medium
+O835,2024-10-20,C2143,"April Lopez",Aurora,IL,"United States",60505,12,S061,M035,"Pizza Margherita",Italian,Pasta,2,268.52,16.60,251.92,Cancelled,Unpaid,Dine-in,Medium
+O836,2024-10-21,C610,"Lisa Mcdonald",Rockford,IL,"United States",61101,14,S012,M039,"Iskender Kebab",Other,Miscellaneous,5,224.85,11.59,213.26,Cancelled,Unpaid,Dine-in,High
+O837,2024-09-28,C1000,"Vicki Walter",Chicago,IL,"United States",60601,7,S064,M029,Pide,Turkish,Flatbread,2,94.32,6.21,88.11,Cancelled,Unpaid,Delivery,Medium
+O838,2024-09-29,C3444,"Monique Jones",Aurora,IL,"United States",60505,7,S040,M110,Loukoumades,Other,Miscellaneous,1,192.71,8.52,184.19,Completed,Unpaid,Delivery,High
+O839,2024-10-11,C3870,"Victor Montgomery",Aurora,IL,"United States",60505,10,S010,M097,Menemen,Other,Miscellaneous,5,685.20,60.86,624.34,Cancelled,Paid,Takeaway,High
+O840,2024-10-16,C4453,"Louis Mccormick",Naperville,IL,"United States",60540,5,S042,M023,"Adana Kebab",Turkish,Kebab,5,828.85,51.32,777.53,Cancelled,Paid,Delivery,High
+O841,2024-10-23,C5967,"Diana Davies",Naperville,IL,"United States",60540,13,S003,M016,Fasolada,Other,Miscellaneous,3,450.75,43.09,407.66,Pending,Paid,Takeaway,Low
+O842,2024-09-26,C9830,"Dana Hogan",Peoria,IL,"United States",61602,12,S096,M098,Kofte,Turkish,Pastry,2,25.56,0.44,25.12,Cancelled,Unpaid,Dine-in,Medium
+O843,2024-09-26,C1888,"Amanda Edwards",Chicago,IL,"United States",60601,3,S001,M060,Baklava,Greek,Dessert,1,57.12,2.54,54.58,Pending,Unpaid,Delivery,Low
+O844,2024-10-05,C7960,"Amber Parker",Rockford,IL,"United States",61101,18,S062,M119,"Doner Kebab",Turkish,Kebab,5,164.45,10.07,154.38,Pending,Paid,Dine-in,Low
+O845,2024-09-29,C4422,"Samantha Patel",Naperville,IL,"United States",60540,17,S075,M084,Tzatziki,Greek,Appetizer,2,273.52,5.37,268.15,Cancelled,Unpaid,Takeaway,Medium
+O846,2024-10-24,C3646,"Nicholas Huffman",Aurora,IL,"United States",60505,1,S003,M045,Lasagna,Italian,Pasta,3,134.52,2.02,132.50,Completed,Paid,Dine-in,Medium
+O847,2024-10-18,C1237,"Walter Wilson",Chicago,IL,"United States",60601,9,S086,M073,Spanakopita,Other,Miscellaneous,2,261.06,8.63,252.43,Cancelled,Paid,Dine-in,High
+O848,2024-10-03,C9108,"Melissa Quinn",Peoria,IL,"United States",61602,7,S011,M109,Spaghetti,Italian,Pasta,5,70.90,2.79,68.11,Completed,Paid,Delivery,High
+O849,2024-10-18,C5305,"Brenda Flores",Naperville,IL,"United States",60540,9,S030,M019,Spanakopita,Other,Miscellaneous,2,311.14,27.39,283.75,Pending,Unpaid,Dine-in,Low
+O850,2024-09-30,C8719,"Travis Jensen",Peoria,IL,"United States",61602,16,S062,M141,Minestrone,Other,Miscellaneous,3,534.30,41.05,493.25,Completed,Unpaid,Delivery,High
+O851,2024-10-23,C6700,"Angela Caldwell",Rockford,IL,"United States",61101,6,S071,M141,Minestrone,Other,Miscellaneous,1,178.10,17.04,161.06,Completed,Unpaid,Delivery,Medium
+O852,2024-10-11,C7874,"Allison Nash",Rockford,IL,"United States",61101,3,S097,M131,Pide,Turkish,Flatbread,1,102.31,8.14,94.17,Pending,Paid,Dine-in,Medium
+O853,2024-10-16,C1564,"Virginia Robinson",Chicago,IL,"United States",60601,1,S016,M113,"Fettuccine Alfredo",Italian,Pasta,4,427.40,11.40,416.00,Pending,Paid,Takeaway,High
+O854,2024-10-10,C2662,"Nathaniel Klein",Aurora,IL,"United States",60505,5,S057,M117,"Adana Kebab",Turkish,Kebab,4,684.72,59.85,624.87,Cancelled,Unpaid,Dine-in,Medium
+O855,2024-10-24,C6233,"Jacqueline Nelson",Rockford,IL,"United States",61101,11,S034,M068,Baklava,Greek,Dessert,1,70.71,3.63,67.08,Completed,Unpaid,Dine-in,High
+O856,2024-10-07,C4603,"Timothy Flores",Naperville,IL,"United States",60540,19,S099,M117,"Adana Kebab",Turkish,Kebab,1,171.18,0.20,170.98,Completed,Unpaid,Dine-in,Medium
+O857,2024-10-10,C6697,"Timothy Carter",Rockford,IL,"United States",61101,9,S053,M009,Pide,Turkish,Flatbread,5,254.10,0.95,253.15,Pending,Unpaid,Dine-in,Low
+O858,2024-09-26,C2140,"Carla Miller",Aurora,IL,"United States",60505,1,S073,M032,Tiramisu,Other,Miscellaneous,1,185.20,11.74,173.46,Completed,Unpaid,Takeaway,Low
+O859,2024-10-05,C2677,"Andrea Wilson",Aurora,IL,"United States",60505,8,S052,M120,Borek,Turkish,Pastry,1,57.23,5.08,52.15,Cancelled,Paid,Takeaway,Medium
+O860,2024-10-05,C1758,"Robert Thomas",Chicago,IL,"United States",60601,13,S006,M070,"Doner Kebab",Turkish,Kebab,3,548.43,31.16,517.27,Completed,Paid,Dine-in,Low
+O861,2024-10-17,C5187,"Anthony Boyd",Naperville,IL,"United States",60540,12,S059,M005,Moussaka,Greek,Casserole,5,940.10,32.66,907.44,Pending,Unpaid,Takeaway,High
+O862,2024-10-12,C8843,"Anthony Evans",Peoria,IL,"United States",61602,8,S074,M058,"Greek Salad",Greek,Salad,4,683.48,55.72,627.76,Completed,Paid,Dine-in,Medium
+O863,2024-10-01,C1174,"Felicia Woods",Chicago,IL,"United States",60601,9,S045,M110,Loukoumades,Other,Miscellaneous,4,770.84,36.22,734.62,Cancelled,Unpaid,Takeaway,Low
+O864,2024-10-12,C6542,"Jacqueline Scott",Rockford,IL,"United States",61101,20,S016,M049,Menemen,Other,Miscellaneous,3,128.34,3.37,124.97,Cancelled,Paid,Takeaway,High
+O865,2024-09-26,C2783,"Angela Fox",Aurora,IL,"United States",60505,10,S001,M103,Calzone,Other,Miscellaneous,2,224.72,9.66,215.06,Pending,Paid,Delivery,High
+O866,2024-10-09,C8347,"Christopher Brewer",Peoria,IL,"United States",61602,3,S097,M026,Galaktoboureko,Other,Miscellaneous,4,404.48,3.05,401.43,Pending,Paid,Dine-in,Medium
+O867,2024-10-12,C4666,"Brittany House",Naperville,IL,"United States",60540,13,S077,M037,Tzatziki,Greek,Appetizer,1,192.02,5.62,186.40,Cancelled,Unpaid,Dine-in,Low
+O868,2024-10-19,C6681,"Tom Graham",Rockford,IL,"United States",61101,11,S050,M026,Galaktoboureko,Other,Miscellaneous,3,303.36,8.69,294.67,Completed,Paid,Dine-in,High
+O869,2024-10-08,C2642,"Courtney Barnes",Aurora,IL,"United States",60505,3,S010,M087,Risotto,Other,Miscellaneous,4,83.12,2.20,80.92,Pending,Unpaid,Delivery,Low
+O870,2024-09-26,C1285,"Samantha Hernandez",Chicago,IL,"United States",60601,3,S021,M070,"Doner Kebab",Turkish,Kebab,5,914.05,90.77,823.28,Cancelled,Unpaid,Delivery,High
+O871,2024-10-05,C6217,"Terry Powell",Rockford,IL,"United States",61101,4,S069,M024,Calzone,Other,Miscellaneous,1,106.36,9.49,96.87,Cancelled,Paid,Takeaway,High
+O872,2024-09-30,C6796,"Monica Hernandez",Rockford,IL,"United States",61101,15,S085,M042,Kofte,Turkish,Pastry,5,637.15,31.24,605.91,Cancelled,Unpaid,Takeaway,Medium
+O873,2024-10-24,C1652,"Lisa Berry",Chicago,IL,"United States",60601,11,S012,M008,Risotto,Other,Miscellaneous,3,502.92,14.27,488.65,Pending,Unpaid,Dine-in,High
+O874,2024-10-17,C9633,"Edward Waters",Peoria,IL,"United States",61602,11,S091,M057,Souvlaki,Greek,Appetizer,1,28.97,2.88,26.09,Cancelled,Paid,Delivery,Medium
+O875,2024-10-13,C186,"Jessica Hayes",Chicago,IL,"United States",60601,7,S020,M052,Lasagna,Italian,Pasta,3,498.75,18.01,480.74,Cancelled,Paid,Dine-in,High
+O876,2024-09-26,C3473,"James Johnson",Aurora,IL,"United States",60505,9,S093,M017,Ravioli,Italian,Pasta,2,106.92,8.52,98.40,Completed,Paid,Delivery,High
+O877,2024-10-15,C7483,"Timothy Bauer",Rockford,IL,"United States",61101,14,S042,M005,Moussaka,Greek,Casserole,4,752.08,58.12,693.96,Pending,Paid,Dine-in,Low
+O878,2024-10-05,C6653,"Julie Bates",Rockford,IL,"United States",61101,18,S027,M008,Risotto,Other,Miscellaneous,1,167.64,2.64,165.00,Pending,Paid,Delivery,High
+O879,2024-10-21,C927,"Troy Stein",Peoria,IL,"United States",61602,17,S088,M123,"Adana Kebab",Turkish,Kebab,3,549.24,19.26,529.98,Cancelled,Paid,Takeaway,Medium
+O880,2024-09-29,C685,"Jeffrey Long",Rockford,IL,"United States",61101,20,S074,M100,Lasagna,Italian,Pasta,5,439.30,15.00,424.30,Pending,Unpaid,Dine-in,High
+O881,2024-10-21,C8125,"Melissa Osborn",Peoria,IL,"United States",61602,8,S099,M148,"Pizza Margherita",Italian,Pasta,3,183.63,0.77,182.86,Completed,Paid,Delivery,Medium
+O882,2024-10-15,C998,"Kevin Evans",Peoria,IL,"United States",61602,3,S039,M035,"Pizza Margherita",Italian,Pasta,2,268.52,14.95,253.57,Completed,Paid,Takeaway,Medium
+O883,2024-10-21,C363,"Sarah Williams",Aurora,IL,"United States",60505,20,S077,M030,Fasolada,Other,Miscellaneous,5,447.30,19.72,427.58,Completed,Unpaid,Dine-in,Low
+O884,2024-10-17,C5938,"Sheena Hunter",Naperville,IL,"United States",60540,16,S082,M027,Lahmacun,Turkish,Pastry,4,122.28,2.72,119.56,Pending,Paid,Delivery,High
+O885,2024-10-17,C9241,"Alyssa Lee",Peoria,IL,"United States",61602,12,S099,M069,"Doner Kebab",Turkish,Kebab,5,704.60,32.40,672.20,Pending,Paid,Delivery,Low
+O886,2024-10-17,C9243,"Chad Cook",Peoria,IL,"United States",61602,19,S097,M088,Spaghetti,Italian,Pasta,5,560.95,42.50,518.45,Pending,Paid,Delivery,Medium
+O887,2024-10-09,C8564,"Ian Diaz",Peoria,IL,"United States",61602,5,S073,M148,"Pizza Margherita",Italian,Pasta,1,61.21,1.73,59.48,Pending,Paid,Takeaway,Medium
+O888,2024-10-08,C9139,"Joshua Gallegos",Peoria,IL,"United States",61602,5,S043,M109,Spaghetti,Italian,Pasta,4,56.72,1.66,55.06,Pending,Unpaid,Dine-in,Medium
+O889,2024-10-12,C3329,"Carly Martinez",Aurora,IL,"United States",60505,2,S070,M007,"Adana Kebab",Turkish,Kebab,3,279.57,5.87,273.70,Pending,Unpaid,Dine-in,Low
+O890,2024-10-24,C152,"Shawn Reilly",Chicago,IL,"United States",60601,3,S055,M086,Carbonara,Italian,Pasta,2,285.76,0.55,285.21,Completed,Paid,Dine-in,High
+O891,2024-10-14,C9989,"Corey Leonard",Peoria,IL,"United States",61602,15,S003,M105,Risotto,Other,Miscellaneous,1,96.07,4.99,91.08,Pending,Paid,Dine-in,Medium
+O892,2024-10-04,C2785,"Grace White",Aurora,IL,"United States",60505,2,S092,M080,Lahmacun,Turkish,Pastry,3,449.55,24.27,425.28,Pending,Unpaid,Dine-in,Low
+O893,2024-10-05,C8914,"John Miller",Peoria,IL,"United States",61602,16,S014,M057,Souvlaki,Greek,Appetizer,3,86.91,7.91,79.00,Pending,Unpaid,Takeaway,High
+O894,2024-10-10,C6323,"Alexandria Richards",Rockford,IL,"United States",61101,20,S061,M015,"Shish Kebab",Turkish,Kebab,1,138.03,13.08,124.95,Pending,Paid,Dine-in,Medium
+O895,2024-09-27,C1353,"Jessica Carrillo",Chicago,IL,"United States",60601,18,S072,M087,Risotto,Other,Miscellaneous,1,20.78,1.32,19.46,Cancelled,Unpaid,Delivery,Medium
+O896,2024-10-16,C2653,"Sonya Escobar",Aurora,IL,"United States",60505,13,S098,M119,"Doner Kebab",Turkish,Kebab,1,32.89,0.37,32.52,Pending,Unpaid,Dine-in,Low
+O897,2024-10-14,C9140,"Sarah Lewis",Peoria,IL,"United States",61602,11,S084,M125,"Kuzu Tandir",Other,Miscellaneous,2,368.00,13.82,354.18,Cancelled,Paid,Dine-in,High
+O898,2024-10-04,C2868,"Thomas Roberts",Aurora,IL,"United States",60505,20,S072,M118,Risotto,Other,Miscellaneous,4,43.52,0.06,43.46,Cancelled,Paid,Delivery,High
+O899,2024-10-08,C6903,"Tyler Wilson",Rockford,IL,"United States",61101,2,S027,M122,Gyro,Other,Miscellaneous,3,391.86,36.55,355.31,Cancelled,Paid,Delivery,Medium
+O900,2024-10-23,C1835,"Brooke Harris",Chicago,IL,"United States",60601,12,S075,M111,Borek,Turkish,Pastry,4,62.64,1.65,60.99,Pending,Paid,Delivery,Medium
+O901,2024-10-18,C8195,"Larry Austin",Peoria,IL,"United States",61602,9,S095,M134,Moussaka,Greek,Casserole,2,118.02,4.02,114.00,Completed,Unpaid,Delivery,High
+O902,2024-10-25,C879,"Scott Thornton",Peoria,IL,"United States",61602,11,S089,M121,Kofte,Turkish,Pastry,4,71.40,4.80,66.60,Pending,Unpaid,Dine-in,High
+O903,2024-10-03,C6429,"Carlos Marks",Rockford,IL,"United States",61101,7,S014,M111,Borek,Turkish,Pastry,1,15.66,0.89,14.77,Completed,Unpaid,Dine-in,High
+O904,2024-10-21,C3266,"Hector Williams",Aurora,IL,"United States",60505,5,S052,M038,Spaghetti,Italian,Pasta,4,478.32,25.84,452.48,Cancelled,Unpaid,Takeaway,High
+O905,2024-10-05,C8243,"Anthony White",Peoria,IL,"United States",61602,11,S057,M045,Lasagna,Italian,Pasta,3,134.52,0.22,134.30,Cancelled,Paid,Dine-in,Low
+O906,2024-10-09,C2686,"Lindsey Huynh",Aurora,IL,"United States",60505,14,S083,M017,Ravioli,Italian,Pasta,5,267.30,24.60,242.70,Completed,Unpaid,Dine-in,Medium
+O907,2024-09-28,C5143,"Jessica Jones",Naperville,IL,"United States",60540,11,S023,M093,Tzatziki,Greek,Appetizer,5,110.65,2.05,108.60,Pending,Unpaid,Takeaway,Medium
+O908,2024-10-21,C4116,"Sean Carlson",Naperville,IL,"United States",60540,16,S008,M004,Pide,Turkish,Flatbread,5,554.85,39.79,515.06,Cancelled,Unpaid,Delivery,Medium
+O909,2024-09-28,C9475,"Joe Miller",Peoria,IL,"United States",61602,1,S033,M070,"Doner Kebab",Turkish,Kebab,5,914.05,26.08,887.97,Completed,Paid,Takeaway,Medium
+O910,2024-10-24,C3790,"Julie Lawrence",Aurora,IL,"United States",60505,13,S045,M017,Ravioli,Italian,Pasta,2,106.92,2.92,104.00,Pending,Unpaid,Dine-in,Low
+O921,2024-10-24,C1732,"Peter Cowan",Chicago,IL,"United States",60601,16,S022,M087,Risotto,Other,Miscellaneous,4,83.12,1.31,81.81,Cancelled,Unpaid,Delivery,Medium
+O922,2024-10-21,C1154,"Melanie Perez",Chicago,IL,"United States",60601,20,S054,M003,Carbonara,Italian,Pasta,3,196.32,5.14,191.18,Cancelled,Unpaid,Takeaway,High
+O923,2024-09-28,C3230,"Maria Parrish",Aurora,IL,"United States",60505,7,S100,M103,Calzone,Other,Miscellaneous,2,224.72,6.62,218.10,Pending,Unpaid,Delivery,Medium
+O924,2024-10-03,C1275,"William King",Chicago,IL,"United States",60601,15,S020,M061,Moussaka,Greek,Casserole,5,742.70,36.35,706.35,Completed,Paid,Dine-in,Medium
+O925,2024-09-26,C3472,"Danielle Williams",Aurora,IL,"United States",60505,7,S012,M128,"Greek Salad",Greek,Salad,5,969.60,10.19,959.41,Cancelled,Unpaid,Takeaway,Medium
+O926,2024-10-11,C714,"Kevin Brown",Rockford,IL,"United States",61101,10,S079,M139,Lasagna,Italian,Pasta,4,796.40,25.16,771.24,Cancelled,Paid,Delivery,Low
+O927,2024-10-22,C6738,"Charles Howard",Rockford,IL,"United States",61101,20,S073,M109,Spaghetti,Italian,Pasta,4,56.72,0.81,55.91,Pending,Paid,Dine-in,Medium
+O928,2024-10-24,C6891,"Amanda Harris",Rockford,IL,"United States",61101,18,S056,M131,Pide,Turkish,Flatbread,2,204.62,9.25,195.37,Completed,Paid,Delivery,High
+O929,2024-10-07,C9756,"Bobby Brown",Peoria,IL,"United States",61602,10,S079,M094,"Kuzu Tandir",Other,Miscellaneous,3,443.43,43.53,399.90,Pending,Paid,Delivery,High
+O930,2024-09-27,C1460,"Amanda Beard",Chicago,IL,"United States",60601,2,S036,M145,Baklava,Greek,Dessert,1,58.38,1.19,57.19,Cancelled,Unpaid,Delivery,High
+O931,2024-10-09,C3256,"Felicia May",Aurora,IL,"United States",60505,11,S091,M113,"Fettuccine Alfredo",Italian,Pasta,1,106.85,0.01,106.84,Completed,Unpaid,Takeaway,High
+O932,2024-10-08,C4167,"Rachel Sims",Naperville,IL,"United States",60540,3,S077,M064,Lahmacun,Turkish,Pastry,4,657.84,44.89,612.95,Cancelled,Paid,Takeaway,Medium
+O933,2024-09-29,C9451,"Sabrina Thompson",Peoria,IL,"United States",61602,13,S022,M130,Lasagna,Italian,Pasta,3,589.56,41.63,547.93,Completed,Paid,Dine-in,Medium
+O934,2024-10-08,C3050,"Louis Rowe",Aurora,IL,"United States",60505,13,S058,M076,"Greek Salad",Greek,Salad,2,101.58,2.02,99.56,Cancelled,Paid,Takeaway,High
+O935,2024-09-27,C4947,"Donna Flores",Naperville,IL,"United States",60540,19,S013,M111,Borek,Turkish,Pastry,5,78.30,4.06,74.24,Completed,Unpaid,Delivery,High
+O936,2024-10-09,C9127,"Chad Mclaughlin",Peoria,IL,"United States",61602,15,S091,M015,"Shish Kebab",Turkish,Kebab,2,276.06,8.78,267.28,Completed,Paid,Delivery,Low
+O937,2024-10-22,C6523,"Xavier Murphy",Rockford,IL,"United States",61101,12,S067,M068,Baklava,Greek,Dessert,5,353.55,7.74,345.81,Pending,Paid,Delivery,High
+O938,2024-09-29,C6293,"Debra Moore",Rockford,IL,"United States",61101,14,S063,M058,"Greek Salad",Greek,Salad,5,854.35,23.66,830.69,Pending,Unpaid,Dine-in,Low
+O939,2024-10-03,C4173,"Dennis Perez",Naperville,IL,"United States",60540,2,S035,M116,Baklava,Greek,Dessert,3,321.12,11.60,309.52,Pending,Paid,Delivery,Low
+O940,2024-10-23,C9255,"Mark Ramos",Peoria,IL,"United States",61602,18,S058,M146,Dolmades,Greek,Appetizer,5,293.65,11.67,281.98,Cancelled,Unpaid,Delivery,Low
+O941,2024-09-26,C8302,"Sean Woods",Peoria,IL,"United States",61602,14,S036,M058,"Greek Salad",Greek,Salad,5,854.35,25.77,828.58,Cancelled,Unpaid,Dine-in,Low
+O942,2024-09-30,C8170,"Derek Ryan",Peoria,IL,"United States",61602,15,S089,M001,Lasagna,Italian,Pasta,1,138.54,0.68,137.86,Cancelled,Paid,Delivery,Medium
+O943,2024-10-08,C3825,"Amy Tran",Aurora,IL,"United States",60505,19,S025,M150,Souvlaki,Greek,Appetizer,2,369.66,19.10,350.56,Pending,Paid,Takeaway,Medium
+O944,2024-10-22,C6334,"David Bell",Rockford,IL,"United States",61101,14,S007,M060,Baklava,Greek,Dessert,1,57.12,1.87,55.25,Cancelled,Paid,Delivery,Low
+O945,2024-10-22,C5054,"Marilyn Castillo",Naperville,IL,"United States",60540,10,S091,M055,Galaktoboureko,Other,Miscellaneous,3,549.60,41.66,507.94,Cancelled,Unpaid,Delivery,Low
+O946,2024-10-20,C3131,"Donna Scott",Aurora,IL,"United States",60505,14,S022,M142,Ravioli,Italian,Pasta,3,259.08,25.72,233.36,Pending,Unpaid,Delivery,High
+O947,2024-10-01,C4547,"Megan Andrews",Naperville,IL,"United States",60540,2,S032,M088,Spaghetti,Italian,Pasta,1,112.19,3.19,109.00,Cancelled,Paid,Takeaway,Medium
+O948,2024-10-05,C2971,"Jose Jensen",Aurora,IL,"United States",60505,8,S008,M024,Calzone,Other,Miscellaneous,5,531.80,34.22,497.58,Cancelled,Paid,Dine-in,Medium
+O949,2024-10-25,C5583,"John Cummings",Naperville,IL,"United States",60540,15,S081,M137,Lasagna,Italian,Pasta,4,659.72,22.87,636.85,Completed,Paid,Dine-in,Low
+O950,2024-10-04,C4129,"Steven Scott",Naperville,IL,"United States",60540,13,S015,M144,Gnocchi,Italian,Pasta,4,303.44,21.38,282.06,Pending,Unpaid,Dine-in,Low
+O951,2024-10-08,C4668,"Timothy Rogers",Naperville,IL,"United States",60540,7,S007,M054,Risotto,Other,Miscellaneous,4,684.88,46.63,638.25,Pending,Paid,Dine-in,High
+O952,2024-10-08,C7404,"Debra Smith",Rockford,IL,"United States",61101,4,S082,M011,"Imam Bayildi",Other,Miscellaneous,2,113.64,2.13,111.51,Cancelled,Unpaid,Takeaway,High
+O953,2024-09-28,C1812,"Misty Sanders",Chicago,IL,"United States",60601,9,S063,M145,Baklava,Greek,Dessert,3,175.14,5.10,170.04,Completed,Unpaid,Delivery,Low
+O954,2024-10-15,C1502,"Sara Robinson",Chicago,IL,"United States",60601,5,S100,M110,Loukoumades,Other,Miscellaneous,4,770.84,21.06,749.78,Completed,Unpaid,Dine-in,High
+O955,2024-10-04,C4853,"Craig Madden",Naperville,IL,"United States",60540,5,S023,M076,"Greek Salad",Greek,Salad,1,50.79,4.52,46.27,Completed,Unpaid,Delivery,Medium
+O956,2024-10-16,C1318,"Jeffery King",Chicago,IL,"United States",60601,9,S020,M135,Calzone,Other,Miscellaneous,5,718.90,38.92,679.98,Completed,Paid,Delivery,Medium
+O957,2024-09-28,C2616,"Adam Leonard",Aurora,IL,"United States",60505,10,S087,M081,Tzatziki,Greek,Appetizer,2,366.94,10.49,356.45,Pending,Unpaid,Dine-in,High
+O958,2024-10-09,C3903,"Claire Hensley",Aurora,IL,"United States",60505,20,S078,M117,"Adana Kebab",Turkish,Kebab,3,513.54,23.78,489.76,Cancelled,Paid,Delivery,Low
+O959,2024-10-23,C5366,"Ashley Allen",Naperville,IL,"United States",60540,6,S015,M010,Ravioli,Italian,Pasta,5,83.40,5.13,78.27,Pending,Unpaid,Takeaway,High
+O960,2024-10-21,C394,"Valerie Pratt",Aurora,IL,"United States",60505,1,S030,M030,Fasolada,Other,Miscellaneous,4,357.84,5.16,352.68,Completed,Unpaid,Delivery,Medium
+O961,2024-10-22,C4385,"Tammy Ballard",Naperville,IL,"United States",60540,17,S059,M097,Menemen,Other,Miscellaneous,5,685.20,59.12,626.08,Completed,Paid,Delivery,High
+O962,2024-09-29,C7803,"David Thomas",Rockford,IL,"United States",61101,14,S065,M022,"Kuzu Tandir",Other,Miscellaneous,4,596.52,13.68,582.84,Completed,Unpaid,Delivery,Low
+O963,2024-10-09,C7634,"Jason Johnson",Rockford,IL,"United States",61101,6,S047,M034,Tzatziki,Greek,Appetizer,4,678.20,50.02,628.18,Cancelled,Paid,Delivery,Medium
+O964,2024-09-30,C1422,"David Martinez",Chicago,IL,"United States",60601,14,S010,M112,"Fettuccine Alfredo",Italian,Pasta,4,411.76,39.23,372.53,Pending,Unpaid,Dine-in,High
+O965,2024-10-05,C9795,"Jeffrey Odonnell",Peoria,IL,"United States",61602,8,S092,M056,Pastitsio,Other,Miscellaneous,5,519.50,10.61,508.89,Cancelled,Unpaid,Takeaway,High
+O966,2024-10-23,C5943,"David Randall",Naperville,IL,"United States",60540,20,S075,M054,Risotto,Other,Miscellaneous,3,513.66,26.63,487.03,Pending,Paid,Delivery,Low
+O967,2024-09-29,C9221,"Tara Shaw",Peoria,IL,"United States",61602,10,S001,M140,Spaghetti,Italian,Pasta,5,586.45,18.75,567.70,Completed,Paid,Dine-in,Medium
+O968,2024-10-17,C1478,"Lisa Torres",Chicago,IL,"United States",60601,7,S008,M071,"Fettuccine Alfredo",Italian,Pasta,5,883.95,75.39,808.56,Cancelled,Paid,Delivery,High
+O969,2024-10-19,C8144,"Alan Lewis",Peoria,IL,"United States",61602,4,S002,M129,Borek,Turkish,Pastry,2,112.42,8.43,103.99,Pending,Unpaid,Dine-in,High
+O970,2024-10-18,C5248,"Marcus Cunningham",Naperville,IL,"United States",60540,12,S073,M136,Ravioli,Italian,Pasta,3,294.81,22.25,272.56,Pending,Unpaid,Takeaway,Low
+O971,2024-09-29,C6146,"Devin Rivera",Rockford,IL,"United States",61101,14,S053,M077,"Fettuccine Alfredo",Italian,Pasta,4,501.68,6.97,494.71,Completed,Unpaid,Takeaway,Medium
+O972,2024-10-10,C579,"Thomas Oliver",Naperville,IL,"United States",60540,7,S036,M039,"Iskender Kebab",Other,Miscellaneous,3,134.91,13.46,121.45,Pending,Unpaid,Takeaway,High
+O973,2024-10-17,C5630,"Annette Herrera",Naperville,IL,"United States",60540,7,S097,M034,Tzatziki,Greek,Appetizer,4,678.20,63.57,614.63,Cancelled,Unpaid,Takeaway,Medium
+O974,2024-09-27,C8983,"Alexander Nolan",Peoria,IL,"United States",61602,12,S084,M105,Risotto,Other,Miscellaneous,4,384.28,5.94,378.34,Pending,Paid,Dine-in,Low
+O975,2024-10-08,C9080,"Randy Moore",Peoria,IL,"United States",61602,11,S091,M145,Baklava,Greek,Dessert,1,58.38,3.74,54.64,Cancelled,Paid,Takeaway,Medium
+O976,2024-10-20,C8029,"Jennifer Allen",Peoria,IL,"United States",61602,8,S090,M138,Calzone,Other,Miscellaneous,5,480.05,27.28,452.77,Pending,Unpaid,Takeaway,Medium
+O977,2024-10-20,C6997,"Felicia Taylor",Rockford,IL,"United States",61101,10,S021,M124,Galaktoboureko,Other,Miscellaneous,4,355.88,30.99,324.89,Cancelled,Unpaid,Takeaway,Low
+O978,2024-09-27,C5077,"Brittney Rogers",Naperville,IL,"United States",60540,10,S038,M060,Baklava,Greek,Dessert,5,285.60,19.80,265.80,Completed,Unpaid,Dine-in,Low
+O979,2024-10-25,C2522,"Jasmine Hale",Aurora,IL,"United States",60505,6,S069,M049,Menemen,Other,Miscellaneous,1,42.78,0.01,42.77,Pending,Unpaid,Dine-in,High
+O980,2024-09-29,C8022,"Michael Davis",Peoria,IL,"United States",61602,10,S079,M098,Kofte,Turkish,Pastry,4,51.12,2.90,48.22,Cancelled,Paid,Delivery,Medium
+O981,2024-10-07,C2955,"Stanley Thomas",Aurora,IL,"United States",60505,3,S098,M060,Baklava,Greek,Dessert,4,228.48,18.02,210.46,Completed,Paid,Dine-in,Low
+O982,2024-10-10,C527,"Gerald Dean",Naperville,IL,"United States",60540,13,S060,M057,Souvlaki,Greek,Appetizer,3,86.91,2.64,84.27,Cancelled,Paid,Dine-in,Medium
+O983,2024-09-28,C7021,"Frederick Johnston",Rockford,IL,"United States",61101,12,S022,M041,Moussaka,Greek,Casserole,3,497.10,11.39,485.71,Cancelled,Unpaid,Delivery,High
+O984,2024-09-27,C9834,"David Day",Peoria,IL,"United States",61602,15,S082,M073,Spanakopita,Other,Miscellaneous,2,261.06,0.66,260.40,Completed,Paid,Dine-in,High
+O985,2024-10-06,C3412,"James Freeman",Aurora,IL,"United States",60505,3,S038,M147,Kofte,Turkish,Pastry,2,43.54,2.52,41.02,Completed,Unpaid,Delivery,Medium
+O986,2024-10-21,C3407,"Douglas Morris",Aurora,IL,"United States",60505,7,S035,M033,Pide,Turkish,Flatbread,4,263.40,9.21,254.19,Completed,Unpaid,Delivery,Medium
+O987,2024-09-26,C4295,"Brian Chapman",Naperville,IL,"United States",60540,17,S066,M091,Gnocchi,Italian,Pasta,5,723.80,16.87,706.93,Pending,Paid,Delivery,High
+O988,2024-09-27,C8914,"John Miller",Peoria,IL,"United States",61602,1,S050,M001,Lasagna,Italian,Pasta,3,415.62,26.34,389.28,Completed,Unpaid,Takeaway,High
+O989,2024-09-27,C6055,"Rachel Huynh",Rockford,IL,"United States",61101,7,S059,M056,Pastitsio,Other,Miscellaneous,4,415.60,19.00,396.60,Cancelled,Unpaid,Dine-in,Medium
+O990,2024-09-28,C4734,"Shane Chen",Naperville,IL,"United States",60540,8,S045,M031,Pastitsio,Other,Miscellaneous,5,348.50,4.49,344.01,Cancelled,Paid,Delivery,Low
+O991,2024-10-15,C6018,"Katherine Scott",Rockford,IL,"United States",61101,6,S058,M037,Tzatziki,Greek,Appetizer,3,576.06,46.29,529.77,Cancelled,Unpaid,Delivery,Low
+O992,2024-10-19,C3238,"Joseph Walker",Aurora,IL,"United States",60505,5,S099,M052,Lasagna,Italian,Pasta,1,166.25,8.46,157.79,Cancelled,Unpaid,Delivery,Medium
+O993,2024-10-22,C2538,"Seth Carter",Aurora,IL,"United States",60505,13,S049,M133,Lahmacun,Turkish,Pastry,2,288.96,10.62,278.34,Pending,Unpaid,Delivery,Medium
+O994,2024-10-01,C3517,"Allison Aguirre",Aurora,IL,"United States",60505,6,S094,M007,"Adana Kebab",Turkish,Kebab,2,186.38,12.41,173.97,Cancelled,Unpaid,Dine-in,Low
+O995,2024-09-29,C3760,"Steven Moore",Aurora,IL,"United States",60505,9,S015,M139,Lasagna,Italian,Pasta,3,597.30,43.85,553.45,Pending,Unpaid,Takeaway,Low
+O996,2024-10-04,C1107,"Daniel Brown",Chicago,IL,"United States",60601,8,S027,M115,Moussaka,Greek,Casserole,2,191.04,17.00,174.04,Completed,Paid,Takeaway,Low
+O997,2024-09-26,C2571,"Anthony King",Aurora,IL,"United States",60505,6,S071,M050,Tiramisu,Other,Miscellaneous,1,116.61,8.79,107.82,Cancelled,Paid,Delivery,Low
+O998,2024-10-09,C8469,"Vincent Sanchez",Peoria,IL,"United States",61602,15,S011,M027,Lahmacun,Turkish,Pastry,1,30.57,2.41,28.16,Completed,Unpaid,Delivery,Medium
+O999,2024-10-02,C4770,"David Martin",Naperville,IL,"United States",60540,8,S097,M105,Risotto,Other,Miscellaneous,1,96.07,7.29,88.78,Pending,Paid,Delivery,Medium

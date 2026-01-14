@@ -1,0 +1,21 @@
+Table: orders
+
+OrderID: A unique identifier for each order.
+OrderDate: The date the order was placed.
+CustomerID: A unique identifier for each customer, linking orders to their respective customers.
+CustomerName: The name of the customer placing the order.
+TableNumber: The number of the table where the order was placed (for dine-in services).
+ServerID: A unique identifier for the server handling the order.
+MenuItemID: A unique identifier for each menu item ordered.
+MenuItemName: The name of the menu item ordered.
+Category: The category of the menu item (e.g., Appetizers, Main Course).
+SubCategory: A further classification of the menu item (e.g., Vegetarian, Gluten-Free).
+Quantity: The number of items ordered.
+Sales: The total sales amount for that order.
+Discount: Any discount applied to the order.
+Profit: The profit generated from that order.
+OrderStatus: The current status of the order (e.g., Completed, In Progress, Canceled).
+PaymentStatus: The status of the payment (e.g., Paid, Pending, Refunded).
+DeliveryMethod: The method of service, such as dine-in, takeout, or delivery.
+OrderPriority: The priority level of the order (e.g., High, Medium, Low).
+

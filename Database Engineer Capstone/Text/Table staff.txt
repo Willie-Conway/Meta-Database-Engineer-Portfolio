@@ -1,0 +1,22 @@
+Table: staff
+
+StaffID: A unique identifier for each staff member. This should be set as the primary key and can be prefixed to indicate their role (e.g., 'B' for Bartender, 'S' for Server).
+FirstName: The first name of the staff member.
+LastName: The last name of the staff member.
+Role: The role of the staff member (e.g., Bartender, Server, Chef).
+Salary: The salary of the staff member, stored as a decimal for accuracy.
+Address: The physical address of the staff member, which can include street, city, state, and postal code.
+ContactNumber: The phone number to reach the staff member.
+Email: The email address of the staff member, which should be unique to avoid duplicates.
+DateOfBirth: The birth date of the staff member, useful for age verification.
+HireDate: The date the staff member was hired, which can help in tracking tenure and experience.
+
+Notes
+
+StaffID: Ensure this is unique and follows the naming convention you've established (e.g., 'B' for Bartenders, 'S' for Servers).
+
+Salary: Using DECIMAL allows for precise financial calculations.
+
+Email: Setting this as unique ensures that no two staff members can register with the same email address.
+
+DateOfBirth and HireDate: These dates can be used for various HR functions, such as tracking birthdays and work anniversaries.

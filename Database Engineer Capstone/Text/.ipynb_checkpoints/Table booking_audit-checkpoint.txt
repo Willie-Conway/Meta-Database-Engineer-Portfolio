@@ -1,0 +1,22 @@
+Table: booking_audit
+The booking_audit table is designed to track changes made to bookings for accountability and analysis. This table will help maintain a history of actions taken on bookings, including when they were created, updated, or canceled.
+
+Fields:
+AuditID: A unique identifier for each audit record. This should be set as the primary key.
+BookingID: The unique identifier for the booking being audited, linking to the bookings table.
+Action: The type of action performed on the booking (e.g., Created, Updated, Canceled).
+ActionDate: The date and time when the action was performed, allowing you to track when changes occurred.
+PerformedBy: The identifier of the staff member who performed the action, linking to the staff table. This could help in accountability.
+OldValue: A JSON or text field storing the previous state of the booking before the change. This allows for understanding what was altered.
+NewValue: A JSON or text field storing the new state of the booking after the change, providing clarity on what the current state is.
+
+
+Notes
+
+AuditID: Using an auto-incrementing integer ensures unique identifiers for each audit record.
+
+Action: Using ENUM restricts the values to valid actions, maintaining data integrity.
+
+ActionDate: Automatically records the time of the action, which is crucial for auditing purposes.
+
+OldValue and NewValue: Storing the state as text allows for flexibility in tracking complex booking data.

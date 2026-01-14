@@ -1,0 +1,1 @@
+SELECT * FROM bookings WHERE `BookingID` = 'B105';

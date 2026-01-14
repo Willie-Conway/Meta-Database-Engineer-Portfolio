@@ -1,0 +1,90 @@
+Existing Tables and Their Attributes
+
+Bookings Table
+
+Attributes:
+
+BookingID (Primary Key, VARCHAR): Unique identifier for each booking.
+CustomerID (Foreign Key, VARCHAR): Links to Customers.CustomerID.
+BookingDate (DATE): The date the table was booked.
+TableNumber (INT): The number of the booked table.
+NumberOfGuests (INT): Number of guests for the booking.
+SpecialRequests (VARCHAR): Any special requests from the customer.
+Status (VARCHAR): Current status of the booking (e.g., Confirmed, Cancelled).
+Orders Table
+
+Attributes:
+
+OrderID (Primary Key, VARCHAR): Unique identifier for each order.
+OrderDate (DATE): The date the order was placed.
+CustomerID (Foreign Key, VARCHAR): Links to Customers.CustomerID.
+CustomerName (VARCHAR): The name of the customer.
+TableNumber (INT): The table number associated with the order.
+ServerID (Foreign Key, VARCHAR): Links to Staff.StaffID.
+MenuItemID (Foreign Key, VARCHAR): Links to Menus.MenuItemID.
+MenuItemName (VARCHAR): Name of the menu item ordered.
+Category (VARCHAR): Category of the menu item (e.g., Appetizers).
+SubCategory (VARCHAR): Sub-category for further classification.
+Quantity (INT): The number of items ordered.
+Sales (DECIMAL): Total sales amount for that order.
+Discount (DECIMAL): Any discount applied to the order.
+Profit (DECIMAL): The profit generated from that order.
+OrderStatus (VARCHAR): The current status of the order (e.g., Completed, Pending).
+PaymentStatus (VARCHAR): Payment status of the order.
+DeliveryMethod (VARCHAR): Method of delivery for the order.
+OrderPriority (VARCHAR): Priority level of the order.
+Delivery Table
+
+Attributes:
+
+DeliveryID (Primary Key, VARCHAR): Unique identifier for each delivery.
+OrderID (Foreign Key, VARCHAR): Links to Orders.OrderID.
+DeliveryDate (DATE): The date the order is delivered.
+DeliveryStatus (VARCHAR): Current status of the delivery (e.g., Delivered, In Transit).
+ShippingCost (DECIMAL): Cost associated with shipping, if applicable.
+Menus Table
+
+Attributes:
+
+MenuItemID (Primary Key, VARCHAR): Unique identifier for each menu item.
+MenuItemName (VARCHAR): Name of the menu item.
+Category (VARCHAR): Category of the menu item (e.g., Appetizers).
+SubCategory (VARCHAR): Sub-category for further classification.
+Price (DECIMAL): Price of the menu item.
+Description (VARCHAR): Description of the menu item.
+Customers Table
+
+Attributes:
+
+CustomerID (Primary Key, VARCHAR): Unique identifier for each customer.
+FirstName (VARCHAR): Customer's first name.
+LastName (VARCHAR): Customer's last name.
+Email (VARCHAR): Customer's email address (should be unique).
+PhoneNumber (VARCHAR): Customer's phone number.
+Address (VARCHAR): Customer's address.
+Staff Table
+
+Attributes:
+
+StaffID (Primary Key, VARCHAR): Unique identifier for each staff member.
+FirstName (VARCHAR): Staff member's first name.
+LastName (VARCHAR): Staff member's last name.
+Role (VARCHAR): Job role of the staff member (e.g., Server, Chef).
+Salary (DECIMAL): Salary of the staff member.
+Email (VARCHAR): Staff member's email address (should be unique).
+Relationships Between Tables
+Customers to Bookings: One-to-Many
+
+Bookings.CustomerID references Customers.CustomerID.
+Bookings to Orders: One-to-Many
+
+Orders.BookingID references Bookings.BookingID.
+Menus to Orders: One-to-Many
+
+Orders.MenuItemID references Menus.MenuItemID.
+Orders to Delivery: One-to-One
+
+Delivery.OrderID references Orders.OrderID.
+Staff can handle Orders: One-to-Many
+
+Orders.ServerID references Staff.StaffID.

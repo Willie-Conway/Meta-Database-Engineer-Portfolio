@@ -1,0 +1,25 @@
+Table: customers
+
+CustomerID: A unique identifier for each customer. This can be a string or number, and it should be set as the primary key.
+FirstName: The first name of the customer.
+LastName: The last name of the customer.
+Email: The email address of the customer. This should be unique to avoid duplicates.
+PhoneNumber: The contact number of the customer.
+Address: The physical address of the customer, which can include street, city, state, and postal code.
+DateOfBirth: The birth date of the customer, useful for age verification or marketing purposes.
+JoinDate: The date the customer registered or joined, which can help track customer loyalty.
+Gender: The gender of the customer, which may be used for demographic analysis.
+IncomeLevel: A classification of the customer's income, which could be 'High', 'Medium', or 'Low'.
+MaritalStatus: The marital status of the customer (e.g., Single, Married, Divorced).
+Age: The age of the customer, which can be derived from the date of birth.
+
+
+Notes
+
+CustomerID: Ensure this is unique to avoid conflicts.
+
+Email: Setting this as unique ensures that no two customers can register with the same email address.
+
+IncomeLevel: Using an ENUM data type can help enforce valid values.
+
+Age: This can be calculated from DateOfBirth, but if you prefer to store it, you can update it manually or through a trigger.

@@ -1,0 +1,23 @@
+Table: bookings
+
+BookingID: A unique identifier for each booking. This should be set as the primary key.
+CustomerID: A unique identifier for the customer making the booking, linking it to the customers table.
+BookingDate: The date when the booking was made.
+BookingTime: The time for the booking, useful for specifying the reservation time.
+TableNumber: The number of the table reserved for the booking (if applicable).
+NumberOfGuests: The total number of guests included in the booking.
+SpecialRequests: Any special requests made by the customer (e.g., dietary restrictions, seating preferences).
+Status: The current status of the booking (e.g., Confirmed, Canceled, Completed).
+PaymentStatus: The status of any payment related to the booking (e.g., Paid, Pending, Refunded).
+
+
+
+Notes
+
+BookingID: Ensure this is unique to avoid conflicts.
+
+CustomerID: This establishes a relationship with the customers table, allowing you to track which customer made each booking.
+
+Status: This can be updated based on the current state of the booking.
+
+PaymentStatus: Keeping track of the payment status can help manage customer transactions effectively.

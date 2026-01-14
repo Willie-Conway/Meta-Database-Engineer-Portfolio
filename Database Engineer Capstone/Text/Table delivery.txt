@@ -1,0 +1,23 @@
+Table: delivery
+
+DeliveryID: A unique identifier for each delivery. This should be set as the primary key.
+OrderID: A unique identifier for the order associated with the delivery, linking to the orders table.
+CustomerID: A unique identifier for the customer receiving the delivery, linking to the customers table.
+DeliveryAddress: The address where the order should be delivered.
+DeliveryDate: The date when the delivery is scheduled.
+DeliveryTime: The time when the delivery is expected to occur.
+DeliveryStatus: The current status of the delivery (e.g., Pending, In Transit, Delivered, Canceled).
+DeliveryFee: The cost associated with the delivery service, which can be a separate charge.
+DeliveryMethod: The method of delivery (e.g., Standard, Express, Same-Day).
+
+Notes
+
+DeliveryID: Ensure this is unique to avoid conflicts in delivery identification.
+
+OrderID: This establishes a relationship with the orders table, allowing you to track which order is being delivered.
+
+CustomerID: This links to the customers table, identifying the recipient of the delivery.
+
+DeliveryStatus: This can be updated based on the current state of the delivery, helping manage customer expectations.
+
+DeliveryFee: This can be adjusted based on distance, service speed, or promotional offers.

@@ -1,0 +1,21 @@
+Table: menus
+
+MenuItemID: A unique identifier for each menu item. This should be set as the primary key.
+MenuItemName: The name of the menu item (e.g., "Cheeseburger", "Caesar Salad").
+Category: The category to which the menu item belongs (e.g., Appetizers, Main Course, Desserts).
+SubCategory: A further classification for the menu item (e.g., Vegetarian, Gluten-Free).
+Description: A brief description of the menu item, highlighting its ingredients or preparation.
+Price: The selling price of the menu item, stored as a decimal for accuracy in financial transactions.
+Availability: Indicates whether the menu item is currently available (e.g., Available, Unavailable).
+ImageURL: A link to an image of the menu item, useful for digital menus or websites.
+Calories: The number of calories in the menu item, which can be important for health-conscious customers.
+
+Notes
+
+MenuItemID: This should be unique to prevent conflicts in menu item identification.
+
+Price: Using DECIMAL allows you to accurately represent monetary values.
+
+Availability: Using ENUM can help maintain consistent values for availability status.
+
+ImageURL: If you’re displaying the menu online, having an image link can enhance customer experience.

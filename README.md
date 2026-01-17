@@ -1,6 +1,11 @@
 # 🗄️ Meta Database Engineer Professional Certificate Portfolio
 
-![Meta Database Engineer](https://images.credly.com/size/680x680/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png)
+<p float="left">
+    <img src="https://images.credly.com/size/680x680/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer-Portfolio/blob/57b744687da8c9bd9ef893bc6c7a2020a23167e3/Images/Meta-Database-Engineering.jpg" width="300" />
+</p>
+
+<!-- ![Meta Database Engineer](https://images.credly.com/size/680x680/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png) -->
 
 ![Meta Database Engineer](https://img.shields.io/badge/Meta-Database_Engineer-0066E3?style=for-the-badge&logo=meta&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)

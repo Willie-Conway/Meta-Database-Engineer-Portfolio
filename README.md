@@ -2,7 +2,7 @@
 
 <p float="left">
     <img src="https://images.credly.com/size/680x680/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer-Portfolio/blob/75141ea339308ffe19e3ec0545eb476f58ea5d3f/Images/Meta-Database-Engineering.jpg" width="300" />
+    <img src="https://github.com/Willie-Conway/Meta-Database-Engineer-Portfolio/blob/d9dbfcdb7a725616d3da0e4607eb500b6fcc3f91/Images/Meta-Database-Engineering.jpg" width="300" />
 </p>
 
 <!-- ![Meta Database Engineer](https://images.credly.com/size/680x680/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png) -->
